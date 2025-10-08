@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="startScreen">
+  <h2>Welcome to the Quiz!</h2>
+  <input type="text" id="studentName" placeholder="Enter your name">
+  <button id="startBtn">Start Quiz</button>
+</div>
+
+<div id="quizSection" class="hidden">
+  <div id="welcomeMsg"></div>
+  <div id="timer">Time left: 10:00</div>
+  <div id="questions"></div>
+  <button id="submitBtn">Submit</button>
+  <button id="restartBtn" class="hidden">Restart Quiz</button>
+  <button id="top50Btn">Top 50 Results</button>
+  <div id="resultsContainer"></div>
+</div>
+
+<!-- Popup for top scores -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span id="closePopup" class="close">&times;</span>
+    <h3>Top Students</h3>
+
+    <table id="topResultsTable">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Marks</th>
+          <th>Date & Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows populated via JS -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

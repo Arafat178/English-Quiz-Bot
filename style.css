@@ -1,0 +1,267 @@
+/* ======================= Reset & basics ======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #121212;
+  color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* ======================= Hidden class ======================= */
+.hidden {
+  display: none;
+}
+
+/* ======================= Start Screen ======================= */
+#startScreen {
+  background: #1f1f1f;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+  text-align: center;
+  width: 350px;
+  animation: fadeIn 0.8s ease;
+}
+
+#startScreen h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #00e0ff;
+}
+
+#startScreen input {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #00e0ff;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background: #222;
+  color: #f0f0f0;
+  transition: 0.3s;
+}
+
+#startScreen input:focus {
+  border-color: #ff6a00;
+}
+
+#startScreen button {
+  padding: 12px 30px;
+  background: #00e0ff;
+  color: #121212;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#startScreen button:hover {
+  background: #ff6a00;
+  transform: translateY(-3px);
+  color: #fff;
+}
+
+/* ======================= Quiz Section ======================= */
+#quizSection {
+  background: #1f1f1f;
+  padding: 30px;
+  border-radius: 20px;
+  width: 700px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.8);
+  animation: fadeIn 0.8s ease;
+}
+
+#welcomeMsg {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #00e0ff;
+  font-weight: 500;
+}
+
+#timer {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ff6a00;
+}
+
+/* Questions */
+.q {
+  margin-bottom: 18px;
+}
+
+.q label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #f0f0f0;
+}
+
+.q input {
+  width: 95%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #00e0ff;
+  outline: none;
+  font-size: 15px;
+  background: #222;
+  color: #f0f0f0;
+  transition: 0.3s;
+}
+
+.q input:focus {
+  border-color: #ff6a00;
+}
+
+/* Buttons */
+#submitBtn, #restartBtn, #top50Btn {
+  padding: 12px 25px;
+  margin: 8px 5px 10px 0;
+  border: none;
+  border-radius: 12px;
+  background: #00e0ff;
+  color: #121212;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#submitBtn:hover, #restartBtn:hover, #top50Btn:hover {
+  background: #ff6a00;
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+/* Results container */
+#resultsContainer {
+  margin-top: 20px;
+}
+
+.correct {
+  color: #00ff99;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.wrong {
+  color: #ff4c4c;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.section-title {
+  font-size: 20px;
+  margin: 15px 0 10px;
+  color: #00e0ff;
+  font-weight: 600;
+}
+
+/* ======================= Popup ======================= */
+.popup {
+  display: none;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #1f1f1f;
+  padding: 25px 30px;
+  width: 400px;
+  border-radius: 15px;
+  position: relative;
+  max-height: 70%;
+  overflow-y: auto;
+  animation: popupFade 0.5s ease;
+  color: #f0f0f0;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: 700;
+  color: #00e0ff;
+}
+
+.close:hover {
+  color: #ff6a00;
+}
+
+/* Top results */
+#topResults div {
+  margin: 5px auto;
+  padding: 8px;
+  border-radius: 8px;
+  background: #222;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+#topResults div:hover {
+  background: #333;
+  color: #ff6a00;
+}
+
+/* ======================= Animations ======================= */
+@keyframes fadeIn {
+  0% {opacity:0; transform: translateY(-20px);}
+  100% {opacity:1; transform: translateY(0);}
+}
+
+@keyframes popupFade {
+  0% {opacity:0; transform: scale(0.8);}
+  100% {opacity:1; transform: scale(1);}
+}
+
+
+#topResultsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#topResultsTable th, #topResultsTable td {
+  border: 1px solid #444;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+#topResultsTable th {
+  background: #00e0ff;
+  color: #121212;
+  font-weight: 600;
+}
+
+#topResultsTable tbody tr:nth-child(odd) {
+  background: #222;
+}
+
+#topResultsTable tbody tr:nth-child(even) {
+  background: #1b1b1b;
+}
+
+#topResultsTable tbody tr:hover {
+  background: #ff6a00;
+  color: #fff;
+}
