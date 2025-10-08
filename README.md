@@ -11,7 +11,7 @@ This is an **interactive web-based English grammar quiz** that tests users on **
 - **Scoring System**: Real-time scoring with feedback for correct and wrong answers.
 - **Firebase Integration**:  
   - Saves student name, score, and submission date in Firebase Realtime Database.  
-  - Displays **Top 50 scores** in a pop-up leaderboard table.
+  - Displays **Top 100 scores** in a pop-up leaderboard table.
 - **Modern UI**: Dark theme with clean, eye-catching design.
 - **Responsive**: Works on both desktop and mobile devices.
 
