@@ -132,7 +132,7 @@ document.getElementById("top50Btn").onclick = async () => {
     // clear table
     tableBody.innerHTML = "";
 
-    results.slice(0, 20).forEach((r, i) => {
+    results.slice(0, 100).forEach((r, i) => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td>${i + 1}</td>
