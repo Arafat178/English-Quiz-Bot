@@ -1,35 +1,78 @@
-# English-Quiz-Bot
-Interactive English Grammar Quiz Bot with Randomized Article & Preposition Questions, Timer, and Top Score Leaderboard using Firebase Realtime Database.
+# English Grammar Quiz Bot 🏆
 
-# English Grammar Quiz Bot
+An **interactive web-based English grammar quiz** designed to test students on various grammatical topics. It features randomized questions, a countdown timer, and a **real-time global leaderboard** powered by **Firebase Cloud Firestore**.
 
-This is an **interactive web-based English grammar quiz** that tests users on **articles** and **prepositions** with **randomized questions**.  
+## 🚀 Features
 
-## Features
-- **Randomized Questions**: 20 questions (10 articles + 10 prepositions) picked randomly from JSON files.
-- **Timer Functionality**: 10-minute countdown for each quiz session.
-- **Scoring System**: Real-time scoring with feedback for correct and wrong answers.
-- **Firebase Integration**:  
-  - Saves student name, score, and submission date in Firebase Realtime Database.  
-  - Displays **Top 100 scores** in a pop-up leaderboard table.
-- **Modern UI**: Dark theme with clean, eye-catching design.
-- **Responsive**: Works on both desktop and mobile devices.
+  - **Topic Selection**: Choose from 4 specific categories:
+      - Prepositions
+      - Tag Questions
+      - Connectors
+      - Prefix & Suffix
+  - **Randomized Questions**: The system automatically picks **20 random questions** from a larger database (JSON files) for every session.
+  - **Timer System**: A **15-minute countdown** timer creates a real exam environment.
+  - **Instant Feedback**:
+      - Shows ✅ Correct answers in green.
+      - Shows ❌ Wrong answers in red with the correct solution.
+  - **Global Leaderboard (Firebase)**:
+      - Automatically saves student Name, Score, and Quiz Type to the cloud.
+      - Displays the **Top 20 Scorers** sorted by highest marks.
+  - **Modern UI**: Fully responsive **Dark Mode** design with neon accents for a premium look.
 
-## How to Use
-1. Clone the repository.  
-2. Open `index.html` in a web browser.  
-3. Enter your name and start the quiz.  
-4. Complete 20 questions within 10 minutes.  
-5. Submit and view your score, then check the Top Students leaderboard.
+## 🛠️ Technologies Used
 
-## Technologies
-- HTML / CSS / JavaScript (ES6 modules)  
-- Firebase Realtime Database  
-- Fetch API for dynamic JSON questions  
+  - **Frontend**: HTML5, CSS3, JavaScript (ES6 Modules).
+  - **Backend (Database)**: Firebase Cloud Firestore.
+  - **Data Handling**: Fetch API to load external JSON question banks.
 
-## Future Enhancements
-- Add more question categories (verbs, adjectives, idioms).  
-- Enable multiple difficulty levels.  
-- Add user authentication for personalized progress tracking.
+## 📖 How to Use
 
+1.  **Enter Name**: Type your name in the input box.
+2.  **Select Topic**: Choose a grammar topic from the dropdown menu.
+3.  **Start Quiz**: The timer will start immediately.
+4.  **Answer**: Fill in the blanks for 20 questions.
+5.  **Submit**: Click submit before the time runs out to see your result.
+6.  **Leaderboard**: Click the "View Leaderboard" button to see where you stand among other students.
 
+## 📂 Project Structure
+
+```bash
+English-Quiz-Bot/
+│
+├── index.html          # Main user interface
+├── style.css           # Dark theme styling
+├── script.js           # Game logic & Firebase integration
+├── preposition.json    # Question bank
+├── tagQuestion.json    # Question bank
+├── connectors.json     # Question bank
+└── suffPrefix.json     # Question bank
+```
+
+## ⚙️ Setup & Installation
+
+To run this project locally, follow these steps:
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/english-quiz-bot.git
+    ```
+2.  **Configure Firebase**:
+      - Create a project in [Firebase Console](https://console.firebase.google.com/).
+      - Create a **Cloud Firestore** database (Start in Test Mode).
+      - Copy your `firebaseConfig` object into `script.js`.
+3.  **Run the project**:
+      - Since this project uses ES6 Modules (`import/export`), you cannot simply double-click `index.html`.
+      - You must use a local server (e.g., **Live Server** extension in VS Code).
+
+## 🔮 Future Enhancements
+
+  - [ ] Add more grammar categories (Right form of verbs, Articles).
+  - [ ] Add sound effects for correct/wrong answers.
+  - [ ] Implement an Admin Panel to add questions easily without editing JSON files.
+  - [ ] Mobile App version using React Native.
+
+-----
+
+### 👨‍💻 Author
+
+Developed by **Arafat** *Mechanical Engineering Student & Programmer*
