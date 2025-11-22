@@ -1,8 +1,8 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
-import { getDatabase, ref, push, query, orderByChild, limitToLast, get } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-database.js";
+// ==================== Firebase Setup ====================
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getFirestore, collection, addDoc, getDocs, query, orderBy, limit } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
-// Firebase config
+// TODO: নিচে তোমার Firebase Console থেকে পাওয়া Config বসাও
 const firebaseConfig = {
   apiKey: "AIzaSyC7Z-wAv-fPTWw0x3nuu34jYVB5QPdLTg8",
   authDomain: "quizresults-7e1c4.firebaseapp.com",
@@ -16,166 +16,182 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const db = getDatabase(app);
+const db = getFirestore(app);
 
-let timerInterval;
-let timeLeft = 600;
+// ==================== Global Variables ====================
+let selectedQuiz = [];
+let timer;
+let timeLeft = 900; // 15 minutes
 
-// Utility shuffle
-function shuffle(arr) { return arr.sort(() => Math.random() - 0.5); }
-
-// Pick N random items
-function pickRandom(arr, n) { return shuffle([...arr]).slice(0, n); }
-
-// Build Quiz
-async function buildQuiz() {
-  const area = document.getElementById("questions");
-  area.innerHTML = "";
-
-  const articles = await (await fetch("article.json")).json();
-  const prepositions = await (await fetch("preposition.json")).json();
-
-  // Articles
-  const articleTitle = document.createElement("h3");
-  articleTitle.className = "section-title";
-  articleTitle.textContent = "Article Questions";
-  area.appendChild(articleTitle);
-
-  pickRandom(articles, 10).forEach((q, i) => {
-    const div = document.createElement("div");
-    div.className = "q";
-    div.innerHTML = `<label>${i+1}. ${q.question.replace("_","<u>_____</u>")}</label>
-                     <input type="text" data-ans="${q.answer}">`;
-    area.appendChild(div);
-  });
-
-  // Prepositions
-  const prepTitle = document.createElement("h3");
-  prepTitle.className = "section-title";
-  prepTitle.textContent = "Preposition Questions";
-  area.appendChild(prepTitle);
-
-  pickRandom(prepositions, 10).forEach((q, i) => {
-    const div = document.createElement("div");
-    div.className = "q";
-    div.innerHTML = `<label>${i+1}. ${q.question.replace("_","<u>_____</u>")}</label>
-                     <input type="text" data-ans="${q.answer}">`;
-    area.appendChild(div);
-  });
-}
-
-// Timer
-function startTimer() {
-  const timerDisplay = document.getElementById("timer");
-  timeLeft = 600;
-
-  timerInterval = setInterval(() => {
-    const min = Math.floor(timeLeft/60);
-    const sec = timeLeft%60;
-    timerDisplay.textContent = `Time left: ${min}:${sec.toString().padStart(2,"0")}`;
-    timeLeft--;
-    if(timeLeft < 0) { clearInterval(timerInterval); alert("Time is up!"); grade(); }
-  }, 1000);
-}
-
-// Grade & Save to Firebase
-async function grade() {
-  clearInterval(timerInterval);
-  const inputs = document.querySelectorAll("#questions input");
-  let correct = 0;
-  const results = document.getElementById("resultsContainer");
-  results.innerHTML = "";
-
-  inputs.forEach((inp,i) => {
-    const ans = inp.dataset.ans.trim().toLowerCase();
-    const val = inp.value.trim().toLowerCase();
-    const ok = ans===val;
-    if(ok) correct++;
-    const div = document.createElement("div");
-    div.className = ok?"correct":"wrong";
-    div.innerHTML = `Q${i+1}: Your answer = <b>${val||"(none)"}</b> | Correct = <b>${ans||"(no answer)"}</b>`;
-    results.appendChild(div);
-  });
-
-  const summary = document.createElement("div");
-  summary.innerHTML = `<b>Score:</b> ${correct}/${inputs.length} (${Math.round(correct/inputs.length*100)}%)`;
-  results.prepend(summary);
-
-  // Save to Firebase
-  const studentName = document.getElementById("studentName").value.trim();
-  const record = { name: studentName, score: correct, date: new Date().toLocaleString() };
-  await push(ref(db,"quizResults"), record);
-
-  document.getElementById("submitBtn").classList.add("hidden");
-  document.getElementById("restartBtn").classList.remove("hidden");
-}
-
-//top50 showing
-document.getElementById("top50Btn").onclick = async () => {
-  const tableBody = document.querySelector("#topResultsTable tbody");
-  tableBody.innerHTML = "<tr><td colspan='4'>Loading...</td></tr>";
-  document.getElementById("popup").style.display = "flex";
-
-  try {
-    const quizRef = ref(db, "quizResults");
-    const snapshot = await get(quizRef);
-
-    if (!snapshot.exists()) {
-      tableBody.innerHTML = "<tr><td colspan='4'>No results yet.</td></tr>";
-      return;
+// ==================== Start Quiz ====================
+window.startQuiz = async function() {
+    const name = document.getElementById('studentName').value.trim();
+    const type = document.getElementById('quizType').value;
+    if(!name || !type){
+        alert("Please enter your name and select quiz type.");
+        return;
     }
 
-    const results = Object.values(snapshot.val()); // Convert object of objects to array
-    results.sort((a, b) => b.score - a.score); // Descending order by score
+    let fileName = "";
+    if(type === "preposition") fileName = "preposition.json";
+    else if(type === "tagQuestion") fileName = "tagQuestion.json";
+    else if(type === "connectors") fileName = "connectors.json";
+    else fileName = "suffPrefix.json";
 
-    // clear table
-    tableBody.innerHTML = "";
+    try {
+        const response = await fetch(fileName);
+        const questionsArray = await response.json();
 
-    results.slice(0, 100).forEach((r, i) => {
-      const tr = document.createElement("tr");
-      tr.innerHTML = `
-        <td>${i + 1}</td>
-        <td>${r.name}</td>
-        <td>${r.score}</td>
-        <td>${r.date}</td>
-      `;
-      tableBody.appendChild(tr);
+        // Random 20 questions
+        selectedQuiz = questionsArray.sort(() => 0.5 - Math.random()).slice(0, 20);
+
+        // Switch Sections
+        document.getElementById('start-section').style.display = "none";
+        document.getElementById('leaderboard-section').style.display = "none";
+        document.getElementById('quiz-section').style.display = "block";
+
+        // Render Questions
+        const form = document.getElementById('quizForm');
+        form.innerHTML = "";
+        selectedQuiz.forEach((q,i)=>{
+            const div = document.createElement('div');
+            div.className = "question";
+            div.id = `qdiv${i}`;
+            div.innerHTML = `<label>Q${i+1}: ${q.sentence}</label>
+                             <input type="text" name="q${i}" autocomplete="off" />`;
+            form.appendChild(div);
+        });
+
+        startTimer();
+    } catch(err) {
+        console.error("Failed to load quiz JSON:", err);
+        alert("Could not load quiz questions. Please check your JSON files.");
+    }
+}
+
+// ==================== Timer ====================
+function startTimer() {
+    updateTimerDisplay();
+    timer = setInterval(()=>{
+        timeLeft--;
+        updateTimerDisplay();
+        if(timeLeft <=0){
+            clearInterval(timer);
+            submitQuiz();
+        }
+    },1000);
+}
+
+function updateTimerDisplay() {
+    const min = Math.floor(timeLeft/60);
+    const sec = timeLeft % 60;
+    document.getElementById('timer').innerText = `Time Left: ${min.toString().padStart(2,'0')}:${sec.toString().padStart(2,'0')}`;
+}
+
+// ==================== Submit Quiz & Save to Firebase ====================
+window.submitQuiz = async function() {
+    clearInterval(timer);
+    const formData = new FormData(document.getElementById('quizForm'));
+    let score = 0;
+
+    // Check Answers
+    selectedQuiz.forEach((q,i)=>{
+        const userAnswer = formData.get(`q${i}`)?.trim();
+        const div = document.getElementById(`qdiv${i}`);
+        div.querySelectorAll('p.feedback').forEach(p => p.remove());
+
+        if(userAnswer && userAnswer.toLowerCase() === q.answer.toLowerCase()) {
+            score++;
+            div.innerHTML += `<p class="feedback green">✓ Correct. Answer: <b>${q.answer}</b></p>`;
+        } else {
+            div.innerHTML += `<p class="feedback red">✗ Wrong. You: <b>${userAnswer || '-'}</b> | Ans: <b>${q.answer}</b></p>`;
+        }
     });
 
-  } catch (err) {
-    console.error(err);
-    tableBody.innerHTML = "<tr><td colspan='4'>Error loading data</td></tr>";
-  }
-};
+    const studentName = document.getElementById('studentName').value;
+    const quizType = document.getElementById('quizType').value;
 
+    // Show Result Text
+    document.getElementById('result').innerText = `${studentName}, you scored ${score} out of ${selectedQuiz.length}`;
+    
+    // Disable inputs
+    document.querySelectorAll('#quizForm input').forEach(input => input.disabled = true);
+    
+    // Show Buttons
+    document.getElementById('restartBtn').style.display = "inline-block";
+    document.getElementById('viewLeaderboardBtn').style.display = "inline-block";
 
+    // --- FIREBASE SAVE ---
+    try {
+        await addDoc(collection(db, "leaderboard"), {
+            name: studentName,
+            score: score,
+            quizType: quizType,
+            total: selectedQuiz.length,
+            timestamp: new Date()
+        });
+        console.log("Score Saved to Firebase!");
+    } catch (e) {
+        console.error("Error adding score: ", e);
+        alert("Could not save score to database.");
+    }
+}
 
-//close pop up list of top students
-document.getElementById("closePopup").onclick = () => {
-  document.getElementById("popup").style.display = "none";
-};
+// ==================== Restart Quiz ====================
+window.restartQuiz = function() {
+    clearInterval(timer);
+    timeLeft = 900;
 
-// Start Quiz
-document.getElementById("startBtn").onclick = async () => {
-  const name = document.getElementById("studentName").value.trim();
-  if(!name) return alert("Enter your name!");
-  document.getElementById("welcomeMsg").textContent = `Welcome, ${name}! Answer all 20 questions.`;
-  document.getElementById("startScreen").classList.add("hidden");
-  document.getElementById("quizSection").classList.remove("hidden");
-  await buildQuiz();
-  startTimer();
-};
+    document.getElementById('quizForm').innerHTML = "";
+    document.getElementById('result').innerText = "";
+    document.getElementById('quiz-section').style.display = "none";
+    document.getElementById('restartBtn').style.display = "none";
+    document.getElementById('viewLeaderboardBtn').style.display = "none";
+    document.getElementById('leaderboard-section').style.display = "none";
+    document.getElementById('start-section').style.display = "block";
+    document.getElementById('quizType').value = "";
+}
 
-// Submit & Restart buttons
-document.getElementById("submitBtn").onclick = grade;
-document.getElementById("restartBtn").onclick = () => {
-  clearInterval(timerInterval);
-  document.getElementById("quizSection").classList.add("hidden");
-  document.getElementById("startScreen").classList.remove("hidden");
-  document.getElementById("resultsContainer").innerHTML = "";
-  document.getElementById("studentName").value = "";
-  document.getElementById("restartBtn").classList.add("hidden");
-  document.getElementById("submitBtn").classList.remove("hidden");
-  document.getElementById("timer").textContent = "Time left: 10:00";
-};
+// ==================== Leaderboard Logic ====================
+window.showLeaderboard = async function() {
+    const listDiv = document.getElementById('leaderboard-list');
+    listDiv.innerHTML = "Loading scores...";
+    
+    document.getElementById('start-section').style.display = "none";
+    document.getElementById('quiz-section').style.display = "none";
+    document.getElementById('result').innerText = "";
+    document.getElementById('leaderboard-section').style.display = "block";
+
+    try {
+        // Get Top 20 scores ordered by score descending
+        const q = query(collection(db, "leaderboard"), orderBy("score", "desc"), limit(20));
+        const querySnapshot = await getDocs(q);
+        
+        listDiv.innerHTML = ""; // Clear loading text
+        
+        if(querySnapshot.empty){
+            listDiv.innerHTML = "<p>No scores available yet.</p>";
+            return;
+        }
+
+        querySnapshot.forEach((doc) => {
+            const data = doc.data();
+            const div = document.createElement('div');
+            div.className = "leaderboard-item";
+            div.innerHTML = `
+                <span>${data.name} <small style="color:#888">(${data.quizType})</small></span>
+                <span class="score-badge">${data.score}/${data.total}</span>
+            `;
+            listDiv.appendChild(div);
+        });
+
+    } catch(err) {
+        console.error("Error fetching leaderboard:", err);
+        listDiv.innerHTML = "Failed to load leaderboard.";
+    }
+}
+
+window.closeLeaderboard = function() {
+    document.getElementById('leaderboard-section').style.display = "none";
+    document.getElementById('start-section').style.display = "block";
+}
