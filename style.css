@@ -267,3 +267,11 @@ body::-webkit-scrollbar-track {
   .footer-text { font-size: 13px; gap:6px; }
   .footer-inner { padding: 0 12px; }
 }
+
+.rule-text {
+    display: block;
+    margin-top: 5px;
+    color: #ffd700; /* গোল্ডেন কালার */
+    font-style: italic;
+    font-weight: normal;
+}
