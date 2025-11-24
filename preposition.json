@@ -1,332 +1,1802 @@
 [
-  {"id":1,"sentence":"The cat is ___ the table","answer":"on"},
-  {"id":2,"sentence":"He is waiting ___ the bus stop","answer":"at"},
-  {"id":3,"sentence":"I was born ___ 2005","answer":"in"},
-  {"id":4,"sentence":"She jumped ___ the river","answer":"into"},
-  {"id":5,"sentence":"We walked ___ the park","answer":"through"},
-  {"id":6,"sentence":"He went to school ___ foot","answer":"on"},
-  {"id":7,"sentence":"The book is ___ the shelf","answer":"on"},
-  {"id":8,"sentence":"I will meet you ___ 5 PM","answer":"at"},
-  {"id":9,"sentence":"They traveled ___ train","answer":"by"},
-  {"id":10,"sentence":"He hid the key ___ the mat","answer":"under"},
-  {"id":11,"sentence":"The picture is hanging ___ the wall","answer":"on"},
-  {"id":12,"sentence":"She walked ___ the door and left","answer":"through"},
-  {"id":13,"sentence":"We stayed ___ a hotel near the beach","answer":"in"},
-  {"id":14,"sentence":"The dog jumped ___ the fence","answer":"over"},
-  {"id":15,"sentence":"He ran ___ the street to catch the bus","answer":"across"},
-  {"id":16,"sentence":"She put the vase ___ the table","answer":"on"},
-  {"id":17,"sentence":"The train will arrive ___ 10 minutes","answer":"in"},
-  {"id":18,"sentence":"I am interested ___ learning English","answer":"in"},
-  {"id":19,"sentence":"He walked ___ the bridge carefully","answer":"along"},
-  {"id":20,"sentence":"The bird flew ___ the sky","answer":"across"},
-  {"id":21,"sentence":"The meeting starts ___ 9 AM","answer":"at"},
-  {"id":22,"sentence":"We will go there ___ Monday","answer":"on"},
-  {"id":23,"sentence":"It is very cold ___ winter","answer":"in"},
-  {"id":24,"sentence":"He has been ill ___ last Friday","answer":"since"},
-  {"id":25,"sentence":"I have been waiting ___ two hours","answer":"for"},
-  {"id":26,"sentence":"Please come ___ time","answer":"on"},
-  {"id":27,"sentence":"He will return ___ a week","answer":"in"},
-  {"id":28,"sentence":"Don't go out ___ night","answer":"at"},
-  {"id":29,"sentence":"The shop is open ___ 9 AM to 5 PM","answer":"from"},
-  {"id":30,"sentence":"He was born ___ the 21st of February","answer":"on"},
-  {"id":31,"sentence":"Look ___ the blackboard","answer":"at"},
-  {"id":32,"sentence":"The fan is ___ my head","answer":"over"},
-  {"id":33,"sentence":"The cat is hiding ___ the table","answer":"under"},
-  {"id":34,"sentence":"Distribute the mangoes ___ the two brothers","answer":"between"},
-  {"id":35,"sentence":"Distribute the food ___ the poor","answer":"among"},
-  {"id":36,"sentence":"He sat ___ me","answer":"beside"},
-  {"id":37,"sentence":"There is a river ___ the village","answer":"near"},
-  {"id":38,"sentence":"He is standing ___ front of the door","answer":"in"},
-  {"id":39,"sentence":"The sky is ___ us","answer":"above"},
-  {"id":40,"sentence":"Put the pen ___ the drawer","answer":"into"},
-  {"id":41,"sentence":"He comes ___ a noble family","answer":"of"},
-  {"id":42,"sentence":"Water turns ___ vapor","answer":"into"},
-  {"id":43,"sentence":"He is going ___ school","answer":"to"},
-  {"id":44,"sentence":"They are walking ___ the forest","answer":"towards"},
-  {"id":45,"sentence":"He got ___ the bus","answer":"into"},
-  {"id":46,"sentence":"She got ___ the car","answer":"out of"},
-  {"id":47,"sentence":"We climbed ___ the hill","answer":"up"},
-  {"id":48,"sentence":"Tears ran ___ her cheeks","answer":"down"},
-  {"id":49,"sentence":"The bridge is ___ the river","answer":"over"},
-  {"id":50,"sentence":"He swam ___ the river","answer":"across"},
-  {"id":51,"sentence":"He abides ___ the rules","answer":"by"},
-  {"id":52,"sentence":"He was accused ___ theft","answer":"of"},
-  {"id":53,"sentence":"He is addicted ___ gambling","answer":"to"},
-  {"id":54,"sentence":"I agree ___ you","answer":"with"},
-  {"id":55,"sentence":"I agree ___ your proposal","answer":"to"},
-  {"id":56,"sentence":"He aimed ___ the bird","answer":"at"},
-  {"id":57,"sentence":"She is angry ___ me","answer":"with"},
-  {"id":58,"sentence":"He is angry ___ my conduct","answer":"at"},
-  {"id":59,"sentence":"He is ashamed ___ his guilt","answer":"of"},
-  {"id":60,"sentence":"I believe ___ honesty","answer":"in"},
-  {"id":61,"sentence":"This book belongs ___ me","answer":"to"},
-  {"id":62,"sentence":"He boasts ___ his wealth","answer":"of"},
-  {"id":63,"sentence":"He was born ___ poor parents","answer":"of"},
-  {"id":64,"sentence":"I don't care ___ you","answer":"for"},
-  {"id":65,"sentence":"The class consists ___ 50 students","answer":"of"},
-  {"id":66,"sentence":"He died ___ cholera","answer":"of"},
-  {"id":67,"sentence":"He died ___ an accident","answer":"by"},
-  {"id":68,"sentence":"He died ___ his country","answer":"for"},
-  {"id":69,"sentence":"He died ___ overeating","answer":"from"},
-  {"id":70,"sentence":"They differ ___ me on this point","answer":"with"},
-  {"id":71,"sentence":"This pen differs ___ that one","answer":"from"},
-  {"id":72,"sentence":"Divide the apple ___ two parts","answer":"into"},
-  {"id":73,"sentence":"He is dull ___ English","answer":"at"},
-  {"id":74,"sentence":"She is envious ___ my success","answer":"of"},
-  {"id":75,"sentence":"He escaped ___ the jail","answer":"from"},
-  {"id":76,"sentence":"I am fond ___ sweets","answer":"of"},
-  {"id":77,"sentence":"The glass is full ___ water","answer":"of"},
-  {"id":78,"sentence":"He is good ___ English","answer":"at"},
-  {"id":79,"sentence":"Smoking is harmful ___ health","answer":"to"},
-  {"id":80,"sentence":"I hope ___ the best","answer":"for"},
-  {"id":81,"sentence":"He is innocent ___ the charge","answer":"of"},
-  {"id":82,"sentence":"I insisted ___ his going there","answer":"on"},
-  {"id":83,"sentence":"She is jealous ___ me","answer":"of"},
-  {"id":84,"sentence":"Industry is the key ___ success","answer":"to"},
-  {"id":85,"sentence":"Don't laugh ___ the poor","answer":"at"},
-  {"id":86,"sentence":"Listen ___ me","answer":"to"},
-  {"id":87,"sentence":"He lives ___ hand to mouth","answer":"from"},
-  {"id":88,"sentence":"He lives ___ rice","answer":"on"},
-  {"id":89,"sentence":"Look ___ the word in the dictionary","answer":"up"},
-  {"id":90,"sentence":"She is looking ___ her lost pen","answer":"for"},
-  {"id":91,"sentence":"He was married ___ a rich lady","answer":"to"},
-  {"id":92,"sentence":"I prefer tea ___ coffee","answer":"to"},
-  {"id":93,"sentence":"He is proud ___ his son","answer":"of"},
-  {"id":94,"sentence":"He was punished ___ stealing","answer":"for"},
-  {"id":95,"sentence":"I rely ___ your help","answer":"on"},
-  {"id":96,"sentence":"Send ___ a doctor","answer":"for"},
-  {"id":97,"sentence":"He is senior ___ me","answer":"to"},
-  {"id":98,"sentence":"She is junior ___ me","answer":"to"},
-  {"id":99,"sentence":"I am sure ___ my success","answer":"of"},
-  {"id":100,"sentence":"He is tired ___ the work","answer":"of"},
-  {"id":101,"sentence":"Wait ___ me","answer":"for"},
-  {"id":102,"sentence":"He is weak ___ Math","answer":"in"},
-  {"id":103,"sentence":"Write ___ ink","answer":"in"},
-  {"id":104,"sentence":"Write ___ me soon","answer":"to"},
-  {"id":105,"sentence":"I wonder ___ his wisdom","answer":"at"},
-  {"id":106,"sentence":"He is worthy ___ praise","answer":"of"},
-  {"id":107,"sentence":"Have you been ___ London?","answer":"to"},
-  {"id":108,"sentence":"He is absorbed ___ thought","answer":"in"},
-  {"id":109,"sentence":"He was acquitted ___ the charge","answer":"of"},
-  {"id":110,"sentence":"I admitted him ___ the school","answer":"to"},
-  {"id":111,"sentence":"He aims ___ doing good","answer":"at"},
-  {"id":112,"sentence":"He appeared ___ the exam","answer":"at"},
-  {"id":113,"sentence":"Apply ___ the post","answer":"for"},
-  {"id":114,"sentence":"He arrived ___ the station","answer":"at"},
-  {"id":115,"sentence":"I am aware ___ the fact","answer":"of"},
-  {"id":116,"sentence":"He is bad ___ tennis","answer":"at"},
-  {"id":117,"sentence":"Don't beg ___ mercy","answer":"for"},
-  {"id":118,"sentence":"Beware ___ dogs","answer":"of"},
-  {"id":119,"sentence":"He is blind ___ his son's fault","answer":"to"},
-  {"id":120,"sentence":"He is blind ___ one eye","answer":"of"},
-  {"id":121,"sentence":"He is busy ___ his work","answer":"with"},
-  {"id":122,"sentence":"He is capable ___ doing it","answer":"of"},
-  {"id":123,"sentence":"Congratulate him ___ his success","answer":"on"},
-  {"id":124,"sentence":"He is conscious ___ his duty","answer":"of"},
-  {"id":125,"sentence":"Water consists ___ hydrogen and oxygen","answer":"of"},
-  {"id":126,"sentence":"Happiness consists ___ contentment","answer":"in"},
-  {"id":127,"sentence":"He deals ___ rice","answer":"in"},
-  {"id":128,"sentence":"He deals well ___ the customers","answer":"with"},
-  {"id":129,"sentence":"He depends ___ his father","answer":"on"},
-  {"id":130,"sentence":"He is deprived ___ his rights","answer":"of"},
-  {"id":131,"sentence":"He is devoted ___ his studies","answer":"to"},
-  {"id":132,"sentence":"I dream ___ a better future","answer":"of"},
-  {"id":133,"sentence":"He is eligible ___ the post","answer":"for"},
-  {"id":134,"sentence":"He failed ___ the exam","answer":"in"},
-  {"id":135,"sentence":"He is faithful ___ his master","answer":"to"},
-  {"id":136,"sentence":"The place is famous ___ mangoes","answer":"for"},
-  {"id":137,"sentence":"Fill the glass ___ water","answer":"with"},
-  {"id":138,"sentence":"Fire ___ the enemy","answer":"at"},
-  {"id":139,"sentence":"He is fit ___ the job","answer":"for"},
-  {"id":140,"sentence":"The bird flew ___ the cage","answer":"from"},
-  {"id":141,"sentence":"Are you free ___ noon?","answer":"at"},
-  {"id":142,"sentence":"Get ___ the train","answer":"on"},
-  {"id":143,"sentence":"Give ___ smoking","answer":"up"},
-  {"id":144,"sentence":"He is good ___ nothing","answer":"for"},
-  {"id":145,"sentence":"I am grateful ___ you","answer":"to"},
-  {"id":146,"sentence":"He is guilty ___ murder","answer":"of"},
-  {"id":147,"sentence":"He hinted ___ the matter","answer":"at"},
-  {"id":148,"sentence":"Don't hunt ___ wild animals","answer":"after"},
-  {"id":149,"sentence":"He is ignorant ___ the fact","answer":"of"},
-  {"id":150,"sentence":"Don't impose it ___ me","answer":"on"},
-  {"id":151,"sentence":"He is indebted ___ me","answer":"to"},
-  {"id":152,"sentence":"He is indifferent ___ his health","answer":"to"},
-  {"id":153,"sentence":"Don't interfere ___ my work","answer":"with"},
-  {"id":154,"sentence":"Introduce me ___ him","answer":"to"},
-  {"id":155,"sentence":"He is involved ___ the crime","answer":"in"},
-  {"id":156,"sentence":"Don't jeer ___ the poor","answer":"at"},
-  {"id":157,"sentence":"Join ___ us","answer":"with"},
-  {"id":158,"sentence":"He jumped ___ the offer","answer":"at"},
-  {"id":159,"sentence":"Keep ___ the fire","answer":"off"},
-  {"id":160,"sentence":"He knows nothing ___ it","answer":"about"},
-  {"id":161,"sentence":"He is lame ___ one leg","answer":"of"},
-  {"id":162,"sentence":"Don't lean ___ the wall","answer":"against"},
-  {"id":163,"sentence":"He lives ___ London","answer":"in"},
-  {"id":164,"sentence":"He lives ___ 22 Park Street","answer":"at"},
-  {"id":165,"sentence":"Look ___ the child","answer":"after"},
-  {"id":166,"sentence":"He is mad ___ money","answer":"after"},
-  {"id":167,"sentence":"It is made ___ gold (looks same)","answer":"of"},
-  {"id":168,"sentence":"Paper is made ___ wood (looks different)","answer":"from"},
-  {"id":169,"sentence":"Mix the sugar ___ milk","answer":"with"},
-  {"id":170,"sentence":"Mourn ___ the dead","answer":"for"},
-  {"id":171,"sentence":"I need ___ go there","answer":"to"},
-  {"id":172,"sentence":"He objected ___ my proposal","answer":"to"},
-  {"id":173,"sentence":"He is occupied ___ writing","answer":"with"},
-  {"id":174,"sentence":"Open page 50 ___ the book","answer":"of"},
-  {"id":175,"sentence":"He parted ___ his friends","answer":"from"},
-  {"id":176,"sentence":"Play ___ the rules","answer":"by"},
-  {"id":177,"sentence":"He is pleased ___ me","answer":"with"},
-  {"id":178,"sentence":"He plunged ___ the river","answer":"into"},
-  {"id":179,"sentence":"He is polite ___ his manners","answer":"in"},
-  {"id":180,"sentence":"He is popular ___ the students","answer":"with"},
-  {"id":181,"sentence":"Pray ___ God","answer":"to"},
-  {"id":182,"sentence":"Prefer death ___ dishonor","answer":"to"},
-  {"id":183,"sentence":"Prepare ___ the exam","answer":"for"},
-  {"id":184,"sentence":"Preside ___ the meeting","answer":"over"},
-  {"id":185,"sentence":"Prevent him ___ going","answer":"from"},
-  {"id":186,"sentence":"He prohibited me ___ doing it","answer":"from"},
-  {"id":187,"sentence":"Protect us ___ danger","answer":"from"},
-  {"id":188,"sentence":"He is qualified ___ the post","answer":"for"},
-  {"id":189,"sentence":"Don't quarrel ___ me","answer":"with"},
-  {"id":190,"sentence":"He quoted ___ the poem","answer":"from"},
-  {"id":191,"sentence":"Recover ___ illness","answer":"from"},
-  {"id":192,"sentence":"Refer the matter ___ him","answer":"to"},
-  {"id":193,"sentence":"Refrain ___ smoking","answer":"from"},
-  {"id":194,"sentence":"Regard him ___ a brother","answer":"as"},
-  {"id":195,"sentence":"Rejoice ___ his success","answer":"at"},
-  {"id":196,"sentence":"Relieve him ___ pain","answer":"of"},
-  {"id":197,"sentence":"Remind me ___ the meeting","answer":"of"},
-  {"id":198,"sentence":"Repent ___ your sins","answer":"of"},
-  {"id":199,"sentence":"Reply ___ my letter","answer":"to"},
-  {"id":200,"sentence":"He retired ___ service","answer":"from"},
-  {"id":201,"sentence":"Rob him ___ his money","answer":"of"},
-  {"id":202,"sentence":"Run ___ the thief","answer":"after"},
-  {"id":203,"sentence":"He is satisfied ___ his marks","answer":"with"},
-  {"id":204,"sentence":"Search ___ the lost key","answer":"for"},
-  {"id":205,"sentence":"See ___ the matter","answer":"to"},
-  {"id":206,"sentence":"Send the letter ___ post","answer":"by"},
-  {"id":207,"sentence":"He was sentenced ___ death","answer":"to"},
-  {"id":208,"sentence":"He is short ___ money","answer":"of"},
-  {"id":209,"sentence":"Don't shout ___ me","answer":"at"},
-  {"id":210,"sentence":"He is sick ___ fever","answer":"of"},
-  {"id":211,"sentence":"Similar ___ this one","answer":"to"},
-  {"id":212,"sentence":"He is slow ___ figures","answer":"at"},
-  {"id":213,"sentence":"Smile ___ his jokes","answer":"at"},
-  {"id":214,"sentence":"Don't speak ill ___ others","answer":"of"},
-  {"id":215,"sentence":"He spends money ___ books","answer":"on"},
-  {"id":216,"sentence":"Don't spit ___ the floor","answer":"on"},
-  {"id":217,"sentence":"Stare ___ him","answer":"at"},
-  {"id":218,"sentence":"Stick ___ your principles","answer":"to"},
-  {"id":219,"sentence":"Subject ___ approval","answer":"to"},
-  {"id":220,"sentence":"Submit ___ destiny","answer":"to"},
-  {"id":221,"sentence":"Succeed ___ life","answer":"in"},
-  {"id":222,"sentence":"He suffers ___ fever","answer":"from"},
-  {"id":223,"sentence":"Suitable ___ the post","answer":"for"},
-  {"id":224,"sentence":"Supply us ___ rice","answer":"with"},
-  {"id":225,"sentence":"He is suspicious ___ me","answer":"of"},
-  {"id":226,"sentence":"Take care ___ health","answer":"of"},
-  {"id":227,"sentence":"Talk ___ him","answer":"to"},
-  {"id":228,"sentence":"I have no taste ___ music","answer":"for"},
-  {"id":229,"sentence":"Think ___ the matter","answer":"over"},
-  {"id":230,"sentence":"He is tired ___ walking","answer":"of"},
-  {"id":231,"sentence":"Translate it ___ English","answer":"into"},
-  {"id":232,"sentence":"Trust ___ God","answer":"in"},
-  {"id":233,"sentence":"It is true ___ his word","answer":"to"},
-  {"id":234,"sentence":"Unite ___ us","answer":"with"},
-  {"id":235,"sentence":"It is useful ___ us","answer":"to"},
-  {"id":236,"sentence":"Vary ___ person to person","answer":"from"},
-  {"id":237,"sentence":"Vote ___ him","answer":"for"},
-  {"id":238,"sentence":"Wait ___ the bus","answer":"for"},
-  {"id":239,"sentence":"Warn him ___ the danger","answer":"of"},
-  {"id":240,"sentence":"Don't waste time ___ gaming","answer":"in"},
-  {"id":241,"sentence":"He is weak ___ body","answer":"in"},
-  {"id":242,"sentence":"Wish ___ success","answer":"for"},
-  {"id":243,"sentence":"Work ___ money","answer":"for"},
-  {"id":244,"sentence":"Don't worry ___ it","answer":"about"},
-  {"id":245,"sentence":"Yield ___ fate","answer":"to"},
-  {"id":246,"sentence":"He has zeal ___ work","answer":"for"},
-  {"id":247,"sentence":"It is 10 ___ 5 (time)","answer":"past"},
-  {"id":248,"sentence":"It is 10 ___ 5 (time left)","answer":"to"},
-  {"id":249,"sentence":"Cut the apple ___ a knife","answer":"with"},
-  {"id":250,"sentence":"The snake was killed ___ him","answer":"by"},
-  {"id":251,"sentence":"He sat ___ the chair (no arms)","answer":"on"},
-  {"id":252,"sentence":"He sat ___ the armchair","answer":"in"},
-  {"id":253,"sentence":"He sat ___ the desk","answer":"at"},
-  {"id":254,"sentence":"The cat jumped ___ the table","answer":"upon"},
-  {"id":255,"sentence":"He walked ___ the street","answer":"along"},
-  {"id":256,"sentence":"The earth moves ___ the sun","answer":"round"},
-  {"id":257,"sentence":"He came ___ the room","answer":"into"},
-  {"id":258,"sentence":"The train passed ___ the tunnel","answer":"through"},
-  {"id":259,"sentence":"He is ___ the phone","answer":"on"},
-  {"id":260,"sentence":"Watch it ___ TV","answer":"on"},
-  {"id":261,"sentence":"Read it ___ the newspaper","answer":"in"},
-  {"id":262,"sentence":"He is ___ home","answer":"at"},
-  {"id":263,"sentence":"He is ___ work","answer":"at"},
-  {"id":264,"sentence":"She is ___ holiday","answer":"on"},
-  {"id":265,"sentence":"He travels ___ business","answer":"on"},
-  {"id":266,"sentence":"Pay ___ cash","answer":"in"},
-  {"id":267,"sentence":"Pay ___ check","answer":"by"},
-  {"id":268,"sentence":"Pay ___ credit card","answer":"by"},
-  {"id":269,"sentence":"Write ___ pencil","answer":"in"},
-  {"id":270,"sentence":"Go for a walk ___ the morning","answer":"in"},
-  {"id":271,"sentence":"Go out ___ noon","answer":"at"},
-  {"id":272,"sentence":"Come back ___ sunset","answer":"at"},
-  {"id":273,"sentence":"I saw him ___ the way","answer":"on"},
-  {"id":274,"sentence":"There is a map ___ the wall","answer":"on"},
-  {"id":275,"sentence":"There is a bridge ___ the river","answer":"across"},
-  {"id":276,"sentence":"He threw a stone ___ the dog","answer":"at"},
-  {"id":277,"sentence":"She smiled ___ me","answer":"at"},
-  {"id":278,"sentence":"Don't look ___","answer":"down"},
-  {"id":279,"sentence":"The plane took ___","answer":"off"},
-  {"id":280,"sentence":"Put ___ your shoes","answer":"on"},
-  {"id":281,"sentence":"Take ___ your shoes","answer":"off"},
-  {"id":282,"sentence":"Turn ___ the light","answer":"on"},
-  {"id":283,"sentence":"Turn ___ the fan","answer":"off"},
-  {"id":284,"sentence":"Call ___ a doctor","answer":"in"},
-  {"id":285,"sentence":"Carry ___ my orders","answer":"out"},
-  {"id":286,"sentence":"Get ___ the bus","answer":"on"},
-  {"id":287,"sentence":"Get ___ of here","answer":"out"},
-  {"id":288,"sentence":"He gave ___ smoking","answer":"up"},
-  {"id":289,"sentence":"Look ___ the word","answer":"up"},
-  {"id":290,"sentence":"Make ___ your mind","answer":"up"},
-  {"id":291,"sentence":"Pass ___ the message","answer":"on"},
-  {"id":292,"sentence":"Put ___ the fire","answer":"out"},
-  {"id":293,"sentence":"Run ___ of money","answer":"out"},
-  {"id":294,"sentence":"Set ___ a business","answer":"up"},
-  {"id":295,"sentence":"Stand ___ for your rights","answer":"up"},
-  {"id":296,"sentence":"The car broke ___","answer":"down"},
-  {"id":297,"sentence":"Bring ___ the child","answer":"up"},
-  {"id":298,"sentence":"Call ___ the strike","answer":"off"},
-  {"id":299,"sentence":"Carry ___ working","answer":"on"},
-  {"id":300,"sentence":"Come ___ the truth","answer":"out"},
-  {"id":301,"sentence":"Cut ___ expenses","answer":"down"},
-  {"id":302,"sentence":"Do ___ with it","answer":"away"},
-  {"id":303,"sentence":"Fall ___ with him","answer":"out"},
-  {"id":304,"sentence":"Get ___ well soon","answer":"on"},
-  {"id":305,"sentence":"Give ___ the papers","answer":"out"},
-  {"id":306,"sentence":"Go ___ reading","answer":"on"},
-  {"id":307,"sentence":"Hold ___ a minute","answer":"on"},
-  {"id":308,"sentence":"Keep ___ the grass","answer":"off"},
-  {"id":309,"sentence":"Lay ___ the law","answer":"down"},
-  {"id":310,"sentence":"Look ___ to the future","answer":"forward"},
-  {"id":311,"sentence":"Make ___ for the loss","answer":"up"},
-  {"id":312,"sentence":"Pick ___ the phone","answer":"up"},
-  {"id":313,"sentence":"Put ___ with him","answer":"up"},
-  {"id":314,"sentence":"Run ___ him (meet)","answer":"into"},
-  {"id":315,"sentence":"Set ___ for Dhaka","answer":"out"},
-  {"id":316,"sentence":"Show ___ your talent","answer":"off"},
-  {"id":317,"sentence":"Take ___ your father (resemble)","answer":"after"},
-  {"id":318,"sentence":"Think ___ a plan","answer":"of"},
-  {"id":319,"sentence":"Try ___ the shirt","answer":"on"},
-  {"id":320,"sentence":"Turn ___ the volume","answer":"up"},
-  {"id":321,"sentence":"Work ___ the sum","answer":"out"},
-  {"id":322,"sentence":"Write ___ the points","answer":"down"},
-  {"id":323,"sentence":"He is absent ___ school","answer":"from"},
-  {"id":324,"sentence":"He is present ___ the meeting","answer":"in"},
-  {"id":325,"sentence":"According ___ me","answer":"to"},
-  {"id":326,"sentence":"Apart ___ this","answer":"from"},
-  {"id":327,"sentence":"Instead ___ going","answer":"of"},
-  {"id":328,"sentence":"In front ___ the house","answer":"of"},
-  {"id":329,"sentence":"For the sake ___ God","answer":"of"},
-  {"id":330,"sentence":"On behalf ___ the class","answer":"of"}
+  {
+    "id": 1,
+    "sentence": "He is good ___ English.",
+    "answer": "at",
+    "rule": "Good at (দক্ষ বোঝাতে)"
+  },
+  {
+    "id": 2,
+    "sentence": "Look ___ the blackboard.",
+    "answer": "at",
+    "rule": "Look at (তাকানো)"
+  },
+  {
+    "id": 3,
+    "sentence": "I am afraid ___ dogs.",
+    "answer": "of",
+    "rule": "Afraid of (ভীত)"
+  },
+  {
+    "id": 4,
+    "sentence": "Listen ___ me.",
+    "answer": "to",
+    "rule": "Listen to (শোনা)"
+  },
+  {
+    "id": 5,
+    "sentence": "The book is ___ the table.",
+    "answer": "on",
+    "rule": "On (কোনো কিছুর ওপর স্পর্শ করে থাকলে)"
+  },
+  {
+    "id": 6,
+    "sentence": "He died ___ cancer.",
+    "answer": "of",
+    "rule": "Die of (রোগে মারা যাওয়া)"
+  },
+  {
+    "id": 7,
+    "sentence": "He died ___ overeating.",
+    "answer": "from",
+    "rule": "Die from (কোনো কারণে/অতিরিক্ত খেয়ে মারা যাওয়া)"
+  },
+  {
+    "id": 8,
+    "sentence": "He died ___ his country.",
+    "answer": "for",
+    "rule": "Die for (দেশের জন্য আত্মত্যাগ)"
+  },
+  {
+    "id": 9,
+    "sentence": "Divide the mangoes ___ the two boys.",
+    "answer": "between",
+    "rule": "Between (দুইজনের মধ্যে ভাগ করা)"
+  },
+  {
+    "id": 10,
+    "sentence": "Divide the mangoes ___ the students.",
+    "answer": "among",
+    "rule": "Among (দুইয়ের অধিক মানুষের মধ্যে ভাগ করা)"
+  },
+  {
+    "id": 11,
+    "sentence": "I prefer tea ___ coffee.",
+    "answer": "to",
+    "rule": "Prefer ... to (অধিকতর পছন্দ করা)"
+  },
+  {
+    "id": 12,
+    "sentence": "He is fond ___ music.",
+    "answer": "of",
+    "rule": "Fond of (পছন্দ/প্রিয়)"
+  },
+  {
+    "id": 13,
+    "sentence": "She is absent ___ school.",
+    "answer": "from",
+    "rule": "Absent from (অনুপস্থিত)"
+  },
+  {
+    "id": 14,
+    "sentence": "He abides ___ the rules.",
+    "answer": "by",
+    "rule": "Abide by (মেনে চলা)"
+  },
+  {
+    "id": 15,
+    "sentence": "I agree ___ you.",
+    "answer": "with",
+    "rule": "Agree with (ব্যাক্তির সাথে একমত হওয়া)"
+  },
+  {
+    "id": 16,
+    "sentence": "I agree ___ your proposal.",
+    "answer": "to",
+    "rule": "Agree to (কোনো প্রস্তাবে রাজি হওয়া)"
+  },
+  {
+    "id": 17,
+    "sentence": "He is senior ___ me.",
+    "answer": "to",
+    "rule": "Senior to (ল্যাটিন অ্যাডজেক্টিভ এরপর to বসে)"
+  },
+  {
+    "id": 18,
+    "sentence": "This chair is made ___ wood.",
+    "answer": "of",
+    "rule": "Made of (উপাদান দৃশ্যমান থাকলে)"
+  },
+  {
+    "id": 19,
+    "sentence": "Paper is made ___ wood.",
+    "answer": "from",
+    "rule": "Made from (উপাদান পরিবর্তিত হয়ে গেলে)"
+  },
+  {
+    "id": 20,
+    "sentence": "He jumped ___ the river.",
+    "answer": "into",
+    "rule": "Into (বাইরে থেকে ভেতরে গতিশীল অবস্থায়)"
+  },
+  {
+    "id": 21,
+    "sentence": "He sat ___ me.",
+    "answer": "beside",
+    "rule": "Beside (পাশে)"
+  },
+  {
+    "id": 22,
+    "sentence": "Write ___ a pen.",
+    "answer": "with",
+    "rule": "With (যন্ত্র বা উপকরণ দিয়ে কাজ করা)"
+  },
+  {
+    "id": 23,
+    "sentence": "He comes ___ a noble family.",
+    "answer": "of",
+    "rule": "Come of (জন্মগ্রহণ করা)"
+  },
+  {
+    "id": 24,
+    "sentence": "Open the book ___ page 10.",
+    "answer": "at",
+    "rule": "At (নির্দিষ্ট পৃষ্ঠা বোঝাতে)"
+  },
+  {
+    "id": 25,
+    "sentence": "He is famous ___ his honesty.",
+    "answer": "for",
+    "rule": "Famous for (বিখ্যাত)"
+  },
+  {
+    "id": 26,
+    "sentence": "I am jealous ___ you.",
+    "answer": "of",
+    "rule": "Jealous of (ঈর্ষান্বিত)"
+  },
+  {
+    "id": 27,
+    "sentence": "Believe ___ yourself.",
+    "answer": "in",
+    "rule": "Believe in (বিশ্বাস রাখা)"
+  },
+  {
+    "id": 28,
+    "sentence": "He is blind ___ one eye.",
+    "answer": "of",
+    "rule": "Blind of (চোখে অন্ধ)"
+  },
+  {
+    "id": 29,
+    "sentence": "He is blind ___ his son's fault.",
+    "answer": "to",
+    "rule": "Blind to (দোষ দেখেও না দেখা)"
+  },
+  {
+    "id": 30,
+    "sentence": "The cat is ___ the table.",
+    "answer": "under",
+    "rule": "Under (নিচে)"
+  },
+  {
+    "id": 31,
+    "sentence": "He insisted ___ going there.",
+    "answer": "on",
+    "rule": "Insist on (জিদ করা)"
+  },
+  {
+    "id": 32,
+    "sentence": "I congratulated him ___ his success.",
+    "answer": "on",
+    "rule": "Congratulate on (অভিনন্দন জানানো)"
+  },
+  {
+    "id": 33,
+    "sentence": "He is proud ___ his wealth.",
+    "answer": "of",
+    "rule": "Proud of (গর্বিত)"
+  },
+  {
+    "id": 34,
+    "sentence": "Take care ___ your health.",
+    "answer": "of",
+    "rule": "Take care of (যত্ন নেওয়া)"
+  },
+  {
+    "id": 35,
+    "sentence": "I am looking ___ a job.",
+    "answer": "for",
+    "rule": "Look for (খোঁজ করা)"
+  },
+  {
+    "id": 36,
+    "sentence": "She takes ___ her mother.",
+    "answer": "after",
+    "rule": "Take after (দেখতে একই রকম হওয়া)"
+  },
+  {
+    "id": 37,
+    "sentence": "The police are looking ___ the case.",
+    "answer": "into",
+    "rule": "Look into (তদন্ত করা)"
+  },
+  {
+    "id": 38,
+    "sentence": "He gave ___ smoking.",
+    "answer": "up",
+    "rule": "Give up (ত্যাগ করা)"
+  },
+  {
+    "id": 39,
+    "sentence": "The class consists ___ fifty students.",
+    "answer": "of",
+    "rule": "Consist of (গঠিত হওয়া)"
+  },
+  {
+    "id": 40,
+    "sentence": "He belongs ___ a rich family.",
+    "answer": "to",
+    "rule": "Belong to (অধিকারভুক্ত হওয়া/মালিকানাধীন)"
+  },
+  {
+    "id": 41,
+    "sentence": "I waited ___ him for an hour.",
+    "answer": "for",
+    "rule": "Wait for (অপেক্ষা করা)"
+  },
+  {
+    "id": 42,
+    "sentence": "He is angry ___ me.",
+    "answer": "with",
+    "rule": "Angry with (ব্যক্তির ওপর রাগ করা)"
+  },
+  {
+    "id": 43,
+    "sentence": "He is angry ___ my behavior.",
+    "answer": "at",
+    "rule": "Angry at (আচরণ বা কোনো কিছুর ওপর রাগ করা)"
+  },
+  {
+    "id": 44,
+    "sentence": "Water turns ___ vapor.",
+    "answer": "into",
+    "rule": "Turn into (রূপান্তরিত হওয়া)"
+  },
+  {
+    "id": 45,
+    "sentence": "He was born ___ 1990.",
+    "answer": "in",
+    "rule": "In (সালের আগে in বসে)"
+  },
+  {
+    "id": 46,
+    "sentence": "He was born ___ Monday.",
+    "answer": "on",
+    "rule": "On (বারের নামের আগে on বসে)"
+  },
+  {
+    "id": 47,
+    "sentence": "He lives ___ Dhaka.",
+    "answer": "in",
+    "rule": "In (বড় স্থানের আগে in বসে)"
+  },
+  {
+    "id": 48,
+    "sentence": "He lives ___ Dhanmondi.",
+    "answer": "at",
+    "rule": "At (ছোট স্থানের আগে at বসে)"
+  },
+  {
+    "id": 49,
+    "sentence": "He goes to school ___ bus.",
+    "answer": "by",
+    "rule": "By (যানবাহনে যাতায়াত বোঝালে by বসে)"
+  },
+  {
+    "id": 50,
+    "sentence": "He goes to school ___ foot.",
+    "answer": "on",
+    "rule": "On foot (পায়ে হেঁটে চলা)"
+  },
+  {
+    "id": 51,
+    "sentence": "The sky is ___ our head.",
+    "answer": "above",
+    "rule": "Above (ওপরে কিন্তু স্পর্শ করে নেই)"
+  },
+  {
+    "id": 52,
+    "sentence": "Put the book ___ the table.",
+    "answer": "on",
+    "rule": "On (ওপরে স্পর্শ করে রাখা)"
+  },
+  {
+    "id": 53,
+    "sentence": "He is addicted ___ gambling.",
+    "answer": "to",
+    "rule": "Addicted to (খারাপ কাজে আসক্তি)"
+  },
+  {
+    "id": 54,
+    "sentence": "He is devoted ___ God.",
+    "answer": "to",
+    "rule": "Devoted to (ভক্ত/নিবেদিত)"
+  },
+  {
+    "id": 55,
+    "sentence": "Smoking is injurious ___ health.",
+    "answer": "to",
+    "rule": "Injurious to (স্বাস্থ্যের জন্য ক্ষতিকর)"
+  },
+  {
+    "id": 56,
+    "sentence": "Physical exercise is beneficial ___ health.",
+    "answer": "to",
+    "rule": "Beneficial to (উপকারী)"
+  },
+  {
+    "id": 57,
+    "sentence": "He is capable ___ doing the work.",
+    "answer": "of",
+    "rule": "Capable of (সক্ষম)"
+  },
+  {
+    "id": 58,
+    "sentence": "I am confident ___ my success.",
+    "answer": "of",
+    "rule": "Confident of (নিশ্চিত)"
+  },
+  {
+    "id": 59,
+    "sentence": "He prevented me ___ going there.",
+    "answer": "from",
+    "rule": "Prevent from (বিরত রাখা)"
+  },
+  {
+    "id": 60,
+    "sentence": "He is suffering ___ fever.",
+    "answer": "from",
+    "rule": "Suffer from (ভোগা)"
+  },
+  {
+    "id": 61,
+    "sentence": "The man was charged ___ theft.",
+    "answer": "with",
+    "rule": "Charged with (অভিযুক্ত)"
+  },
+  {
+    "id": 62,
+    "sentence": "I have no appetite ___ food.",
+    "answer": "for",
+    "rule": "Appetite for (ক্ষুধা/রুচি)"
+  },
+  {
+    "id": 63,
+    "sentence": "He has a thirst ___ knowledge.",
+    "answer": "for",
+    "rule": "Thirst for (তৃষ্ণা/প্রবল ইচ্ছা)"
+  },
+  {
+    "id": 64,
+    "sentence": "This pen belongs ___ me.",
+    "answer": "to",
+    "rule": "Belong to (মালিকানা)"
+  },
+  {
+    "id": 65,
+    "sentence": "I objected ___ his proposal.",
+    "answer": "to",
+    "rule": "Object to (আপত্তি করা)"
+  },
+  {
+    "id": 66,
+    "sentence": "He is true ___ his word.",
+    "answer": "to",
+    "rule": "True to (কথার বরখেলাপ না করা)"
+  },
+  {
+    "id": 67,
+    "sentence": "We rely ___ him.",
+    "answer": "on",
+    "rule": "Rely on (নির্ভর করা)"
+  },
+  {
+    "id": 68,
+    "sentence": "He depends ___ his parents.",
+    "answer": "on",
+    "rule": "Depend on (নির্ভর করা)"
+  },
+  {
+    "id": 69,
+    "sentence": "She burst ___ tears.",
+    "answer": "into",
+    "rule": "Burst into (কান্নায় ভেঙে পড়া)"
+  },
+  {
+    "id": 70,
+    "sentence": "They burst ___ laughing.",
+    "answer": "out",
+    "rule": "Burst out (হাসিতে ফেটে পড়া)"
+  },
+  {
+    "id": 71,
+    "sentence": "He is weak ___ English.",
+    "answer": "in",
+    "rule": "Weak in (কাঁচা/দুর্বল)"
+  },
+  {
+    "id": 72,
+    "sentence": "He is expert ___ computer.",
+    "answer": "in",
+    "rule": "Expert in (দক্ষ)"
+  },
+  {
+    "id": 73,
+    "sentence": "I have no interest ___ music.",
+    "answer": "in",
+    "rule": "Interest in (আগ্রহ)"
+  },
+  {
+    "id": 74,
+    "sentence": "He succeeded ___ life.",
+    "answer": "in",
+    "rule": "Succeed in (সফল হওয়া)"
+  },
+  {
+    "id": 75,
+    "sentence": "Don't laugh ___ the poor.",
+    "answer": "at",
+    "rule": "Laugh at (বিদ্রুপ করা/হাসা)"
+  },
+  {
+    "id": 76,
+    "sentence": "He aimed ___ the bird.",
+    "answer": "at",
+    "rule": "Aim at (লক্ষ্য করা)"
+  },
+  {
+    "id": 77,
+    "sentence": "The train is bound ___ Chittagong.",
+    "answer": "for",
+    "rule": "Bound for (গন্তব্যের উদ্দেশ্যে)"
+  },
+  {
+    "id": 78,
+    "sentence": "I feel sorry ___ him.",
+    "answer": "for",
+    "rule": "Sorry for (দুঃখিত)"
+  },
+  {
+    "id": 79,
+    "sentence": "He is fit ___ the post.",
+    "answer": "for",
+    "rule": "Fit for (যোগ্য)"
+  },
+  {
+    "id": 80,
+    "sentence": "She has affection ___ the child.",
+    "answer": "for",
+    "rule": "Affection for (স্নেহ)"
+  },
+  {
+    "id": 81,
+    "sentence": "Industry is the key ___ success.",
+    "answer": "to",
+    "rule": "Key to (চাবিকাঠি)"
+  },
+  {
+    "id": 82,
+    "sentence": "There is no solution ___ this problem.",
+    "answer": "to",
+    "rule": "Solution to (সমাধান)"
+  },
+  {
+    "id": 83,
+    "sentence": "He admitted ___ his guilt.",
+    "answer": "to",
+    "rule": "Admit to (স্বীকার করা)"
+  },
+  {
+    "id": 84,
+    "sentence": "According ___ his report, it will rain.",
+    "answer": "to",
+    "rule": "According to (অনুসারে)"
+  },
+  {
+    "id": 85,
+    "sentence": "He is junior ___ me.",
+    "answer": "to",
+    "rule": "Junior to (বয়সে বা পদে ছোট)"
+  },
+  {
+    "id": 86,
+    "sentence": "He is superior ___ me.",
+    "answer": "to",
+    "rule": "Superior to (উৎকৃষ্ট/উচ্চতর)"
+  },
+  {
+    "id": 87,
+    "sentence": "This copy is similar ___ that one.",
+    "answer": "to",
+    "rule": "Similar to (সদৃশ/একই রকম)"
+  },
+  {
+    "id": 88,
+    "sentence": "I am grateful ___ you.",
+    "answer": "to",
+    "rule": "Grateful to (কৃতজ্ঞ)"
+  },
+  {
+    "id": 89,
+    "sentence": "He is indifferent ___ his duty.",
+    "answer": "to",
+    "rule": "Indifferent to (উদাসীন)"
+  },
+  {
+    "id": 90,
+    "sentence": "Death is preferable ___ dishonor.",
+    "answer": "to",
+    "rule": "Preferable to (অধিকতর পছন্দনীয়)"
+  },
+  {
+    "id": 91,
+    "sentence": "He is conscious ___ his weakness.",
+    "answer": "of",
+    "rule": "Conscious of (সচেতন)"
+  },
+  {
+    "id": 92,
+    "sentence": "I am aware ___ the fact.",
+    "answer": "of",
+    "rule": "Aware of (অবগত)"
+  },
+  {
+    "id": 93,
+    "sentence": "The basket is full ___ flowers.",
+    "answer": "of",
+    "rule": "Full of (পরিপূর্ণ)"
+  },
+  {
+    "id": 94,
+    "sentence": "He is devoid ___ common sense.",
+    "answer": "of",
+    "rule": "Devoid of (বর্জিত/শূন্য)"
+  },
+  {
+    "id": 95,
+    "sentence": "Beware ___ dogs.",
+    "answer": "of",
+    "rule": "Beware of (সতর্ক থাকা)"
+  },
+  {
+    "id": 96,
+    "sentence": "He was accused ___ murder.",
+    "answer": "of",
+    "rule": "Accused of (অভিযুক্ত)"
+  },
+  {
+    "id": 97,
+    "sentence": "He boasts ___ his riches.",
+    "answer": "of",
+    "rule": "Boast of (অহংকার করা)"
+  },
+  {
+    "id": 98,
+    "sentence": "He died ___ poison.",
+    "answer": "by",
+    "rule": "Die by (বিষপানে/দুর্ঘটনায় মৃত্যু)"
+  },
+  {
+    "id": 99,
+    "sentence": "He sat ___ the tree.",
+    "answer": "under",
+    "rule": "Under (নিচে)"
+  },
+  {
+    "id": 100,
+    "sentence": "The river flows ___ the bridge.",
+    "answer": "under",
+    "rule": "Under (নিচ দিয়ে প্রবাহমান)"
+  },
+  {
+    "id": 101,
+    "sentence": "He gets up ___ 6 am.",
+    "answer": "at",
+    "rule": "At (নির্দিষ্ট সময়ের আগে বসে)"
+  },
+  {
+    "id": 102,
+    "sentence": "I will come ___ Sunday.",
+    "answer": "on",
+    "rule": "On (দিন বা তারিখের আগে বসে)"
+  },
+  {
+    "id": 103,
+    "sentence": "She was born ___ 2005.",
+    "answer": "in",
+    "rule": "In (বছর বা সালের আগে বসে)"
+  },
+  {
+    "id": 104,
+    "sentence": "Birds fly ___ the sky.",
+    "answer": "in",
+    "rule": "In (কোনো কিছুর ভেতরে অবস্থান বোঝালে)"
+  },
+  {
+    "id": 105,
+    "sentence": "He goes ___ school every day.",
+    "answer": "to",
+    "rule": "To (কোনো দিকে যাওয়া বোঝালে)"
+  },
+  {
+    "id": 106,
+    "sentence": "She is coming ___ London.",
+    "answer": "from",
+    "rule": "From (কোনো স্থান থেকে আসা)"
+  },
+  {
+    "id": 107,
+    "sentence": "Please sit ___ the chair.",
+    "answer": "on",
+    "rule": "On (ওপরে বসা)"
+  },
+  {
+    "id": 108,
+    "sentence": "The cat is hiding ___ the table.",
+    "answer": "under",
+    "rule": "Under (নিচে)"
+  },
+  {
+    "id": 109,
+    "sentence": "He lives ___ Japan.",
+    "answer": "in",
+    "rule": "In (বড় দেশ বা শহরের আগে)"
+  },
+  {
+    "id": 110,
+    "sentence": "He lives ___ Mirpur.",
+    "answer": "at",
+    "rule": "At (ছোট স্থান বা এলাকার আগে)"
+  },
+  {
+    "id": 111,
+    "sentence": "I write ___ a pen.",
+    "answer": "with",
+    "rule": "With (বস্তু দিয়ে কাজ করা)"
+  },
+  {
+    "id": 112,
+    "sentence": "He cut the apple ___ a knife.",
+    "answer": "with",
+    "rule": "With (যন্ত্র বা উপকরণ)"
+  },
+  {
+    "id": 113,
+    "sentence": "We travel ___ bus.",
+    "answer": "by",
+    "rule": "By (যানবাহন)"
+  },
+  {
+    "id": 114,
+    "sentence": "He sent the letter ___ post.",
+    "answer": "by",
+    "rule": "By (মাধ্যম)"
+  },
+  {
+    "id": 115,
+    "sentence": "He sat ___ me.",
+    "answer": "beside",
+    "rule": "Beside (পাশে)"
+  },
+  {
+    "id": 116,
+    "sentence": "The river is ___ the house.",
+    "answer": "behind",
+    "rule": "Behind (পেছনে)"
+  },
+  {
+    "id": 117,
+    "sentence": "Distribute the chocolates ___ the two boys.",
+    "answer": "between",
+    "rule": "Between (দুইজনের মধ্যে)"
+  },
+  {
+    "id": 118,
+    "sentence": "Distribute the food ___ the poor.",
+    "answer": "among",
+    "rule": "Among (অনেকের মধ্যে)"
+  },
+  {
+    "id": 119,
+    "sentence": "I am waiting ___ you.",
+    "answer": "for",
+    "rule": "Wait for (অপেক্ষা করা)"
+  },
+  {
+    "id": 120,
+    "sentence": "He is looking ___ the picture.",
+    "answer": "at",
+    "rule": "Look at (তাকানো)"
+  },
+  {
+    "id": 121,
+    "sentence": "Listen ___ the music.",
+    "answer": "to",
+    "rule": "Listen to (মনোযোগ দিয়ে শোনা)"
+  },
+  {
+    "id": 122,
+    "sentence": "Talk ___ him.",
+    "answer": "to",
+    "rule": "Talk to (কথা বলা)"
+  },
+  {
+    "id": 123,
+    "sentence": "Do not laugh ___ the poor.",
+    "answer": "at",
+    "rule": "Laugh at (বিদ্রুপ করা/হাসা)"
+  },
+  {
+    "id": 124,
+    "sentence": "He smiled ___ me.",
+    "answer": "at",
+    "rule": "Smile at (দেখে হাসা)"
+  },
+  {
+    "id": 125,
+    "sentence": "I am happy ___ your success.",
+    "answer": "with",
+    "rule": "Happy with (খুশি)"
+  },
+  {
+    "id": 126,
+    "sentence": "Are you angry ___ me?",
+    "answer": "with",
+    "rule": "Angry with (কারো ওপর রাগান্বিত)"
+  },
+  {
+    "id": 127,
+    "sentence": "She is afraid ___ ghosts.",
+    "answer": "of",
+    "rule": "Afraid of (ভীত)"
+  },
+  {
+    "id": 128,
+    "sentence": "He is fond ___ sweets.",
+    "answer": "of",
+    "rule": "Fond of (প্রিয়/পছন্দ)"
+  },
+  {
+    "id": 129,
+    "sentence": "The glass is full ___ water.",
+    "answer": "of",
+    "rule": "Full of (পূর্ণ)"
+  },
+  {
+    "id": 130,
+    "sentence": "I am tired ___ waiting.",
+    "answer": "of",
+    "rule": "Tired of (ক্লান্ত/বিরক্ত)"
+  },
+  {
+    "id": 131,
+    "sentence": "He is good ___ Math.",
+    "answer": "at",
+    "rule": "Good at (দক্ষ)"
+  },
+  {
+    "id": 132,
+    "sentence": "He is bad ___ English.",
+    "answer": "at",
+    "rule": "Bad at (অদক্ষ/কাঁচা)"
+  },
+  {
+    "id": 133,
+    "sentence": "I am interested ___ music.",
+    "answer": "in",
+    "rule": "Interested in (আগ্রহী)"
+  },
+  {
+    "id": 134,
+    "sentence": "He is weak ___ Physics.",
+    "answer": "in",
+    "rule": "Weak in (দুর্বল)"
+  },
+  {
+    "id": 135,
+    "sentence": "Believe ___ yourself.",
+    "answer": "in",
+    "rule": "Believe in (বিশ্বাস করা)"
+  },
+  {
+    "id": 136,
+    "sentence": "Do not run ___ the sun.",
+    "answer": "in",
+    "rule": "In the sun (রোদে)"
+  },
+  {
+    "id": 137,
+    "sentence": "He works ___ the morning.",
+    "answer": "in",
+    "rule": "In the morning (সকালবেলায়)"
+  },
+  {
+    "id": 138,
+    "sentence": "He sleeps ___ night.",
+    "answer": "at",
+    "rule": "At night (রাতে)"
+  },
+  {
+    "id": 139,
+    "sentence": "The fan is ___ my head.",
+    "answer": "above",
+    "rule": "Above (ওপরে, স্পর্শ ছাড়া)"
+  },
+  {
+    "id": 140,
+    "sentence": "Put it ___ the box.",
+    "answer": "into",
+    "rule": "Into (বাইরে থেকে ভেতরে রাখা)"
+  },
+  {
+    "id": 141,
+    "sentence": "He jumped ___ the pond.",
+    "answer": "into",
+    "rule": "Into (গতি নিয়ে প্রবেশ)"
+  },
+  {
+    "id": 142,
+    "sentence": "This book belongs ___ me.",
+    "answer": "to",
+    "rule": "Belong to (মালিকানায় থাকা)"
+  },
+  {
+    "id": 143,
+    "sentence": "He is married ___ her.",
+    "answer": "to",
+    "rule": "Married to (বিবাহিত)"
+  },
+  {
+    "id": 144,
+    "sentence": "Be kind ___ the poor.",
+    "answer": "to",
+    "rule": "Kind to (দয়ালু)"
+  },
+  {
+    "id": 145,
+    "sentence": "He is cruel ___ animals.",
+    "answer": "to",
+    "rule": "Cruel to (নিষ্ঠুর)"
+  },
+  {
+    "id": 146,
+    "sentence": "She is famous ___ her voice.",
+    "answer": "for",
+    "rule": "Famous for (বিখ্যাত)"
+  },
+  {
+    "id": 147,
+    "sentence": "I am ready ___ the test.",
+    "answer": "for",
+    "rule": "Ready for (প্রস্তুত)"
+  },
+  {
+    "id": 148,
+    "sentence": "He is late ___ school.",
+    "answer": "for",
+    "rule": "Late for (দেরি হওয়া)"
+  },
+  {
+    "id": 149,
+    "sentence": "He asked ___ money.",
+    "answer": "for",
+    "rule": "Ask for ( চাওয়া)"
+  },
+  {
+    "id": 150,
+    "sentence": "I feel sorry ___ him.",
+    "answer": "for",
+    "rule": "Sorry for (দুঃখিত)"
+  },
+  {
+    "id": 151,
+    "sentence": "This gift is ___ you.",
+    "answer": "for",
+    "rule": "For (জন্য)"
+  },
+  {
+    "id": 152,
+    "sentence": "He agrees ___ me.",
+    "answer": "with",
+    "rule": "Agree with (ব্যক্তির সাথে একমত)"
+  },
+  {
+    "id": 153,
+    "sentence": "I agree ___ your plan.",
+    "answer": "to",
+    "rule": "Agree to (প্রস্তাবে রাজি)"
+  },
+  {
+    "id": 154,
+    "sentence": "He depends ___ his father.",
+    "answer": "on",
+    "rule": "Depend on (নির্ভর করা)"
+  },
+  {
+    "id": 155,
+    "sentence": "Rely ___ Allah.",
+    "answer": "on",
+    "rule": "Rely on (ভরসা করা)"
+  },
+  {
+    "id": 156,
+    "sentence": "The book is ___ the table.",
+    "answer": "on",
+    "rule": "On (ওপরে)"
+  },
+  {
+    "id": 157,
+    "sentence": "Switch ___ the light.",
+    "answer": "on",
+    "rule": "Switch on (চালু করা)"
+  },
+  {
+    "id": 158,
+    "sentence": "Turn ___ the TV.",
+    "answer": "off",
+    "rule": "Turn off (বন্ধ করা)"
+  },
+  {
+    "id": 159,
+    "sentence": "He took ___ his shoes.",
+    "answer": "off",
+    "rule": "Take off (খুলে ফেলা)"
+  },
+  {
+    "id": 160,
+    "sentence": "The ring is made ___ gold.",
+    "answer": "of",
+    "rule": "Made of (তৈরি)"
+  },
+  {
+    "id": 161,
+    "sentence": "Paper is made ___ wood.",
+    "answer": "from",
+    "rule": "Made from (উপাদান পরিবর্তিত হলে)"
+  },
+  {
+    "id": 162,
+    "sentence": "He died ___ cholera.",
+    "answer": "of",
+    "rule": "Die of (রোগে মৃত্যু)"
+  },
+  {
+    "id": 163,
+    "sentence": "He comes ___ a rich family.",
+    "answer": "of",
+    "rule": "Come of (জন্মগ্রহণ করা)"
+  },
+  {
+    "id": 164,
+    "sentence": "Care ___ your parents.",
+    "answer": "for",
+    "rule": "Care for (গ্রাহ্য করা/যত্ন নেওয়া)"
+  },
+  {
+    "id": 165,
+    "sentence": "Take care ___ your health.",
+    "answer": "of",
+    "rule": "Take care of (যত্ন নেওয়া)"
+  },
+  {
+    "id": 166,
+    "sentence": "Look ___ the baby.",
+    "answer": "after",
+    "rule": "Look after (দেখাশোনা করা)"
+  },
+  {
+    "id": 167,
+    "sentence": "He is searching ___ his phone.",
+    "answer": "for",
+    "rule": "Search for (খোঁজ করা)"
+  },
+  {
+    "id": 168,
+    "sentence": "I prefer tea ___ coffee.",
+    "answer": "to",
+    "rule": "Prefer to (অধিক পছন্দ)"
+  },
+  {
+    "id": 169,
+    "sentence": "He is senior ___ me.",
+    "answer": "to",
+    "rule": "Senior to (বড়)"
+  },
+  {
+    "id": 170,
+    "sentence": "She is junior ___ me.",
+    "answer": "to",
+    "rule": "Junior to (ছোট)"
+  },
+  {
+    "id": 171,
+    "sentence": "He is superior ___ you.",
+    "answer": "to",
+    "rule": "Superior to (উচ্চতর)"
+  },
+  {
+    "id": 172,
+    "sentence": "The man is blind ___ one eye.",
+    "answer": "of",
+    "rule": "Blind of (অন্ধ)"
+  },
+  {
+    "id": 173,
+    "sentence": "He is innocent ___ the crime.",
+    "answer": "of",
+    "rule": "Innocent of (নির্দোষ)"
+  },
+  {
+    "id": 174,
+    "sentence": "I am sure ___ it.",
+    "answer": "of",
+    "rule": "Sure of (নিশ্চিত)"
+  },
+  {
+    "id": 175,
+    "sentence": "Beware ___ the dog.",
+    "answer": "of",
+    "rule": "Beware of (সাবধান)"
+  },
+  {
+    "id": 176,
+    "sentence": "We live ___ earth.",
+    "answer": "on",
+    "rule": "On earth (পৃথিবীতে)"
+  },
+  {
+    "id": 177,
+    "sentence": "Go ___ with your work.",
+    "answer": "on",
+    "rule": "Go on (চালিয়ে যাওয়া)"
+  },
+  {
+    "id": 178,
+    "sentence": "He gave ___ smoking.",
+    "answer": "up",
+    "rule": "Give up (ত্যাগ করা)"
+  },
+  {
+    "id": 179,
+    "sentence": "Look ___ the word in the dictionary.",
+    "answer": "up",
+    "rule": "Look up (খুঁজে বের করা)"
+  },
+  {
+    "id": 180,
+    "sentence": "The war broke ___.",
+    "answer": "out",
+    "rule": "Break out (ছড়িয়ে পড়া)"
+  },
+  {
+    "id": 181,
+    "sentence": "He passed ___ last night.",
+    "answer": "away",
+    "rule": "Pass away (মারা যাওয়া)"
+  },
+  {
+    "id": 182,
+    "sentence": "The sky is ___ us.",
+    "answer": "above",
+    "rule": "Above (ওপরে)"
+  },
+  {
+    "id": 183,
+    "sentence": "He walked ___ the park.",
+    "answer": "towards",
+    "rule": "Towards (দিকে)"
+  },
+  {
+    "id": 184,
+    "sentence": "The train goes ___ the tunnel.",
+    "answer": "through",
+    "rule": "Through (মধ্য দিয়ে)"
+  },
+  {
+    "id": 185,
+    "sentence": "He ran ___ the field.",
+    "answer": "across",
+    "rule": "Across (আড়াআড়ি পার হওয়া)"
+  },
+  {
+    "id": 186,
+    "sentence": "Divide it ___ half.",
+    "answer": "in",
+    "rule": "In half (দুই ভাগে)"
+  },
+  {
+    "id": 187,
+    "sentence": "Write ___ ink.",
+    "answer": "in",
+    "rule": "In ink (কালি দিয়ে)"
+  },
+  {
+    "id": 188,
+    "sentence": "He is absent ___ class.",
+    "answer": "from",
+    "rule": "Absent from (অনুপস্থিত)"
+  },
+  {
+    "id": 189,
+    "sentence": "Protect me ___ danger.",
+    "answer": "from",
+    "rule": "Protect from (রক্ষা করা)"
+  },
+  {
+    "id": 190,
+    "sentence": "Prevent him ___ going.",
+    "answer": "from",
+    "rule": "Prevent from (বাধা দেওয়া)"
+  },
+  {
+    "id": 191,
+    "sentence": "The application must be sent ___ 5 PM.",
+    "answer": "by",
+    "rule": "By (সময়ের মধ্যে)"
+  },
+  {
+    "id": 192,
+    "sentence": "He sat ___ the fire.",
+    "answer": "by",
+    "rule": "By (পাশে)"
+  },
+  {
+    "id": 193,
+    "sentence": "It is 10 o'clock ___ my watch.",
+    "answer": "by",
+    "rule": "By (ঘড়ি অনুসারে)"
+  },
+  {
+    "id": 194,
+    "sentence": "He is pleased ___ me.",
+    "answer": "with",
+    "rule": "Pleased with (সন্তুষ্ট)"
+  },
+  {
+    "id": 195,
+    "sentence": "Fill the glass ___ water.",
+    "answer": "with",
+    "rule": "Fill with (পূর্ণ করা)"
+  },
+  {
+    "id": 196,
+    "sentence": "Cover the pot ___ a lid.",
+    "answer": "with",
+    "rule": "Cover with (ঢাকা)"
+  },
+  {
+    "id": 197,
+    "sentence": "What is the matter ___ you?",
+    "answer": "with",
+    "rule": "Matter with (সমস্যা)"
+  },
+  {
+    "id": 198,
+    "sentence": "He works ___ a bank.",
+    "answer": "in",
+    "rule": "In a bank (ব্যাংকে)"
+  },
+  {
+    "id": 199,
+    "sentence": "He is ___ duty.",
+    "answer": "on",
+    "rule": "On duty (কাজে থাকা)"
+  },
+  {
+    "id": 200,
+    "sentence": "Keep off the grass.",
+    "answer": "off",
+    "rule": "Keep off (দূরে থাকা)"
+  },
+  {
+    "id": 201,
+    "sentence": "He is absorbed ___ thought.",
+    "answer": "in",
+    "rule": "Absorbed in (মগ্ন)"
+  },
+  {
+    "id": 202,
+    "sentence": "The man was acquitted ___ the charge.",
+    "answer": "of",
+    "rule": "Acquitted of (খালাস পাওয়া)"
+  },
+  {
+    "id": 203,
+    "sentence": "He adhered ___ his plan.",
+    "answer": "to",
+    "rule": "Adhere to (লেগে থাকা/অটল থাকা)"
+  },
+  {
+    "id": 204,
+    "sentence": "I have no ambition ___ fame.",
+    "answer": "for",
+    "rule": "Ambition for (উচ্চাকাঙ্ক্ষা)"
+  },
+  {
+    "id": 205,
+    "sentence": "He apologized ___ me for his mistake.",
+    "answer": "to",
+    "rule": "Apologize to (কারো কাছে ক্ষমা চাওয়া)"
+  },
+  {
+    "id": 206,
+    "sentence": "He apologized to me ___ his mistake.",
+    "answer": "for",
+    "rule": "Apologize for (কোনো ভুলের জন্য ক্ষমা চাওয়া)"
+  },
+  {
+    "id": 207,
+    "sentence": "He arrived ___ the station in time.",
+    "answer": "at",
+    "rule": "Arrive at (ছোট স্থানে পৌঁছানো)"
+  },
+  {
+    "id": 208,
+    "sentence": "He has no aptitude ___ music.",
+    "answer": "for",
+    "rule": "Aptitude for (স্বাভাবিক দক্ষতা/ঝোঁক)"
+  },
+  {
+    "id": 209,
+    "sentence": "I am ashamed ___ my conduct.",
+    "answer": "of",
+    "rule": "Ashamed of (লজ্জিত)"
+  },
+  {
+    "id": 210,
+    "sentence": "He assured me ___ his help.",
+    "answer": "of",
+    "rule": "Assure of (নিশ্চয়তা দেওয়া)"
+  },
+  {
+    "id": 211,
+    "sentence": "He was astonished ___ his success.",
+    "answer": "at",
+    "rule": "Astonished at (বিস্মিত)"
+  },
+  {
+    "id": 212,
+    "sentence": "He availed himself ___ the opportunity.",
+    "answer": "of",
+    "rule": "Avail of (সুযোগ গ্রহণ করা)"
+  },
+  {
+    "id": 213,
+    "sentence": "She is blessed ___ a son.",
+    "answer": "with",
+    "rule": "Blessed with (সন্তান লাভ করা/অধিকারী হওয়া)"
+  },
+  {
+    "id": 214,
+    "sentence": "He is busy ___ his work.",
+    "answer": "with",
+    "rule": "Busy with (ব্যস্ত)"
+  },
+  {
+    "id": 215,
+    "sentence": "He is capable ___ doing this.",
+    "answer": "of",
+    "rule": "Capable of (সক্ষম)"
+  },
+  {
+    "id": 216,
+    "sentence": "I don't care ___ your opinion.",
+    "answer": "for",
+    "rule": "Care for (পরোয়া করা)"
+  },
+  {
+    "id": 217,
+    "sentence": "The table is covered ___ dust.",
+    "answer": "with",
+    "rule": "Covered with (ঢাকা)"
+  },
+  {
+    "id": 218,
+    "sentence": "He was cured ___ the disease.",
+    "answer": "of",
+    "rule": "Cured of (আরোগ্য লাভ করা)"
+  },
+  {
+    "id": 219,
+    "sentence": "He deals ___ rice.",
+    "answer": "in",
+    "rule": "Deal in (ব্যবসায় করা)"
+  },
+  {
+    "id": 220,
+    "sentence": "He deals well ___ the customers.",
+    "answer": "with",
+    "rule": "Deal with (আচরণ করা)"
+  },
+  {
+    "id": 221,
+    "sentence": "He was deprived ___ his property.",
+    "answer": "of",
+    "rule": "Deprived of (বঞ্চিত)"
+  },
+  {
+    "id": 222,
+    "sentence": "I have no desire ___ wealth.",
+    "answer": "for",
+    "rule": "Desire for (ইচ্ছা/আকাঙ্ক্ষা)"
+  },
+  {
+    "id": 223,
+    "sentence": "He is different ___ his brother.",
+    "answer": "from",
+    "rule": "Different from (ভিন্ন)"
+  },
+  {
+    "id": 224,
+    "sentence": "He is dull ___ hearing.",
+    "answer": "of",
+    "rule": "Dull of (কানে কম শোনা)"
+  },
+  {
+    "id": 225,
+    "sentence": "He is eligible ___ the post.",
+    "answer": "for",
+    "rule": "Eligible for (যোগ্য)"
+  },
+  {
+    "id": 226,
+    "sentence": "He was engaged ___ writing a book.",
+    "answer": "in",
+    "rule": "Engaged in (নিযুক্ত/ব্যস্ত)"
+  },
+  {
+    "id": 227,
+    "sentence": "She is engaged ___ Mr. Khan.",
+    "answer": "to",
+    "rule": "Engaged to (বাগদান সম্পন্ন)"
+  },
+  {
+    "id": 228,
+    "sentence": "I am envious ___ his success.",
+    "answer": "of",
+    "rule": "Envious of (ঈর্ষান্বিত)"
+  },
+  {
+    "id": 229,
+    "sentence": "He escaped ___ the jail.",
+    "answer": "from",
+    "rule": "Escape from (পালানো)"
+  },
+  {
+    "id": 230,
+    "sentence": "This is an exception ___ the rule.",
+    "answer": "to",
+    "rule": "Exception to (ব্যতিক্রম)"
+  },
+  {
+    "id": 231,
+    "sentence": "Please excuse me ___ coming late.",
+    "answer": "for",
+    "rule": "Excuse for (কৈফিয়ত/ক্ষমা)"
+  },
+  {
+    "id": 232,
+    "sentence": "I have faith ___ him.",
+    "answer": "in",
+    "rule": "Faith in (বিশ্বাস)"
+  },
+  {
+    "id": 233,
+    "sentence": "I am familiar ___ him.",
+    "answer": "with",
+    "rule": "Familiar with (পরিচিত - ব্যক্তি)"
+  },
+  {
+    "id": 234,
+    "sentence": "His face is familiar ___ me.",
+    "answer": "to",
+    "rule": "Familiar to (পরিচিত - বস্তু/বিষয়)"
+  },
+  {
+    "id": 235,
+    "sentence": "The bucket is filled ___ water.",
+    "answer": "with",
+    "rule": "Filled with (পূর্ণ)"
+  },
+  {
+    "id": 236,
+    "sentence": "Fire is good ___ winter.",
+    "answer": "for",
+    "rule": "Good for (উপকারী)"
+  },
+  {
+    "id": 237,
+    "sentence": "I am grateful to you ___ your help.",
+    "answer": "for",
+    "rule": "Grateful for (কোনো কিছুর জন্য কৃতজ্ঞ)"
+  },
+  {
+    "id": 238,
+    "sentence": "He is guilty ___ misconduct.",
+    "answer": "of",
+    "rule": "Guilty of (দোষী)"
+  },
+  {
+    "id": 239,
+    "sentence": "He hankers ___ money.",
+    "answer": "after",
+    "rule": "Hanker after (লোভ করা/পিছনে ছোটা)"
+  },
+  {
+    "id": 240,
+    "sentence": "He is the heir ___ the property.",
+    "answer": "to",
+    "rule": "Heir to (উত্তরাধিকারী)"
+  },
+  {
+    "id": 241,
+    "sentence": "There is no hindrance ___ his success.",
+    "answer": "to",
+    "rule": "Hindrance to (বাধা)"
+  },
+  {
+    "id": 242,
+    "sentence": "I am hopeful ___ success.",
+    "answer": "of",
+    "rule": "Hopeful of (আশাবাদী)"
+  },
+  {
+    "id": 243,
+    "sentence": "He is ignorant ___ the fact.",
+    "answer": "of",
+    "rule": "Ignorant of (অজ্ঞ)"
+  },
+  {
+    "id": 244,
+    "sentence": "He imposed the tax ___ us.",
+    "answer": "on",
+    "rule": "Impose on (চাপিয়ে দেওয়া)"
+  },
+  {
+    "id": 245,
+    "sentence": "I am indebted ___ you for this.",
+    "answer": "to",
+    "rule": "Indebted to (ঋণী)"
+  },
+  {
+    "id": 246,
+    "sentence": "He indulged ___ gambling.",
+    "answer": "in",
+    "rule": "Indulge in (আসক্ত হওয়া/জড়িয়ে পড়া)"
+  },
+  {
+    "id": 247,
+    "sentence": "Don't interfere ___ my business.",
+    "answer": "in",
+    "rule": "Interfere in (হস্তক্ষেপ করা - কাজে)"
+  },
+  {
+    "id": 248,
+    "sentence": "Don't interfere ___ me.",
+    "answer": "with",
+    "rule": "Interfere with (হস্তক্ষেপ করা/বিরক্ত করা - ব্যক্তি বা বস্তু)"
+  },
+  {
+    "id": 249,
+    "sentence": "He introduced me ___ his friend.",
+    "answer": "to",
+    "rule": "Introduce to (পরিচয় করিয়ে দেওয়া)"
+  },
+  {
+    "id": 250,
+    "sentence": "I invited him ___ dinner.",
+    "answer": "to",
+    "rule": "Invite to (নিমন্ত্রণ করা)"
+  },
+  {
+    "id": 251,
+    "sentence": "He was absolved ___ the blame.",
+    "answer": "from",
+    "rule": "Absolve from (দোষ বা দায় থেকে মুক্ত করা)"
+  },
+  {
+    "id": 252,
+    "sentence": "The river abounds ___ fish.",
+    "answer": "with",
+    "rule": "Abound with (প্রচুর পরিমাণে থাকা - স্থান আগে থাকলে)"
+  },
+  {
+    "id": 253,
+    "sentence": "Fish abounds ___ this river.",
+    "answer": "in",
+    "rule": "Abound in (প্রচুর পরিমাণে থাকা - বস্তু আগে থাকলে)"
+  },
+  {
+    "id": 254,
+    "sentence": "I cannot accede ___ your request.",
+    "answer": "to",
+    "rule": "Accede to (রাজি হওয়া/সম্মত হওয়া)"
+  },
+  {
+    "id": 255,
+    "sentence": "You must adapt yourself ___ the new situation.",
+    "answer": "to",
+    "rule": "Adapt to (খাপ খাইয়ে নেওয়া)"
+  },
+  {
+    "id": 256,
+    "sentence": "He is adept ___ painting.",
+    "answer": "in",
+    "rule": "Adept in (শিল্প বা বিষয়ে দক্ষ)"
+  },
+  {
+    "id": 257,
+    "sentence": "Your conduct admits ___ no excuse.",
+    "answer": "of",
+    "rule": "Admit of (সুযোগ বা অবকাশ থাকা)"
+  },
+  {
+    "id": 258,
+    "sentence": "I have no antipathy ___ him.",
+    "answer": "to",
+    "rule": "Antipathy to/against (বিদ্বেষ/অপছন্দ)"
+  },
+  {
+    "id": 259,
+    "sentence": "He apprised me ___ the matter.",
+    "answer": "of",
+    "rule": "Apprise of (অবহিত করা/জানানো)"
+  },
+  {
+    "id": 260,
+    "sentence": "The man aspired ___ fame.",
+    "answer": "after",
+    "rule": "Aspire after (কোনো কিছুর জন্য উচ্চাকাঙ্ক্ষা করা)"
+  },
+  {
+    "id": 261,
+    "sentence": "I assented ___ his proposal.",
+    "answer": "to",
+    "rule": "Assent to (সম্মত হওয়া)"
+  },
+  {
+    "id": 262,
+    "sentence": "He is averse ___ hard work.",
+    "answer": "to",
+    "rule": "Averse to (বিমুখ/অনিচ্ছুক)"
+  },
+  {
+    "id": 263,
+    "sentence": "Prejudice is a bar ___ progress.",
+    "answer": "to",
+    "rule": "Bar to (প্রতিবন্ধক/বাধা)"
+  },
+  {
+    "id": 264,
+    "sentence": "The boy is bent ___ mischief.",
+    "answer": "on",
+    "rule": "Bent on (ঝোঁক থাকা/মনস্থির করা)"
+  },
+  {
+    "id": 265,
+    "sentence": "He was bereft ___ hope.",
+    "answer": "of",
+    "rule": "Bereft of (বঞ্চিত/শূন্য)"
+  },
+  {
+    "id": 266,
+    "sentence": "The title was bestowed ___ him.",
+    "answer": "on",
+    "rule": "Bestow on (প্রদান করা)"
+  },
+  {
+    "id": 267,
+    "sentence": "He blushed ___ shame.",
+    "answer": "with",
+    "rule": "Blush with (লজ্জায় লাল হওয়া)"
+  },
+  {
+    "id": 268,
+    "sentence": "He is callous ___ my suffering.",
+    "answer": "to",
+    "rule": "Callous to (অনুভূতিহীন/উদাসীন)"
+  },
+  {
+    "id": 269,
+    "sentence": "He canvassed ___ the vote.",
+    "answer": "for",
+    "rule": "Canvass for (ভোট চাওয়া)"
+  },
+  {
+    "id": 270,
+    "sentence": "The baby clings ___ its mother.",
+    "answer": "to",
+    "rule": "Cling to (লেগে থাকা/আঁকড়ে ধরা)"
+  },
+  {
+    "id": 271,
+    "sentence": "Your opinion coincides ___ mine.",
+    "answer": "with",
+    "rule": "Coincide with (মিলে যাওয়া/এক হওয়া)"
+  },
+  {
+    "id": 272,
+    "sentence": "He committed the poem ___ memory.",
+    "answer": "to",
+    "rule": "Commit to memory (মুখস্থ করা)"
+  },
+  {
+    "id": 273,
+    "sentence": "His conduct is not compatible ___ his words.",
+    "answer": "with",
+    "rule": "Compatible with (সামঞ্জস্যপূর্ণ)"
+  },
+  {
+    "id": 274,
+    "sentence": "He compensated me ___ the loss.",
+    "answer": "for",
+    "rule": "Compensate for (ক্ষতিপূরণ দেওয়া)"
+  },
+  {
+    "id": 275,
+    "sentence": "He is competent ___ the post.",
+    "answer": "for",
+    "rule": "Competent for (উপযুক্ত/দক্ষ)"
+  },
+  {
+    "id": 276,
+    "sentence": "We must comply ___ the rules.",
+    "answer": "with",
+    "rule": "Comply with (মেনে চলা)"
+  },
+  {
+    "id": 277,
+    "sentence": "Fresh air is conducive ___ health.",
+    "answer": "to",
+    "rule": "Conducive to (উপকারী/সহায়ক)"
+  },
+  {
+    "id": 278,
+    "sentence": "I confided the secret ___ him.",
+    "answer": "to",
+    "rule": "Confide to (গোপন কথা প্রকাশ করা)"
+  },
+  {
+    "id": 279,
+    "sentence": "I confide ___ his honesty.",
+    "answer": "in",
+    "rule": "Confide in (বিশ্বাস স্থাপন করা)"
+  },
+  {
+    "id": 280,
+    "sentence": "He is confined ___ bed.",
+    "answer": "to",
+    "rule": "Confined to (শয্যাশায়ী/আবদ্ধ)"
+  },
+  {
+    "id": 281,
+    "sentence": "The climate is congenial ___ my health.",
+    "answer": "to",
+    "rule": "Congenial to (উপযোগী/স্বাস্থ্যকর)"
+  },
+  {
+    "id": 282,
+    "sentence": "He connived ___ his son's fault.",
+    "answer": "at",
+    "rule": "Connive at (দেখেও না দেখার ভান করা)"
+  },
+  {
+    "id": 283,
+    "sentence": "Happiness consists ___ contentment.",
+    "answer": "in",
+    "rule": "Consist in (নিহিত থাকা)"
+  },
+  {
+    "id": 284,
+    "sentence": "This result is contrary ___ expectation.",
+    "answer": "to",
+    "rule": "Contrary to (বিপরীত)"
+  },
+  {
+    "id": 285,
+    "sentence": "He cannot cope ___ the situation.",
+    "answer": "with",
+    "rule": "Cope with (সামলানো - 'cope up' ভুল প্রয়োগ)"
+  },
+  {
+    "id": 286,
+    "sentence": "Her dress corresponds ___ her personality.",
+    "answer": "to",
+    "rule": "Correspond to (সামঞ্জস্যপূর্ণ হওয়া)"
+  },
+  {
+    "id": 287,
+    "sentence": "I correspond ___ him regularly.",
+    "answer": "with",
+    "rule": "Correspond with (চিঠিপত্র আদান-প্রদান করা)"
+  },
+  {
+    "id": 288,
+    "sentence": "He craves ___ wealth.",
+    "answer": "for",
+    "rule": "Crave for (তীব্র আকাঙ্ক্ষা করা)"
+  },
+  {
+    "id": 289,
+    "sentence": "There is no cure ___ this disease.",
+    "answer": "for",
+    "rule": "Cure for (প্রতিকার - Noun হিসেবে)"
+  },
+  {
+    "id": 290,
+    "sentence": "He dealt the cards ___ the players.",
+    "answer": "to",
+    "rule": "Deal to (বন্টন করা)"
+  },
+  {
+    "id": 291,
+    "sentence": "He is deaf ___ my advice.",
+    "answer": "to",
+    "rule": "Deaf to (কর্ণপাত না করা)"
+  },
+  {
+    "id": 292,
+    "sentence": "I differ ___ you on this point.",
+    "answer": "with",
+    "rule": "Differ with (ভিন্নমত পোষণ করা - ব্যক্তির সাথে)"
+  },
+  {
+    "id": 293,
+    "sentence": "This pen differs ___ that one.",
+    "answer": "from",
+    "rule": "Differ from (আলাদা হওয়া - বস্তুর ক্ষেত্রে)"
+  },
+  {
+    "id": 294,
+    "sentence": "He dispensed ___ my services.",
+    "answer": "with",
+    "rule": "Dispense with (অপ্রয়োজনীয় মনে করে ত্যাগ করা)"
+  },
+  {
+    "id": 295,
+    "sentence": "I was disgusted ___ him.",
+    "answer": "with",
+    "rule": "Disgusted with (বিরক্ত - ব্যক্তির ওপর)"
+  },
+  {
+    "id": 296,
+    "sentence": "I was disgusted ___ his behavior.",
+    "answer": "at",
+    "rule": "Disgusted at (বিরক্ত - আচরণের ওপর)"
+  },
+  {
+    "id": 297,
+    "sentence": "He is disqualified ___ the post.",
+    "answer": "for",
+    "rule": "Disqualified for (অযোগ্য)"
+  },
+  {
+    "id": 298,
+    "sentence": "He dwelled ___ the subject for long.",
+    "answer": "on",
+    "rule": "Dwell on/upon (আলোচনা করা/ভাবা)"
+  },
+  {
+    "id": 299,
+    "sentence": "He is easy ___ access.",
+    "answer": "of",
+    "rule": "Easy of access (সহজলভ্য)"
+  },
+  {
+    "id": 300,
+    "sentence": "I have no enmity ___ him.",
+    "answer": "towards",
+    "rule": "Enmity towards/against (শত্রুতা)"
+  }
 ]
