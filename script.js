@@ -2,7 +2,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getFirestore, collection, addDoc, getDocs, query, orderBy, limit } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
-// TODO: নিচে তোমার Firebase Console থেকে পাওয়া Config বসাও
 const firebaseConfig = {
   apiKey: "AIzaSyC7Z-wAv-fPTWw0x3nuu34jYVB5QPdLTg8",
   authDomain: "quizresults-7e1c4.firebaseapp.com",
@@ -36,6 +35,7 @@ window.startQuiz = async function() {
     if(type === "preposition") fileName = "preposition.json";
     else if(type === "tagQuestion") fileName = "tagQuestion.json";
     else if(type === "connectors") fileName = "connectors.json";
+    else if(type === "rightVerbs") fileName = "rightFormOfVerbs.json";
     else fileName = "suffPrefix.json";
 
     try {
@@ -94,17 +94,22 @@ window.submitQuiz = async function() {
     const formData = new FormData(document.getElementById('quizForm'));
     let score = 0;
 
-    // Check Answers
+    // submitQuiz
     selectedQuiz.forEach((q,i)=>{
         const userAnswer = formData.get(`q${i}`)?.trim();
         const div = document.getElementById(`qdiv${i}`);
         div.querySelectorAll('p.feedback').forEach(p => p.remove());
 
+        // রুলস চেক করা: যদি JSON-এ rule থাকে, তবে সেটা ভেরিয়েবলে রাখব
+        const ruleText = q.rule ? `<br><small class="rule-text">💡 Rule: ${q.rule}</small>` : "";
+
         if(userAnswer && userAnswer.toLowerCase() === q.answer.toLowerCase()) {
             score++;
+            // সঠিক হলে শুধু উত্তর দেখাবে (চাইলে এখানেও ruleText যোগ করতে পারো)
             div.innerHTML += `<p class="feedback green">✓ Correct. Answer: <b>${q.answer}</b></p>`;
         } else {
-            div.innerHTML += `<p class="feedback red">✗ Wrong. You: <b>${userAnswer || '-'}</b> | Ans: <b>${q.answer}</b></p>`;
+            // ভুল হলে উত্তর + রুলস দেখাবে
+            div.innerHTML += `<p class="feedback red">✗ Wrong. You: <b>${userAnswer || '-'}</b> | Ans: <b>${q.answer}</b> ${ruleText}</p>`;
         }
     });
 
