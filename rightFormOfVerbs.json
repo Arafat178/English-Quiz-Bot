@@ -1,0 +1,2103 @@
+[
+  {
+    "id": 1,
+    "sentence": "He ___ (go) to school every day.",
+    "answer": "goes",
+    "rule": "Simple Present (He/She/It + verb + s/es)"
+  },
+  {
+    "id": 2,
+    "sentence": "They ___ (play) football now.",
+    "answer": "are playing",
+    "rule": "Present Continuous (am/is/are + verb+ing)"
+  },
+  {
+    "id": 3,
+    "sentence": "I ___ (finish) my homework yesterday.",
+    "answer": "finished",
+    "rule": "Simple Past (regular verb + ed)"
+  },
+  {
+    "id": 4,
+    "sentence": "She ___ (be) very tired last night.",
+    "answer": "was",
+    "rule": "Past form of ‘be’ (was for singular)"
+  },
+  {
+    "id": 5,
+    "sentence": "They ___ (not/go) to market tomorrow.",
+    "answer": "will not go",
+    "rule": "Future Simple (will + base form)"
+  },
+  {
+    "id": 6,
+    "sentence": "The sun ___ (rise) in the east.",
+    "answer": "rises",
+    "rule": "Universal truth (simple present, verb+s/es)"
+  },
+  {
+    "id": 7,
+    "sentence": "He ___ (sleep) when I called him.",
+    "answer": "was sleeping",
+    "rule": "Past Continuous (was/were + verb+ing)"
+  },
+  {
+    "id": 8,
+    "sentence": "We ___ (live) here since 2010.",
+    "answer": "have lived",
+    "rule": "Present Perfect (have/has + past participle)"
+  },
+  {
+    "id": 9,
+    "sentence": "She ___ (write) a letter at this moment.",
+    "answer": "is writing",
+    "rule": "Present Continuous (am/is/are + verb+ing)"
+  },
+  {
+    "id": 10,
+    "sentence": "They ___ (not/see) him for years.",
+    "answer": "have not seen",
+    "rule": "Present Perfect Negative (have/has + not + past participle)"
+  },
+  {
+    "id": 11,
+    "sentence": "She ___ (wait) for us when we arrived.",
+    "answer": "was waiting",
+    "rule": "Past Continuous"
+  },
+  {
+    "id": 12,
+    "sentence": "If you study, you ___ (pass).",
+    "answer": "will pass",
+    "rule": "First Conditional (If + Present, will + verb)"
+  },
+  {
+    "id": 13,
+    "sentence": "I ___ (read) this book three times.",
+    "answer": "have read",
+    "rule": "Present Perfect (experience)"
+  },
+  {
+    "id": 14,
+    "sentence": "She ___ (run) faster than me.",
+    "answer": "runs",
+    "rule": "Simple Present with singular subject"
+  },
+  {
+    "id": 15,
+    "sentence": "Look! The train ___ (come).",
+    "answer": "is coming",
+    "rule": "Present Continuous used for immediate reaction"
+  },
+  {
+    "id": 16,
+    "sentence": "Water ___ (boil) at 100°C.",
+    "answer": "boils",
+    "rule": "Universal truth (simple present)"
+  },
+  {
+    "id": 17,
+    "sentence": "The players ___ (practice) since morning.",
+    "answer": "have been practicing",
+    "rule": "Present Perfect Continuous"
+  },
+  {
+    "id": 18,
+    "sentence": "The car ___ (repair) now.",
+    "answer": "is being repaired",
+    "rule": "Passive Voice (Present Continuous Passive)"
+  },
+  {
+    "id": 19,
+    "sentence": "The cake ___ (make) yesterday.",
+    "answer": "was made",
+    "rule": "Passive Voice (Past Simple Passive)"
+  },
+  {
+    "id": 20,
+    "sentence": "I wish I ___ (be) a bird.",
+    "answer": "were",
+    "rule": "Subjunctive mood (imaginary wish)"
+  },
+  {
+    "id": 21,
+    "sentence": "She ___ (can/solve) the problem easily.",
+    "answer": "can solve",
+    "rule": "Modal verb + base form"
+  },
+  {
+    "id": 22,
+    "sentence": "By next year, he ___ (complete) his degree.",
+    "answer": "will have completed",
+    "rule": "Future Perfect (will have + past participle)"
+  },
+  {
+    "id": 23,
+    "sentence": "I ___ (meet) him tomorrow.",
+    "answer": "will meet",
+    "rule": "Simple Future"
+  },
+  {
+    "id": 24,
+    "sentence": "Neither of the boys ___ (be) present.",
+    "answer": "was",
+    "rule": "Neither + singular subject → singular verb"
+  },
+  {
+    "id": 25,
+    "sentence": "The news ___ (be) true.",
+    "answer": "is",
+    "rule": "Uncountable subject takes singular verb"
+  },
+  {
+    "id": 26,
+    "sentence": "If I ___ (know) the truth, I would have told you.",
+    "answer": "had known",
+    "rule": "Third Conditional (If + Past Perfect, would have + past participle)"
+  },
+  {
+    "id": 27,
+    "sentence": "He ___ (not/go) to school last week.",
+    "answer": "did not go",
+    "rule": "Past Simple Negative (did not + base form)"
+  },
+  {
+    "id": 28,
+    "sentence": "We ___ (walk) five miles already.",
+    "answer": "have walked",
+    "rule": "Present Perfect"
+  },
+  {
+    "id": 29,
+    "sentence": "Birds ___ (fly) in the sky.",
+    "answer": "fly",
+    "rule": "Plural subject + base verb"
+  },
+  {
+    "id": 30,
+    "sentence": "I ___ (be) busy now.",
+    "answer": "am",
+    "rule": "Present form of ‘be’ with I"
+  },
+  {
+    "id": 31,
+    "sentence": "One of the boys ___ (be) absent today.",
+    "answer": "is",
+    "rule": "One of + plural noun = Singular Verb"
+  },
+  {
+    "id": 32,
+    "sentence": "Fifty miles ___ (be) a long distance.",
+    "answer": "is",
+    "rule": "Distance/Money/Time as a unit = Singular Verb"
+  },
+  {
+    "id": 33,
+    "sentence": "The police ___ (arrest) the thief yesterday.",
+    "answer": "arrested",
+    "rule": "Simple Past (Yesterday indicates past action)"
+  },
+  {
+    "id": 34,
+    "sentence": "While I ___ (walk) in the garden, a snake bit me.",
+    "answer": "was walking",
+    "rule": "While + Past Continuous tense"
+  },
+  {
+    "id": 35,
+    "sentence": "He talks as if he ___ (know) everything.",
+    "answer": "knew",
+    "rule": "As if + Past Simple (unreal situation)"
+  },
+  {
+    "id": 36,
+    "sentence": "It is many years since I ___ (meet) you.",
+    "answer": "met",
+    "rule": "Since preceded by Present Tense takes Past Simple"
+  },
+  {
+    "id": 37,
+    "sentence": "It was long since I ___ (see) her.",
+    "answer": "had seen",
+    "rule": "Since preceded by Past Tense takes Past Perfect"
+  },
+  {
+    "id": 38,
+    "sentence": "I saw him ___ (go) to the market.",
+    "answer": "going",
+    "rule": "See/Watch/Hear + object + verb-ing"
+  },
+  {
+    "id": 39,
+    "sentence": "He made me ___ (laugh).",
+    "answer": "laugh",
+    "rule": "Causative verb 'make' takes base form"
+  },
+  {
+    "id": 40,
+    "sentence": "I had my hair ___ (cut).",
+    "answer": "cut",
+    "rule": "Causative 'have' + object + past participle"
+  },
+  {
+    "id": 41,
+    "sentence": "If I were a king, I ___ (help) the poor.",
+    "answer": "would help",
+    "rule": "Second Conditional (If + Past Simple, would + base form)"
+  },
+  {
+    "id": 42,
+    "sentence": "Had I been rich, I ___ (buy) a car.",
+    "answer": "would have bought",
+    "rule": "Third Conditional (Had + Past Participle)"
+  },
+  {
+    "id": 43,
+    "sentence": "The patient died after the doctor ___ (come).",
+    "answer": "had come",
+    "rule": "Past Perfect happens before Past Simple (After + Past Perfect)"
+  },
+  {
+    "id": 44,
+    "sentence": "The patient had died before the doctor ___ (come).",
+    "answer": "came",
+    "rule": "Before + Past Simple"
+  },
+  {
+    "id": 45,
+    "sentence": "Would you mind ___ (open) the door?",
+    "answer": "opening",
+    "rule": "Would you mind + verb-ing"
+  },
+  {
+    "id": 46,
+    "sentence": "I am used to ___ (work) hard.",
+    "answer": "working",
+    "rule": "Be used to + verb-ing"
+  },
+  {
+    "id": 47,
+    "sentence": "He used to ___ (walk) in the morning.",
+    "answer": "walk",
+    "rule": "Used to (past habit) + base form"
+  },
+  {
+    "id": 48,
+    "sentence": "It is high time we ___ (change) our bad habits.",
+    "answer": "changed",
+    "rule": "It is high time + Past Simple"
+  },
+  {
+    "id": 49,
+    "sentence": "Lest you ___ (fail), study hard.",
+    "answer": "should fail",
+    "rule": "Lest + subject + should + base verb"
+  },
+  {
+    "id": 50,
+    "sentence": "Bread and butter ___ (be) my favorite breakfast.",
+    "answer": "is",
+    "rule": "Pair nouns expressing one idea = Singular Verb"
+  },
+  {
+    "id": 51,
+    "sentence": "Slow and steady ___ (win) the race.",
+    "answer": "wins",
+    "rule": "Proverb/Singular idea = Singular verb"
+  },
+  {
+    "id": 52,
+    "sentence": "There ___ (be) a high school in our village.",
+    "answer": "is",
+    "rule": "‘There’ takes verb according to the following subject (a high school)"
+  },
+  {
+    "id": 53,
+    "sentence": "There ___ (be) two primary schools in our area.",
+    "answer": "are",
+    "rule": "‘There’ takes verb according to the following subject (two schools)"
+  },
+  {
+    "id": 54,
+    "sentence": "Usually, he ___ (get) up early.",
+    "answer": "gets",
+    "rule": "Usually/Always/Often = Simple Present"
+  },
+  {
+    "id": 55,
+    "sentence": "Don't disturb me, I ___ (do) my homework.",
+    "answer": "am doing",
+    "rule": "Action happening right now = Present Continuous"
+  },
+  {
+    "id": 56,
+    "sentence": "Have you ever ___ (be) to Cox's Bazar?",
+    "answer": "been",
+    "rule": "Present Perfect (Have + Past Participle)"
+  },
+  {
+    "id": 57,
+    "sentence": "I just ___ (receive) your letter.",
+    "answer": "have received",
+    "rule": "Just/Just now = Present Perfect"
+  },
+  {
+    "id": 58,
+    "sentence": "Every mother ___ (love) her child.",
+    "answer": "loves",
+    "rule": "Every + noun = Singular Verb"
+  },
+  {
+    "id": 59,
+    "sentence": "No sooner had he seen the police than he ___ (run) away.",
+    "answer": "ran",
+    "rule": "No sooner ... than + Past Simple"
+  },
+  {
+    "id": 60,
+    "sentence": "Scarcely had we reached the station when the train ___ (leave).",
+    "answer": "left",
+    "rule": "Scarcely ... when + Past Simple"
+  },
+  {
+    "id": 61,
+    "sentence": "I looking forward to ___ (hear) from you.",
+    "answer": "hearing",
+    "rule": "Look forward to + verb-ing"
+  },
+  {
+    "id": 62,
+    "sentence": "He prevented me from ___ (go) there.",
+    "answer": "going",
+    "rule": "Preposition (from) + verb-ing"
+  },
+  {
+    "id": 63,
+    "sentence": "English is ___ (speak) all over the world.",
+    "answer": "spoken",
+    "rule": "Passive Voice (Universal fact)"
+  },
+  {
+    "id": 64,
+    "sentence": "Romeo and Juliet ___ (be) written by Shakespeare.",
+    "answer": "was",
+    "rule": "Name of a book = Singular Verb"
+  },
+  {
+    "id": 65,
+    "sentence": "The rich ___ (be) not always happy.",
+    "answer": "are",
+    "rule": "The + Adjective (The rich) = Plural Verb"
+  },
+  {
+    "id": 66,
+    "sentence": "The poor ___ (suffer) in winter.",
+    "answer": "suffer",
+    "rule": "The poor (class of people) = Plural Verb"
+  },
+  {
+    "id": 67,
+    "sentence": "Physics ___ (be) my favorite subject.",
+    "answer": "is",
+    "rule": "Names of subjects ending in 's' are Singular"
+  },
+  {
+    "id": 68,
+    "sentence": "Cattle ___ (be) grazing in the field.",
+    "answer": "are",
+    "rule": "Cattle is always plural"
+  },
+  {
+    "id": 69,
+    "sentence": "The news ___ (shock) me yesterday.",
+    "answer": "shocked",
+    "rule": "Simple Past tense"
+  },
+  {
+    "id": 70,
+    "sentence": "Let him ___ (do) the work.",
+    "answer": "do",
+    "rule": "Let + object + base form"
+  },
+  {
+    "id": 71,
+    "sentence": "He insisted on my ___ (go) there.",
+    "answer": "going",
+    "rule": "Preposition (on) + verb-ing"
+  },
+  {
+    "id": 72,
+    "sentence": "We decided ___ (start) our journey.",
+    "answer": "to start",
+    "rule": "Decide takes infinitive (to + verb)"
+  },
+  {
+    "id": 73,
+    "sentence": "He stopped ___ (smoke).",
+    "answer": "smoking",
+    "rule": "Stop + verb-ing (cease an action)"
+  },
+  {
+    "id": 74,
+    "sentence": "I want ___ (help) you.",
+    "answer": "to help",
+    "rule": "Want takes infinitive (to + verb)"
+  },
+  {
+    "id": 75,
+    "sentence": "The virtuous ___ (be) blessed.",
+    "answer": "are",
+    "rule": "The + adjective = Plural"
+  },
+  {
+    "id": 76,
+    "sentence": "Neither he nor his brothers ___ (be) present.",
+    "answer": "were",
+    "rule": "Neither/nor takes verb matching the second subject (brothers)"
+  },
+  {
+    "id": 77,
+    "sentence": "Either he or I ___ (be) wrong.",
+    "answer": "am",
+    "rule": "Either/or takes verb matching the second subject (I)"
+  },
+  {
+    "id": 78,
+    "sentence": "Many a boy ___ (ruin) his life.",
+    "answer": "ruins",
+    "rule": "Many a + singular noun = Singular Verb"
+  },
+  {
+    "id": 79,
+    "sentence": "A number of students ___ (be) present.",
+    "answer": "are",
+    "rule": "A number of = Plural Verb"
+  },
+  {
+    "id": 80,
+    "sentence": "The number of students ___ (be) increasing.",
+    "answer": "is",
+    "rule": "The number of = Singular Verb"
+  },
+  {
+    "id": 81,
+    "sentence": "He had better ___ (go) home.",
+    "answer": "go",
+    "rule": "Had better + base form"
+  },
+  {
+    "id": 82,
+    "sentence": "I would rather ___ (die) than beg.",
+    "answer": "die",
+    "rule": "Would rather + base form"
+  },
+  {
+    "id": 83,
+    "sentence": "It is time we ___ (start) the work.",
+    "answer": "started",
+    "rule": "It is time (with subject) + Past Simple"
+  },
+  {
+    "id": 84,
+    "sentence": "It is time to ___ (leave) the place.",
+    "answer": "leave",
+    "rule": "It is time (without subject) + to + base form"
+  },
+  {
+    "id": 85,
+    "sentence": "He speaks as though he ___ (be) a madman.",
+    "answer": "were",
+    "rule": "As though + Past Simple 'be' becomes 'were'"
+  },
+  {
+    "id": 86,
+    "sentence": "Ten years ___ (pass) since I met you.",
+    "answer": "have passed",
+    "rule": "Present Perfect with since"
+  },
+  {
+    "id": 87,
+    "sentence": "Why did you ___ (beat) him?",
+    "answer": "beat",
+    "rule": "Do/Does/Did + base form"
+  },
+  {
+    "id": 88,
+    "sentence": "Does he ___ (go) to school?",
+    "answer": "go",
+    "rule": "Does + base form (s/es removed)"
+  },
+  {
+    "id": 89,
+    "sentence": "I saw the bird ___ (fly).",
+    "answer": "flying",
+    "rule": "See + object + verb-ing"
+  },
+  {
+    "id": 90,
+    "sentence": "Having ___ (do) the work, he went home.",
+    "answer": "done",
+    "rule": "Having + Past Participle"
+  },
+  {
+    "id": 91,
+    "sentence": "To ___ (tell) the truth, he is honest.",
+    "answer": "tell",
+    "rule": "Infinitive (To + base form)"
+  },
+  {
+    "id": 92,
+    "sentence": "I went to the library with a view to ___ (read).",
+    "answer": "reading",
+    "rule": "With a view to + verb-ing"
+  },
+  {
+    "id": 93,
+    "sentence": "He went to market to ___ (buy) a shirt.",
+    "answer": "buy",
+    "rule": "To (purpose) + base form"
+  },
+  {
+    "id": 94,
+    "sentence": "I cannot help ___ (laugh).",
+    "answer": "laughing",
+    "rule": "Cannot help + verb-ing"
+  },
+  {
+    "id": 95,
+    "sentence": "He could not help ___ (shed) tears.",
+    "answer": "shedding",
+    "rule": "Could not help + verb-ing"
+  },
+  {
+    "id": 96,
+    "sentence": "If it rains, we ___ (not/play).",
+    "answer": "will not play",
+    "rule": "First Conditional Negative"
+  },
+  {
+    "id": 97,
+    "sentence": "Unless you work hard, you ___ (fail).",
+    "answer": "will fail",
+    "rule": "Unless (if not) + Present -> Future"
+  },
+  {
+    "id": 98,
+    "sentence": "Wait here until I ___ (return).",
+    "answer": "return",
+    "rule": "Until/Till connects similar tenses"
+  },
+  {
+    "id": 99,
+    "sentence": "Five years passed since his father ___ (die).",
+    "answer": "had died",
+    "rule": "Past Simple + Since + Past Perfect"
+  },
+  {
+    "id": 100,
+    "sentence": "The headmaster and secretary ___ (be) present.",
+    "answer": "is",
+    "rule": "One person (The + noun + and + noun) = Singular"
+  },
+  {
+    "id": 101,
+    "sentence": "The headmaster and the secretary ___ (be) present.",
+    "answer": "are",
+    "rule": "Two people (The + noun + and + the + noun) = Plural"
+  },
+  {
+    "id": 102,
+    "sentence": "Each of the boys ___ (get) a prize.",
+    "answer": "gets",
+    "rule": "Each/Every = Singular Verb"
+  },
+  {
+    "id": 103,
+    "sentence": "All that glitters ___ (be) not gold.",
+    "answer": "is",
+    "rule": "Proverb / Relative pronoun 'that' refers to 'All' (singular sense)"
+  },
+  {
+    "id": 104,
+    "sentence": "The color of his eyes ___ (be) blue.",
+    "answer": "is",
+    "rule": "Subject is 'color' (singular), not 'eyes'"
+  },
+  {
+    "id": 105,
+    "sentence": "The players in the field ___ (be) tired.",
+    "answer": "are",
+    "rule": "Subject is 'players' (plural)"
+  },
+  {
+    "id": 106,
+    "sentence": "Ill news ___ (run) fast.",
+    "answer": "runs",
+    "rule": "News is singular"
+  },
+  {
+    "id": 107,
+    "sentence": "We ___ (learn) English for ten years.",
+    "answer": "have been learning",
+    "rule": "Present Perfect Continuous (action started in past, still continuing)"
+  },
+  {
+    "id": 108,
+    "sentence": "It ___ (rain) since morning.",
+    "answer": "has been raining",
+    "rule": "Present Perfect Continuous with 'since'"
+  },
+  {
+    "id": 109,
+    "sentence": "I recently ___ (visit) the zoo.",
+    "answer": "have visited",
+    "rule": "Recently = Present Perfect"
+  },
+  {
+    "id": 110,
+    "sentence": "At this moment, we ___ (watch) TV.",
+    "answer": "are watching",
+    "rule": "At this moment = Present Continuous"
+  },
+  {
+    "id": 111,
+    "sentence": "Look! The baby ___ (cry).",
+    "answer": "is crying",
+    "rule": "Look! indicates action happening now"
+  },
+  {
+    "id": 112,
+    "sentence": "He usually ___ (drink) coffee.",
+    "answer": "drinks",
+    "rule": "Usually = Simple Present"
+  },
+  {
+    "id": 113,
+    "sentence": "If I had seen him, I ___ (tell) him the news.",
+    "answer": "would have told",
+    "rule": "Third Conditional"
+  },
+  {
+    "id": 114,
+    "sentence": "Had I known it before, I ___ (not/do) it.",
+    "answer": "would not have done",
+    "rule": "Third Conditional Negative"
+  },
+  {
+    "id": 115,
+    "sentence": "The work ___ (finish) by him.",
+    "answer": "was finished",
+    "rule": "Passive Voice (Past)"
+  },
+  {
+    "id": 116,
+    "sentence": "A song is being ___ (sing) by her.",
+    "answer": "sung",
+    "rule": "Passive Voice (Continuous -> being + V3)"
+  },
+  {
+    "id": 117,
+    "sentence": "English is ___ (speak) all over the world.",
+    "answer": "spoken",
+    "rule": "Passive Voice (Present)"
+  },
+  {
+    "id": 118,
+    "sentence": "The thief was ___ (catch) red-handed.",
+    "answer": "caught",
+    "rule": "Passive Voice (was + V3)"
+  },
+  {
+    "id": 119,
+    "sentence": "I get the letter ___ (write) by him.",
+    "answer": "written",
+    "rule": "Causative 'get' + object + past participle"
+  },
+  {
+    "id": 120,
+    "sentence": "He ran fast lest he ___ (miss) the train.",
+    "answer": "should miss",
+    "rule": "Lest + subject + should + verb"
+  },
+  {
+    "id": 121,
+    "sentence": "We suspect him to ___ (be) a thief.",
+    "answer": "be",
+    "rule": "Infinitive after object"
+  },
+  {
+    "id": 122,
+    "sentence": "She made the baby ___ (sleep).",
+    "answer": "sleep",
+    "rule": "Make + object + base verb"
+  },
+  {
+    "id": 123,
+    "sentence": "He kept me ___ (wait).",
+    "answer": "waiting",
+    "rule": "Keep + object + verb-ing"
+  },
+  {
+    "id": 124,
+    "sentence": "Do you enjoy ___ (teach)?",
+    "answer": "teaching",
+    "rule": "Enjoy + verb-ing"
+  },
+  {
+    "id": 125,
+    "sentence": "I finished ___ (read) the book.",
+    "answer": "reading",
+    "rule": "Finish + verb-ing"
+  },
+  {
+    "id": 126,
+    "sentence": "He promised ___ (help) me.",
+    "answer": "to help",
+    "rule": "Promise + infinitive"
+  },
+  {
+    "id": 127,
+    "sentence": "They planned ___ (go) on a picnic.",
+    "answer": "to go",
+    "rule": "Plan + infinitive"
+  },
+  {
+    "id": 128,
+    "sentence": "He denied ___ (steal) the money.",
+    "answer": "stealing",
+    "rule": "Deny + verb-ing"
+  },
+  {
+    "id": 129,
+    "sentence": "The man was accused of ___ (murder).",
+    "answer": "murdering",
+    "rule": "Preposition + verb-ing"
+  },
+  {
+    "id": 130,
+    "sentence": "He is capable of ___ (do) it.",
+    "answer": "doing",
+    "rule": "Capable of + verb-ing"
+  },
+  {
+    "id": 131,
+    "sentence": "By ___ (work) hard, you can succeed.",
+    "answer": "working",
+    "rule": "By + verb-ing (Gerund)"
+  },
+  {
+    "id": 132,
+    "sentence": "Without ___ (study), you cannot pass.",
+    "answer": "studying",
+    "rule": "Without + verb-ing"
+  },
+  {
+    "id": 133,
+    "sentence": "While ___ (walk), I found a purse.",
+    "answer": "walking",
+    "rule": "While + verb-ing (without subject)"
+  },
+  {
+    "id": 134,
+    "sentence": "The committee ___ (be) divided in their opinion.",
+    "answer": "are",
+    "rule": "Collective noun acting individually = Plural"
+  },
+  {
+    "id": 135,
+    "sentence": "The jury ___ (be) unanimous in its decision.",
+    "answer": "is",
+    "rule": "Collective noun acting as one = Singular"
+  },
+  {
+    "id": 136,
+    "sentence": "Two-thirds of the work ___ (be) done.",
+    "answer": "is",
+    "rule": "Fraction of singular noun = Singular"
+  },
+  {
+    "id": 137,
+    "sentence": "Two-thirds of the students ___ (be) absent.",
+    "answer": "are",
+    "rule": "Fraction of plural noun = Plural"
+  },
+  {
+    "id": 138,
+    "sentence": "Politics ___ (be) a dirty game.",
+    "answer": "is",
+    "rule": "Abstract noun ending in 's' = Singular"
+  },
+  {
+    "id": 139,
+    "sentence": "Gulliver's Travels ___ (be) a famous book.",
+    "answer": "is",
+    "rule": "Book title = Singular"
+  },
+  {
+    "id": 140,
+    "sentence": "He ___ (carry) a bag yesterday.",
+    "answer": "carried",
+    "rule": "Past Simple"
+  },
+  {
+    "id": 141,
+    "sentence": "If I ___ (be) you, I would accept the offer.",
+    "answer": "were",
+    "rule": "Second Conditional (Unreal)"
+  },
+  {
+    "id": 142,
+    "sentence": "He behaves as if he ___ (own) the house.",
+    "answer": "owned",
+    "rule": "As if + Past Simple"
+  },
+  {
+    "id": 143,
+    "sentence": "If he comes, I ___ (go).",
+    "answer": "will go",
+    "rule": "First Conditional"
+  },
+  {
+    "id": 144,
+    "sentence": "If he came, I ___ (go).",
+    "answer": "would go",
+    "rule": "Second Conditional"
+  },
+  {
+    "id": 145,
+    "sentence": "If he had come, I ___ (go).",
+    "answer": "would have gone",
+    "rule": "Third Conditional"
+  },
+  {
+    "id": 146,
+    "sentence": "The bank ___ (close) at 4 PM.",
+    "answer": "closes",
+    "rule": "Scheduled event (Simple Present)"
+  },
+  {
+    "id": 147,
+    "sentence": "I will wait until you ___ (finish).",
+    "answer": "finish",
+    "rule": "Future + Until + Present"
+  },
+  {
+    "id": 148,
+    "sentence": "He got the car ___ (repair).",
+    "answer": "repaired",
+    "rule": "Causative get + object + V3"
+  },
+  {
+    "id": 149,
+    "sentence": "I saw him ___ (run).",
+    "answer": "running",
+    "rule": "See + object + running (action in progress)"
+  },
+  {
+    "id": 150,
+    "sentence": "The bridge ___ (build) last year.",
+    "answer": "was built",
+    "rule": "Passive Voice (Past)"
+  },
+  {
+    "id": 151,
+    "sentence": "Rice is ___ (eat) in Bangladesh.",
+    "answer": "eaten",
+    "rule": "Passive Voice (Present)"
+  },
+  {
+    "id": 152,
+    "sentence": "The book ___ (print) now.",
+    "answer": "is being printed",
+    "rule": "Passive Voice (Present Continuous)"
+  },
+  {
+    "id": 153,
+    "sentence": "I suggest ___ (go) to the cinema.",
+    "answer": "going",
+    "rule": "Suggest + verb-ing"
+  },
+  {
+    "id": 154,
+    "sentence": "Do you mind ___ (move) a bit?",
+    "answer": "moving",
+    "rule": "Mind + verb-ing"
+  },
+  {
+    "id": 155,
+    "sentence": "He admitted ___ (steal) the watch.",
+    "answer": "stealing",
+    "rule": "Admit + verb-ing"
+  },
+  {
+    "id": 156,
+    "sentence": "He prefers reading to ___ (write).",
+    "answer": "writing",
+    "rule": "Prefer ... to + verb-ing"
+  },
+  {
+    "id": 157,
+    "sentence": "The scenery of Cox's Bazar ___ (be) charming.",
+    "answer": "is",
+    "rule": "Scenery is uncountable (Singular)"
+  },
+  {
+    "id": 158,
+    "sentence": "His hair ___ (be) black.",
+    "answer": "is",
+    "rule": "Hair is uncountable (Singular)"
+  },
+  {
+    "id": 159,
+    "sentence": "The wages of sin ___ (be) death.",
+    "answer": "is",
+    "rule": "Biblical/Proverbial phrase (Singular)"
+  },
+  {
+    "id": 160,
+    "sentence": "Mathematics ___ (be) difficult.",
+    "answer": "is",
+    "rule": "Subject ending in 's' (Singular)"
+  },
+  {
+    "id": 161,
+    "sentence": "Time and tide ___ (wait) for none.",
+    "answer": "wait",
+    "rule": "Compound subject considered plural here"
+  },
+  {
+    "id": 162,
+    "sentence": "Neither the chairman nor the members ___ (be) present.",
+    "answer": "are",
+    "rule": "Neither/Nor follows the second subject (members)"
+  },
+  {
+    "id": 163,
+    "sentence": "The girl with her sisters ___ (be) coming.",
+    "answer": "is",
+    "rule": "Subject 'The girl' is main (ignore 'with her sisters')"
+  },
+  {
+    "id": 164,
+    "sentence": "The box, including all the contents, ___ (be) stolen.",
+    "answer": "was",
+    "rule": "Subject 'The box' is main"
+  },
+  {
+    "id": 165,
+    "sentence": "Mr. Rahman, accompanied by his wife, ___ (be) here.",
+    "answer": "is",
+    "rule": "Accompanied by doesn't change number of subject"
+  },
+  {
+    "id": 166,
+    "sentence": "He ___ (lie) on the floor yesterday.",
+    "answer": "lay",
+    "rule": "Past tense of 'lie' (rest) is 'lay'"
+  },
+  {
+    "id": 167,
+    "sentence": "He ___ (lay) the book on the table.",
+    "answer": "laid",
+    "rule": "Past tense of 'lay' (put) is 'laid'"
+  },
+  {
+    "id": 168,
+    "sentence": "The hen has ___ (lay) an egg.",
+    "answer": "laid",
+    "rule": "Present perfect of 'lay' (put)"
+  },
+  {
+    "id": 169,
+    "sentence": "I ___ (hang) the picture on the wall.",
+    "answer": "hung",
+    "rule": "Past of hang (suspend) is hung"
+  },
+  {
+    "id": 170,
+    "sentence": "The murderer was ___ (hang).",
+    "answer": "hanged",
+    "rule": "Past of hang (execute) is hanged"
+  },
+  {
+    "id": 171,
+    "sentence": "She ___ (sing) a song now.",
+    "answer": "is singing",
+    "rule": "Present Continuous"
+  },
+  {
+    "id": 172,
+    "sentence": "Why ___ (be) you late?",
+    "answer": "are",
+    "rule": "Present form of be"
+  },
+  {
+    "id": 173,
+    "sentence": "I ___ (have) my breakfast at 8 AM.",
+    "answer": "have",
+    "rule": "Simple Present (Routine)"
+  },
+  {
+    "id": 174,
+    "sentence": "I ___ (have) my breakfast when he came.",
+    "answer": "was having",
+    "rule": "Past Continuous (Interrupted action)"
+  },
+  {
+    "id": 175,
+    "sentence": "I ___ (have) my breakfast already.",
+    "answer": "have had",
+    "rule": "Present Perfect (have auxiliary + had main verb)"
+  },
+  {
+    "id": 176,
+    "sentence": "Who ___ (discover) America?",
+    "answer": "discovered",
+    "rule": "Simple Past (Historical event)"
+  },
+  {
+    "id": 177,
+    "sentence": "Babar ___ (defeat) Ibrahim Lodi.",
+    "answer": "defeated",
+    "rule": "Simple Past (History)"
+  },
+  {
+    "id": 178,
+    "sentence": "He ___ (born) in 1990.",
+    "answer": "was born",
+    "rule": "Passive sense (Always 'was born')"
+  },
+  {
+    "id": 179,
+    "sentence": "We should ___ (obey) our parents.",
+    "answer": "obey",
+    "rule": "Modal 'should' + base form"
+  },
+  {
+    "id": 180,
+    "sentence": "You must ___ (do) the work.",
+    "answer": "do",
+    "rule": "Modal 'must' + base form"
+  },
+  {
+    "id": 181,
+    "sentence": "It may ___ (rain) today.",
+    "answer": "rain",
+    "rule": "Modal 'may' + base form"
+  },
+  {
+    "id": 182,
+    "sentence": "If you play in the rain, you might ___ (catch) cold.",
+    "answer": "catch",
+    "rule": "Modal 'might' + base form"
+  },
+  {
+    "id": 183,
+    "sentence": "He can ___ (speak) English well.",
+    "answer": "speak",
+    "rule": "Modal 'can' + base form"
+  },
+  {
+    "id": 184,
+    "sentence": "She could not ___ (attend) the meeting.",
+    "answer": "attend",
+    "rule": "Modal 'could' + base form"
+  },
+  {
+    "id": 185,
+    "sentence": "I dare not ___ (go) there.",
+    "answer": "go",
+    "rule": "Semi-modal 'dare' + base form"
+  },
+  {
+    "id": 186,
+    "sentence": "You need not ___ (worry).",
+    "answer": "worry",
+    "rule": "Semi-modal 'need' + base form"
+  },
+  {
+    "id": 187,
+    "sentence": "The train ___ (arrive) before we reached.",
+    "answer": "had arrived",
+    "rule": "Past Perfect (happened first)"
+  },
+  {
+    "id": 188,
+    "sentence": "The train left after we ___ (reach).",
+    "answer": "had reached",
+    "rule": "After + Past Perfect"
+  },
+  {
+    "id": 189,
+    "sentence": "It is I who ___ (be) responsible.",
+    "answer": "am",
+    "rule": "Relative pronoun 'who' agrees with antecedent 'I'"
+  },
+  {
+    "id": 190,
+    "sentence": "It is you who ___ (be) responsible.",
+    "answer": "are",
+    "rule": "Relative pronoun 'who' agrees with antecedent 'you'"
+  },
+  {
+    "id": 191,
+    "sentence": "It is he who ___ (be) responsible.",
+    "answer": "is",
+    "rule": "Relative pronoun 'who' agrees with antecedent 'he'"
+  },
+  {
+    "id": 192,
+    "sentence": "I want the work ___ (do).",
+    "answer": "done",
+    "rule": "Want + object + V3 (passive meaning)"
+  },
+  {
+    "id": 193,
+    "sentence": "He seems to ___ (be) happy.",
+    "answer": "be",
+    "rule": "Seems + infinitive"
+  },
+  {
+    "id": 194,
+    "sentence": "The man appears to have ___ (be) rich.",
+    "answer": "been",
+    "rule": "To have + Past Participle"
+  },
+  {
+    "id": 195,
+    "sentence": "The baby is too weak to ___ (walk).",
+    "answer": "walk",
+    "rule": "Too ... to + base form"
+  },
+  {
+    "id": 196,
+    "sentence": "He is so weak that he cannot ___ (walk).",
+    "answer": "walk",
+    "rule": "So ... that ... cannot + base form"
+  },
+  {
+    "id": 197,
+    "sentence": "Many a man ___ (be) present at the meeting.",
+    "answer": "was",
+    "rule": "Many a + singular noun = Singular Verb"
+  },
+  {
+    "id": 198,
+    "sentence": "More than one boy ___ (be) absent.",
+    "answer": "was",
+    "rule": "More than one + noun = Singular Verb"
+  },
+  {
+    "id": 199,
+    "sentence": "Three-fourths of the earth ___ (be) water.",
+    "answer": "is",
+    "rule": "Fraction of singular mass noun = Singular"
+  },
+  {
+    "id": 200,
+    "sentence": "The family ___ (have) left the house.",
+    "answer": "has",
+    "rule": "Collective noun as single unit = Singular"
+  },
+  {
+    "id": 201,
+    "sentence": "If you ___ (inform) me earlier, I could have helped you.",
+    "answer": "had informed",
+    "rule": "Third conditional: If + past perfect, could have + past participle."
+  },
+  {
+    "id": 202,
+    "sentence": "She said she ___ (finish) the work by the next day.",
+    "answer": "would finish",
+    "rule": "Reported speech: future -> would + base form."
+  },
+  {
+    "id": 203,
+    "sentence": "I ___ (not see) him since we left school in 2019.",
+    "answer": "have not seen",
+    "rule": "Present perfect: since + point of time."
+  },
+  {
+    "id": 204,
+    "sentence": "The match ___ (stop) due to heavy rain yesterday.",
+    "answer": "was stopped",
+    "rule": "Past simple passive voice: was/were + past participle."
+  },
+  {
+    "id": 205,
+    "sentence": "I wish I ___ (be) taller.",
+    "answer": "were",
+    "rule": "Subjunctive mood: use 'were' with wish (unreal situation)."
+  },
+  {
+    "id": 206,
+    "sentence": "By this time next year, they ___ (move) to Canada.",
+    "answer": "will have moved",
+    "rule": "Future perfect: will have + past participle."
+  },
+  {
+    "id": 207,
+    "sentence": "I ___ (live) here while my house was being built.",
+    "answer": "was living",
+    "rule": "Past continuous: ongoing past action."
+  },
+  {
+    "id": 208,
+    "sentence": "She ___ (study) medicine before she switched to engineering.",
+    "answer": "had studied",
+    "rule": "Past perfect for an earlier past action."
+  },
+  {
+    "id": 209,
+    "sentence": "You ___ (not cross) the road when the light is red.",
+    "answer": "must not cross",
+    "rule": "Strong obligation/prohibition: must not + base form."
+  },
+  {
+    "id": 210,
+    "sentence": "He acts as if he ___ (know) everything.",
+    "answer": "knew",
+    "rule": "Unreal comparison with 'as if': past simple."
+  },
+  {
+    "id": 211,
+    "sentence": "She ___ (not complete) the assignment yet.",
+    "answer": "has not completed",
+    "rule": "Present perfect with 'yet'."
+  },
+  {
+    "id": 212,
+    "sentence": "Neither of the boys ___ (do) their homework correctly.",
+    "answer": "has done",
+    "rule": "Neither takes singular verb: has done."
+  },
+  {
+    "id": 213,
+    "sentence": "I ___ (walk) for two hours when it suddenly started raining.",
+    "answer": "had been walking",
+    "rule": "Past perfect continuous: had been + ing."
+  },
+  {
+    "id": 214,
+    "sentence": "The teacher made them ___ (write) the answer again.",
+    "answer": "write",
+    "rule": "Make + object + base form."
+  },
+  {
+    "id": 215,
+    "sentence": "She ___ (work) at this company since 2010.",
+    "answer": "has been working",
+    "rule": "Present perfect continuous: since + point of time."
+  },
+  {
+    "id": 216,
+    "sentence": "He ___ (not play) football when I saw him.",
+    "answer": "was not playing",
+    "rule": "Past continuous negative."
+  },
+  {
+    "id": 217,
+    "sentence": "This house ___ (build) in 1980.",
+    "answer": "was built",
+    "rule": "Simple past passive voice."
+  },
+  {
+    "id": 218,
+    "sentence": "She would rather ___ (stay) home than go outside.",
+    "answer": "stay",
+    "rule": "Would rather + base form of verb."
+  },
+  {
+    "id": 219,
+    "sentence": "I ___ (meet) him once before, but I forget where.",
+    "answer": "have met",
+    "rule": "Experience: present perfect."
+  },
+  {
+    "id": 220,
+    "sentence": "They ___ (not allow) us to enter the hall.",
+    "answer": "did not allow",
+    "rule": "Simple past negative: did not + base form."
+  },
+  {
+    "id": 221,
+    "sentence": "He said that he ___ (come) the next day.",
+    "answer": "would come",
+    "rule": "Reported speech: future -> would + base form."
+  },
+  {
+    "id": 222,
+    "sentence": "The train ___ (leave) by the time we reached the station.",
+    "answer": "had left",
+    "rule": "Past perfect for earlier action."
+  },
+  {
+    "id": 223,
+    "sentence": "She ___ (sleep) for an hour when the phone rang.",
+    "answer": "had been sleeping",
+    "rule": "Past perfect continuous."
+  },
+  {
+    "id": 224,
+    "sentence": "It’s high time you ___ (start) studying seriously.",
+    "answer": "started",
+    "rule": "High time + past simple."
+  },
+  {
+    "id": 225,
+    "sentence": "They ___ (discuss) the issue when the manager entered.",
+    "answer": "were discussing",
+    "rule": "Past continuous: ongoing past action interrupted."
+  },
+  {
+    "id": 226,
+    "sentence": "The work ___ (complete) before the deadline.",
+    "answer": "will be completed",
+    "rule": "Future passive: will be + past participle."
+  },
+  {
+    "id": 227,
+    "sentence": "She ___ (not tell) me that she was leaving.",
+    "answer": "did not tell",
+    "rule": "Past simple negative: did not + base form."
+  },
+  {
+    "id": 228,
+    "sentence": "He ___ (be) able to solve it if he tried.",
+    "answer": "would be",
+    "rule": "Second conditional: would + base form."
+  },
+  {
+    "id": 229,
+    "sentence": "I ___ (never see) such a beautiful sunset before.",
+    "answer": "have never seen",
+    "rule": "Present perfect with 'never'."
+  },
+  {
+    "id": 230,
+    "sentence": "By the time you arrive, I ___ (finish) my homework.",
+    "answer": "will have finished",
+    "rule": "Future perfect tense."
+  },
+  {
+    "id": 231,
+    "sentence": "The jury ___ (be) divided in their opinions.",
+    "answer": "were",
+    "rule": "Collective noun (Individual members disagree = Plural)"
+  },
+  {
+    "id": 232,
+    "sentence": "Slow and steady ___ (win) the race.",
+    "answer": "wins",
+    "rule": "Proverb (Single idea = Singular Verb)"
+  },
+  {
+    "id": 233,
+    "sentence": "I saw him ___ (cross) the road.",
+    "answer": "crossing",
+    "rule": "See + object + verb-ing (Action in progress)"
+  },
+  {
+    "id": 234,
+    "sentence": "He went to the library with a view to ___ (read).",
+    "answer": "reading",
+    "rule": "With a view to + verb-ing"
+  },
+  {
+    "id": 235,
+    "sentence": "The headmaster and the secretary ___ (be) coming.",
+    "answer": "are",
+    "rule": "Two different persons (The + Noun + and + The + Noun) = Plural"
+  },
+  {
+    "id": 236,
+    "sentence": "The headmaster and secretary ___ (be) coming.",
+    "answer": "is",
+    "rule": "Same person (The + Noun + and + Noun) = Singular"
+  },
+  {
+    "id": 237,
+    "sentence": "I got the letter ___ (open) by him.",
+    "answer": "opened",
+    "rule": "Causative 'get' + object + V3"
+  },
+  {
+    "id": 238,
+    "sentence": "Let the work ___ (be) done.",
+    "answer": "be",
+    "rule": "Passive Imperative (Let + object + be + V3)"
+  },
+  {
+    "id": 239,
+    "sentence": "It is I who ___ (be) to blame.",
+    "answer": "am",
+    "rule": "Relative pronoun 'who' follows antecedent 'I'"
+  },
+  {
+    "id": 240,
+    "sentence": "Fifty thousand taka ___ (be) a good amount.",
+    "answer": "is",
+    "rule": "Amount of money considered as one unit = Singular"
+  },
+  {
+    "id": 241,
+    "sentence": "The virtuous ___ (be) always happy.",
+    "answer": "are",
+    "rule": "The + Adjective (Class of people) = Plural"
+  },
+  {
+    "id": 242,
+    "sentence": "If I had a typewriter, I ___ (type) myself.",
+    "answer": "would type",
+    "rule": "Second Conditional (If + Past Simple)"
+  },
+  {
+    "id": 243,
+    "sentence": "He talks as if he ___ (be) the leader.",
+    "answer": "were",
+    "rule": "As if + 'be' verb becomes 'were'"
+  },
+  {
+    "id": 244,
+    "sentence": "I wish I ___ (sing) a song.",
+    "answer": "sang",
+    "rule": "Wish + Past Simple (Unreal present)"
+  },
+  {
+    "id": 245,
+    "sentence": "Would that I ___ (be) a king!",
+    "answer": "were",
+    "rule": "Would that (wish) + were"
+  },
+  {
+    "id": 246,
+    "sentence": "Each boy and each girl ___ (have) a pen.",
+    "answer": "has",
+    "rule": "Each/Every + noun = Singular Verb"
+  },
+  {
+    "id": 247,
+    "sentence": "Neither of the pens ___ (write) well.",
+    "answer": "writes",
+    "rule": "Neither of + plural noun = Singular Verb"
+  },
+  {
+    "id": 248,
+    "sentence": "Rice ___ (sell) cheap.",
+    "answer": "sells",
+    "rule": "Quasi-Passive (Active form, Passive meaning)"
+  },
+  {
+    "id": 249,
+    "sentence": "The bed feels soft when it is ___ (touch).",
+    "answer": "touched",
+    "rule": "Passive voice structure"
+  },
+  {
+    "id": 250,
+    "sentence": "I prefer tea to ___ (drink) coffee.",
+    "answer": "drinking",
+    "rule": "Prefer ... to + verb-ing"
+  },
+  {
+    "id": 251,
+    "sentence": "We look forward to ___ (receive) a reply.",
+    "answer": "receiving",
+    "rule": "Look forward to + verb-ing"
+  },
+  {
+    "id": 252,
+    "sentence": "It is high time we ___ (protect) our environment.",
+    "answer": "protected",
+    "rule": "It is high time + Past Simple"
+  },
+  {
+    "id": 253,
+    "sentence": "Five years have passed since I ___ (see) you.",
+    "answer": "saw",
+    "rule": "Present Perfect + Since + Past Simple"
+  },
+  {
+    "id": 254,
+    "sentence": "It was long since we ___ (meet) last.",
+    "answer": "had met",
+    "rule": "Past Simple + Since + Past Perfect"
+  },
+  {
+    "id": 255,
+    "sentence": "No sooner had the teacher entered than the students ___ (stand) up.",
+    "answer": "stood",
+    "rule": "No sooner ... than + Past Simple"
+  },
+  {
+    "id": 256,
+    "sentence": "Hardly had I reached the station when the train ___ (leave).",
+    "answer": "left",
+    "rule": "Hardly ... when + Past Simple"
+  },
+  {
+    "id": 257,
+    "sentence": "While ___ (cross) the road, a car hit him.",
+    "answer": "crossing",
+    "rule": "While + verb-ing (No subject)"
+  },
+  {
+    "id": 258,
+    "sentence": "While he ___ (walk) in the garden, he saw a snake.",
+    "answer": "was walking",
+    "rule": "While + Subject + Past Continuous"
+  },
+  {
+    "id": 259,
+    "sentence": "The police ___ (look) into the case.",
+    "answer": "are looking",
+    "rule": "Police is always Plural"
+  },
+  {
+    "id": 260,
+    "sentence": "Ill news ___ (run) fast.",
+    "answer": "runs",
+    "rule": "News is Singular"
+  },
+  {
+    "id": 261,
+    "sentence": "Physics ___ (be) my favorite subject.",
+    "answer": "is",
+    "rule": "Subject ending in 's' (Singular)"
+  },
+  {
+    "id": 262,
+    "sentence": "The United States ___ (have) a big army.",
+    "answer": "has",
+    "rule": "Name of a country = Singular"
+  },
+  {
+    "id": 263,
+    "sentence": "One of my friends ___ (be) a lawyer.",
+    "answer": "is",
+    "rule": "One of + plural noun = Singular verb"
+  },
+  {
+    "id": 264,
+    "sentence": "A number of boys ___ (be) playing.",
+    "answer": "are",
+    "rule": "A number of = Plural"
+  },
+  {
+    "id": 265,
+    "sentence": "The number of boys ___ (be) fifty.",
+    "answer": "is",
+    "rule": "The number of = Singular"
+  },
+  {
+    "id": 266,
+    "sentence": "The mob ___ (disperse) by the police.",
+    "answer": "was dispersed",
+    "rule": "Passive Voice (Mob treated as singular unit here)"
+  },
+  {
+    "id": 267,
+    "sentence": "The clergy ___ (be) happy.",
+    "answer": "are",
+    "rule": "Clergy is a plural noun"
+  },
+  {
+    "id": 268,
+    "sentence": "Vegetables ___ (contain) vitamins.",
+    "answer": "contain",
+    "rule": "Plural Subject + Base Verb"
+  },
+  {
+    "id": 269,
+    "sentence": "Time and tide ___ (wait) for none.",
+    "answer": "wait",
+    "rule": "Compound subject treated as plural"
+  },
+  {
+    "id": 270,
+    "sentence": "Bread and butter ___ (be) his only food.",
+    "answer": "is",
+    "rule": "Bread and butter (one idea) = Singular"
+  },
+  {
+    "id": 271,
+    "sentence": "He ___ (absent) himself from the meeting.",
+    "answer": "absented",
+    "rule": "Reflexive verb usage in Past"
+  },
+  {
+    "id": 272,
+    "sentence": "I fancy I ___ (turn) pale.",
+    "answer": "turned",
+    "rule": "Fancy + Past Simple"
+  },
+  {
+    "id": 273,
+    "sentence": "We help them ___ (do) the work.",
+    "answer": "do",
+    "rule": "Help takes bare infinitive (verb without to)"
+  },
+  {
+    "id": 274,
+    "sentence": "You had better ___ (leave) the place.",
+    "answer": "leave",
+    "rule": "Had better + Base form"
+  },
+  {
+    "id": 275,
+    "sentence": "I would rather ___ (starve) than beg.",
+    "answer": "starve",
+    "rule": "Would rather + Base form"
+  },
+  {
+    "id": 276,
+    "sentence": "He ran fast lest he ___ (fall).",
+    "answer": "should fall",
+    "rule": "Lest + Subject + should + verb"
+  },
+  {
+    "id": 277,
+    "sentence": "There ___ (be) a king in China.",
+    "answer": "was",
+    "rule": "Introductory 'There' takes verb from following subject (a king)"
+  },
+  {
+    "id": 278,
+    "sentence": "There ___ (be) many stars in the sky.",
+    "answer": "are",
+    "rule": "Introductory 'There' takes verb from following subject (many stars)"
+  },
+  {
+    "id": 279,
+    "sentence": "If it ___ (rain), I will not go.",
+    "answer": "rains",
+    "rule": "First Conditional (If + Present)"
+  },
+  {
+    "id": 280,
+    "sentence": "If I ___ (know) his number, I would call him.",
+    "answer": "knew",
+    "rule": "Second Conditional (If + Past)"
+  },
+  {
+    "id": 281,
+    "sentence": "If I had seen him, I ___ (give) him the message.",
+    "answer": "would have given",
+    "rule": "Third Conditional (If + Past Perfect)"
+  },
+  {
+    "id": 282,
+    "sentence": "Had I been a bird, I ___ (fly).",
+    "answer": "would have flown",
+    "rule": "Third Conditional (Had + V3)"
+  },
+  {
+    "id": 283,
+    "sentence": "The man was accused of ___ (steal).",
+    "answer": "stealing",
+    "rule": "Preposition 'of' + verb-ing"
+  },
+  {
+    "id": 284,
+    "sentence": "He is used to ___ (tell) lies.",
+    "answer": "telling",
+    "rule": "Be used to + verb-ing"
+  },
+  {
+    "id": 285,
+    "sentence": "He used to ___ (swim) in the river.",
+    "answer": "swim",
+    "rule": "Used to (past habit) + base form"
+  },
+  {
+    "id": 286,
+    "sentence": "The moon ___ (shine) at night.",
+    "answer": "shines",
+    "rule": "Universal/General truth (Simple Present)"
+  },
+  {
+    "id": 287,
+    "sentence": "My father ___ (come) home tomorrow.",
+    "answer": "is coming",
+    "rule": "Near future planned action (Present Continuous)"
+  },
+  {
+    "id": 288,
+    "sentence": "Don't make a noise while your father ___ (sleep).",
+    "answer": "is sleeping",
+    "rule": "Action happening right now"
+  },
+  {
+    "id": 289,
+    "sentence": "Just now, he ___ (leave) the room.",
+    "answer": "has left",
+    "rule": "Just now = Present Perfect"
+  },
+  {
+    "id": 290,
+    "sentence": "He ___ (suffer) from fever for a week.",
+    "answer": "has been suffering",
+    "rule": "Present Perfect Continuous (for a week)"
+  },
+  {
+    "id": 291,
+    "sentence": "The baby ___ (cry) because it is hungry.",
+    "answer": "is crying",
+    "rule": "Reason implies current action (Present Continuous)"
+  },
+  {
+    "id": 292,
+    "sentence": "I ___ (read) when he came.",
+    "answer": "was reading",
+    "rule": "Past Continuous (Interrupted action)"
+  },
+  {
+    "id": 293,
+    "sentence": "The patient ___ (die) before the doctor came.",
+    "answer": "had died",
+    "rule": "Past Perfect (happened before another past action)"
+  },
+  {
+    "id": 294,
+    "sentence": "The doctor came after the patient ___ (die).",
+    "answer": "had died",
+    "rule": "After + Past Perfect"
+  },
+  {
+    "id": 295,
+    "sentence": "I saw the baby ___ (sleep).",
+    "answer": "sleeping",
+    "rule": "See + object + verb-ing"
+  },
+  {
+    "id": 296,
+    "sentence": "He made me ___ (drive) the car.",
+    "answer": "drive",
+    "rule": "Make + object + base form"
+  },
+  {
+    "id": 297,
+    "sentence": "We did not ___ (go) to school yesterday.",
+    "answer": "go",
+    "rule": "Did + not + Base form"
+  },
+  {
+    "id": 298,
+    "sentence": "Why do you ___ (look) so tired?",
+    "answer": "look",
+    "rule": "Do/Does + Base form"
+  },
+  {
+    "id": 299,
+    "sentence": "Who ___ (break) the glass?",
+    "answer": "broke",
+    "rule": "Simple Past (Question about past event)"
+  },
+  {
+    "id": 300,
+    "sentence": "Let us ___ (go) out for a walk.",
+    "answer": "go",
+    "rule": "Let + object + Base form"
+  },
+  {
+    "id": 301,
+    "sentence": "Walking ___ (be) a good exercise.",
+    "answer": "is",
+    "rule": "Gerund as subject takes Singular Verb"
+  },
+  {
+    "id": 302,
+    "sentence": "To lie ___ (be) a great sin.",
+    "answer": "is",
+    "rule": "Infinitive as subject takes Singular Verb"
+  },
+  {
+    "id": 303,
+    "sentence": "The reading of history ___ (be) interesting.",
+    "answer": "is",
+    "rule": "Verbal Noun (The + verb-ing + of) = Singular"
+  },
+  {
+    "id": 304,
+    "sentence": "A rolling stone ___ (gather) no moss.",
+    "answer": "gathers",
+    "rule": "Participle used as Adjective (Subject 'stone' is singular)"
+  },
+  {
+    "id": 305,
+    "sentence": "Barking dogs seldom ___ (bite).",
+    "answer": "bite",
+    "rule": "Plural Subject (Dogs) + Base Verb"
+  },
+  {
+    "id": 306,
+    "sentence": "By the time you reach there, I ___ (finish) the work.",
+    "answer": "will have finished",
+    "rule": "Future Perfect (By the time + Future action)"
+  },
+  {
+    "id": 307,
+    "sentence": "I ___ (live) in Dhaka for ten years.",
+    "answer": "have been living",
+    "rule": "Present Perfect Continuous (for/since + time)"
+  },
+  {
+    "id": 308,
+    "sentence": "I saw the girl ___ (dance).",
+    "answer": "dancing",
+    "rule": "See + object + verb-ing (Action in progress)"
+  },
+  {
+    "id": 309,
+    "sentence": "The man was ___ (run) over by a car.",
+    "answer": "run",
+    "rule": "Passive Voice (Past Participle of run is run)"
+  },
+  {
+    "id": 310,
+    "sentence": "The books which I bought ___ (be) lost.",
+    "answer": "are",
+    "rule": "Relative pronoun 'which' refers to plural 'books'"
+  },
+  {
+    "id": 311,
+    "sentence": "The pen which I bought ___ (write) well.",
+    "answer": "writes",
+    "rule": "Relative pronoun 'which' refers to singular 'pen'"
+  },
+  {
+    "id": 312,
+    "sentence": "He speaks as if he ___ (be) a foreigner.",
+    "answer": "were",
+    "rule": "As if + 'be' verb becomes 'were' (Unreal)"
+  },
+  {
+    "id": 313,
+    "sentence": "I fancy I ___ (win) a lottery.",
+    "answer": "won",
+    "rule": "Fancy + Past Simple"
+  },
+  {
+    "id": 314,
+    "sentence": "It is many years since I ___ (come) here.",
+    "answer": "came",
+    "rule": "Present Tense + Since + Past Simple"
+  },
+  {
+    "id": 315,
+    "sentence": "He talks as though he ___ (know) everything.",
+    "answer": "knew",
+    "rule": "As though + Past Simple"
+  },
+  {
+    "id": 316,
+    "sentence": "While ___ (read), the phone rang.",
+    "answer": "reading",
+    "rule": "While + verb-ing (No subject)"
+  },
+  {
+    "id": 317,
+    "sentence": "While I ___ (read), the phone rang.",
+    "answer": "was reading",
+    "rule": "While + Subject + Past Continuous"
+  },
+  {
+    "id": 318,
+    "sentence": "He had the house ___ (paint).",
+    "answer": "painted",
+    "rule": "Causative 'have' + object + V3"
+  },
+  {
+    "id": 319,
+    "sentence": "He got the work ___ (do).",
+    "answer": "done",
+    "rule": "Causative 'get' + object + V3"
+  },
+  {
+    "id": 320,
+    "sentence": "I saw him ___ (go).",
+    "answer": "go",
+    "rule": "See + object + base form (Completed action) or going"
+  },
+  {
+    "id": 321,
+    "sentence": "I prefer reading to ___ (write).",
+    "answer": "writing",
+    "rule": "Prefer ... to + verb-ing"
+  },
+  {
+    "id": 322,
+    "sentence": "He is addicted to ___ (gamble).",
+    "answer": "gambling",
+    "rule": "Addicted to + verb-ing"
+  },
+  {
+    "id": 323,
+    "sentence": "He went to London with a view to ___ (learn) English.",
+    "answer": "learning",
+    "rule": "With a view to + verb-ing"
+  },
+  {
+    "id": 324,
+    "sentence": "Would you mind ___ (have) a cup of tea?",
+    "answer": "having",
+    "rule": "Would you mind + verb-ing"
+  },
+  {
+    "id": 325,
+    "sentence": "I cannot help ___ (do) it.",
+    "answer": "doing",
+    "rule": "Cannot help + verb-ing"
+  },
+  {
+    "id": 326,
+    "sentence": "He stopped ___ (write).",
+    "answer": "writing",
+    "rule": "Stop + verb-ing"
+  },
+  {
+    "id": 327,
+    "sentence": "Start ___ (read) now.",
+    "answer": "reading",
+    "rule": "Start + verb-ing"
+  },
+  {
+    "id": 328,
+    "sentence": "He learnt how to ___ (swim).",
+    "answer": "swim",
+    "rule": "How to + Base form"
+  },
+  {
+    "id": 329,
+    "sentence": "I do not know where to ___ (go).",
+    "answer": "go",
+    "rule": "Wh-word + to + Base form"
+  },
+  {
+    "id": 330,
+    "sentence": "The heavy rain prevented us from ___ (go) out.",
+    "answer": "going",
+    "rule": "Prevent from + verb-ing"
+  },
+  {
+    "id": 331,
+    "sentence": "He insisted on my ___ (stay) home.",
+    "answer": "staying",
+    "rule": "Insist on + verb-ing"
+  },
+  {
+    "id": 332,
+    "sentence": "He is capable of ___ (solve) it.",
+    "answer": "solving",
+    "rule": "Capable of + verb-ing"
+  },
+  {
+    "id": 333,
+    "sentence": "We look forward to ___ (hear) from you.",
+    "answer": "hearing",
+    "rule": "Look forward to + verb-ing"
+  },
+  {
+    "id": 334,
+    "sentence": "Get used to ___ (work) early.",
+    "answer": "working",
+    "rule": "Get used to + verb-ing"
+  },
+  {
+    "id": 335,
+    "sentence": "It is no use ___ (worry) about it.",
+    "answer": "worrying",
+    "rule": "It is no use + verb-ing"
+  },
+  {
+    "id": 336,
+    "sentence": "It is worth ___ (see).",
+    "answer": "seeing",
+    "rule": "It is worth + verb-ing"
+  },
+  {
+    "id": 337,
+    "sentence": "The play is worth ___ (watch).",
+    "answer": "watching",
+    "rule": "Worth + verb-ing"
+  },
+  {
+    "id": 338,
+    "sentence": "She ___ (not/visit) us yet.",
+    "answer": "has not visited",
+    "rule": "Yet usually takes Present Perfect Negative"
+  },
+  {
+    "id": 339,
+    "sentence": "He ___ (leave) home long ago.",
+    "answer": "left",
+    "rule": "Ago/Long ago = Past Simple"
+  },
+  {
+    "id": 340,
+    "sentence": "The brave ___ (deserve) the fair.",
+    "answer": "deserve",
+    "rule": "The + Adjective (Class) = Plural Verb"
+  },
+  {
+    "id": 341,
+    "sentence": "Ten miles ___ (be) a long way.",
+    "answer": "is",
+    "rule": "Distance as a unit = Singular Verb"
+  },
+  {
+    "id": 342,
+    "sentence": "If I had known, I ___ (tell) you.",
+    "answer": "would have told",
+    "rule": "Third Conditional (If + Past Perfect)"
+  },
+  {
+    "id": 343,
+    "sentence": "Had I been there, I ___ (help) him.",
+    "answer": "would have helped",
+    "rule": "Third Conditional (Inversion with Had)"
+  },
+  {
+    "id": 344,
+    "sentence": "Lest you ___ (fall), walk carefully.",
+    "answer": "should fall",
+    "rule": "Lest + subject + should + base verb"
+  },
+  {
+    "id": 345,
+    "sentence": "The committee ___ (be) unanimous.",
+    "answer": "is",
+    "rule": "Collective noun acting as one unit = Singular"
+  },
+  {
+    "id": 346,
+    "sentence": "The committee ___ (be) divided.",
+    "answer": "are",
+    "rule": "Collective noun acting individually = Plural"
+  },
+  {
+    "id": 347,
+    "sentence": "Slow and steady ___ (win) the race.",
+    "answer": "wins",
+    "rule": "Proverb (Single concept) = Singular"
+  },
+  {
+    "id": 348,
+    "sentence": "Time and tide ___ (wait) for no one.",
+    "answer": "wait",
+    "rule": "Compound subject considered plural"
+  },
+  {
+    "id": 349,
+    "sentence": "Neither he nor I ___ (be) happy.",
+    "answer": "am",
+    "rule": "Verb agrees with the nearest subject (I)"
+  },
+  {
+    "id": 350,
+    "sentence": "Either you or he ___ (be) wrong.",
+    "answer": "is",
+    "rule": "Verb agrees with the nearest subject (he)"
+  }
+]
+
