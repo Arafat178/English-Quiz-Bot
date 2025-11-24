@@ -1,452 +1,1803 @@
 [
-  {"id":1,"sentence":"She was very ___ (happy) about the result.","answer":"unhappy"},
-  {"id":2,"sentence":"It is ___ (possible) to finish this work in one day.","answer":"impossible"},
-  {"id":3,"sentence":"He helped the poor with great ___ (care).","answer":"careful"},
-  {"id":4,"sentence":"The child was playing in the park with great ___ (joy).","answer":"joyful"},
-  {"id":5,"sentence":"The thief tried to ___ (appear) from the police.","answer":"disappear"},
-  {"id":6,"sentence":"She is a very ___ (care) person, always thinking about others.","answer":"careful"},
-  {"id":7,"sentence":"He needed to ___ (do) his homework after making mistakes.","answer":"redo"},
-  {"id":8,"sentence":"It was an ___ (fortunate) decision to invest in that business.","answer":"unfortunate"},
-  {"id":9,"sentence":"Her honesty is her greatest ___ (virtue).","answer":"virtuous"},
-  {"id":10,"sentence":"The teacher praised the student for his ___ (help).","answer":"helpful"},
-  {"id":11,"sentence":"She spoke very ___ (quick) in the meeting.","answer":"quickly"},
-  {"id":12,"sentence":"The man was accused of being ___ (legal).","answer":"illegal"},
-  {"id":13,"sentence":"He found the problem ___ (solve).","answer":"unsolvable"},
-  {"id":14,"sentence":"The medicine made him ___ (health).","answer":"unhealthy"},
-  {"id":15,"sentence":"This book is very ___ (interest) for students.","answer":"interesting"},
-  {"id":16,"sentence":"We need to make the project more ___ (efficient).","answer":"inefficient"},
-  {"id":17,"sentence":"She felt ___ (comfort) in her new home.","answer":"comfortable"},
-  {"id":18,"sentence":"The dog is very ___ (friend) with children.","answer":"friendly"},
-  {"id":19,"sentence":"The child’s ___ (play) was noticed by everyone.","answer":"playful"},
-  {"id":20,"sentence":"It was a ___ (hope) day for the farmers.","answer":"hopeful"},
-  {"id":21,"sentence":"The answer was ___ (know) to everyone.","answer":"unknown"},
-  {"id":22,"sentence":"He was very ___ (care) about his work.","answer":"careless"},
-  {"id":23,"sentence":"The teacher explained the problem ___ (clear).","answer":"clearly"},
-  {"id":24,"sentence":"The team showed great ___ (brave) during the match.","answer":"bravery"},
-  {"id":25,"sentence":"She is an ___ (able) student who always excels.","answer":"unable"},
-  {"id":26,"sentence":"The lesson was very ___ (educate) for the students.","answer":"educational"},
-  {"id":27,"sentence":"The boy became ___ (mature) after the incident.","answer":"immature"},
-  {"id":28,"sentence":"We should be ___ (patient) while waiting.","answer":"impatient"},
-  {"id":29,"sentence":"The manager was very ___ (help) to the new employee.","answer":"helpful"},
-  {"id":30,"sentence":"It is ___ (possible) to solve the puzzle.","answer":"impossible"},
-  {"id":31,"sentence":"She walked ___ (care) through the dangerous street.","answer":"carefully"},
-  {"id":32,"sentence":"The town was very ___ (beauty) in winter.","answer":"beautiful"},
-  {"id":33,"sentence":"His explanation was ___ (convince) enough to satisfy everyone.","answer":"convincing"},
-  {"id":34,"sentence":"The project was completed ___ (success).","answer":"successfully"},
-  {"id":35,"sentence":"The children were very ___ (play) in the garden.","answer":"playful"},
-  {"id":36,"sentence":"His ___ (honest) is admired by all.","answer":"honesty"},
-  {"id":37,"sentence":"The team’s performance was ___ (impress).","answer":"impressive"},
-  {"id":38,"sentence":"The movie was ___ (bore) and long.","answer":"boring"},
-  {"id":39,"sentence":"She gave a ___ (grace) speech at the function.","answer":"graceful"},
-  {"id":40,"sentence":"The problem is ___ (solve) without proper tools.","answer":"unsolvable"},
-  {"id":41,"sentence":"He is ___ (legal) to drive at this age.","answer":"illegal"},
-  {"id":42,"sentence":"The experiment was ___ (success) in the end.","answer":"successful"},
-  {"id":43,"sentence":"He did the work ___ (perfect) without mistakes.","answer":"perfectly"},
-  {"id":44,"sentence":"She looked very ___ (care) after finishing her work.","answer":"careless"},
-  {"id":45,"sentence":"The child was very ___ (help) towards his classmates.","answer":"helpful"},
-  {"id":46,"sentence":"It is ___ (fortunate) that they reached on time.","answer":"unfortunate"},
-  {"id":47,"sentence":"The teacher gave a ___ (clear) explanation.","answer":"clear"},
-  {"id":48,"sentence":"The news was ___ (shock) to everyone.","answer":"shocking"},
-  {"id":49,"sentence":"The sky looked ___ (dark) before the storm.","answer":"dark"},
-  {"id":50,"sentence":"The old building became ___ (destroy) after the earthquake.","answer":"destroyed"},
-  {"id":51,"sentence":"She looked very ___ (happy) after receiving the gift.","answer":"unhappy"},
-  {"id":52,"sentence":"He is ___ (able) to finish the task alone.","answer":"unable"},
-  {"id":53,"sentence":"He is a famous ___ (science).","answer":"scientist"},
-  {"id":54,"sentence":"Please read the ___ (instruct) carefully.","answer":"instruction"},
-  {"id":55,"sentence":"The decision was ___ (logic) and wrong.","answer":"illogical"},
-  {"id":56,"sentence":"We enjoyed the ___ (beauty) of nature.","answer":"beauty"},
-  {"id":57,"sentence":"The driver was driving ___ (care).","answer":"carelessly"},
-  {"id":58,"sentence":"Smoking is ___ (harm) to health.","answer":"harmful"},
-  {"id":59,"sentence":"He is very ___ (act) in social work.","answer":"active"},
-  {"id":60,"sentence":"The product is ___ (avail) in the market.","answer":"available"},
-  {"id":61,"sentence":"She wants to ___ (rich) her vocabulary.","answer":"enrich"},
-  {"id":62,"sentence":"His ___ (behave) was very rude.","answer":"behavior"},
-  {"id":63,"sentence":"It is ___ (legal) to park here.","answer":"illegal"},
-  {"id":64,"sentence":"The story is ___ (believe).","answer":"unbelievable"},
-  {"id":65,"sentence":"We need to ___ (sure) safety first.","answer":"ensure"},
-  {"id":66,"sentence":"The water is ___ (pure) and safe to drink.","answer":"pure"},
-  {"id":67,"sentence":"The water is ___ (pure), do not drink it.","answer":"impure"},
-  {"id":68,"sentence":"He showed his ___ (kind) to the poor.","answer":"kindness"},
-  {"id":69,"sentence":"This is a ___ (danger) place.","answer":"dangerous"},
-  {"id":70,"sentence":"It was a ___ (glory) victory.","answer":"glorious"},
-  {"id":71,"sentence":"The man is ___ (literate) and cannot read.","answer":"illiterate"},
-  {"id":72,"sentence":"She is a ___ (sing) of great fame.","answer":"singer"},
-  {"id":73,"sentence":"The train arrived ___ (late).","answer":"lately"},
-  {"id":74,"sentence":"He is ___ (employ) and looking for a job.","answer":"unemployed"},
-  {"id":75,"sentence":"The ___ (develop) of the country depends on us.","answer":"development"},
-  {"id":76,"sentence":"We should not ___ (courage) anyone.","answer":"discourage"},
-  {"id":77,"sentence":"Always speak the ___ (true).","answer":"truth"},
-  {"id":78,"sentence":"The food was ___ (taste) and delicious.","answer":"tasty"},
-  {"id":79,"sentence":"The food was ___ (taste), I couldn't eat it.","answer":"tasteless"},
-  {"id":80,"sentence":"He is a ___ (free) fighter.","answer":"freedom"},
-  {"id":81,"sentence":"She solved the problem ___ (easy).","answer":"easily"},
-  {"id":82,"sentence":"We need a ___ (solve) to this problem.","answer":"solution"},
-  {"id":83,"sentence":"The room was ___ (comfort).","answer":"comfortable"},
-  {"id":84,"sentence":"He became ___ (popular) due to his scandal.","answer":"unpopular"},
-  {"id":85,"sentence":"Honesty is a great ___ (virtue).","answer":"virtue"},
-  {"id":86,"sentence":"His ___ (perform) was amazing.","answer":"performance"},
-  {"id":87,"sentence":"The sun gives us ___ (light).","answer":"light"},
-  {"id":88,"sentence":"Education removes ___ (dark).","answer":"darkness"},
-  {"id":89,"sentence":"He is a ___ (write) of many books.","answer":"writer"},
-  {"id":90,"sentence":"The river is very ___ (depth).","answer":"deep"},
-  {"id":91,"sentence":"What is the ___ (long) of the room?","answer":"length"},
-  {"id":92,"sentence":"He is ___ (honest) and stole the money.","answer":"dishonest"},
-  {"id":93,"sentence":"Don't be ___ (patient).","answer":"impatient"},
-  {"id":94,"sentence":"He looked at me ___ (angry).","answer":"angrily"},
-  {"id":95,"sentence":"It is ___ (nature) to make mistakes.","answer":"natural"},
-  {"id":96,"sentence":"The system is very ___ (effect).","answer":"effective"},
-  {"id":97,"sentence":"The dress is ___ (suit) for the party.","answer":"suitable"},
-  {"id":98,"sentence":"He is a ___ (faith) servant.","answer":"faithful"},
-  {"id":99,"sentence":"The weather is ___ (favour) for a picnic.","answer":"favourable"},
-  {"id":100,"sentence":"Don't ___ (use) your power.","answer":"misuse"},
-  {"id":101,"sentence":"He failed due to his ___ (lazy).","answer":"laziness"},
-  {"id":102,"sentence":"The movie was very ___ (excite).","answer":"exciting"},
-  {"id":103,"sentence":"His ___ (arrive) surprised us.","answer":"arrival"},
-  {"id":104,"sentence":"She is very ___ (talk).","answer":"talkative"},
-  {"id":105,"sentence":"The calculation is ___ (correct).","answer":"incorrect"},
-  {"id":106,"sentence":"He treated me in a ___ (friend) manner.","answer":"friendly"},
-  {"id":107,"sentence":"It was a ___ (history) event.","answer":"historical"},
-  {"id":108,"sentence":"The place is ___ (fame) for its mangoes.","answer":"famous"},
-  {"id":109,"sentence":"We need ___ (improve) in our system.","answer":"improvement"},
-  {"id":110,"sentence":"The situation is under ___ (control).","answer":"control"},
-  {"id":111,"sentence":"The situation is ___ (control).","answer":"uncontrollable"},
-  {"id":112,"sentence":"He is ___ (respons) for the damage.","answer":"responsible"},
-  {"id":113,"sentence":"Don't contain ___ (pure) thoughts.","answer":"impure"},
-  {"id":114,"sentence":"His ___ (absent) was noticed.","answer":"absence"},
-  {"id":115,"sentence":"The boy is ___ (obey).","answer":"obedient"},
-  {"id":116,"sentence":"The boy is ___ (obey) and breaks rules.","answer":"disobedient"},
-  {"id":117,"sentence":"___ (friend) is a strong bond.","answer":"Friendship"},
-  {"id":118,"sentence":"He is a ___ (music).","answer":"musician"},
-  {"id":119,"sentence":"The roads are ___ (mud).","answer":"muddy"},
-  {"id":120,"sentence":"He accepted the ___ (invite).","answer":"invitation"},
-  {"id":121,"sentence":"She is ___ (happy) with her job.","answer":"unhappy"},
-  {"id":122,"sentence":"Money cannot buy ___ (happy).","answer":"happiness"},
-  {"id":123,"sentence":"The bag is very ___ (weigh).","answer":"heavy"},
-  {"id":124,"sentence":"It was a ___ (wonder) experience.","answer":"wonderful"},
-  {"id":125,"sentence":"We need your ___ (agree).","answer":"agreement"},
-  {"id":126,"sentence":"We cannot ___ (agree) on this point.","answer":"disagree"},
-  {"id":127,"sentence":"The worker is very ___ (skill).","answer":"skillful"},
-  {"id":128,"sentence":"He drives ___ (care).","answer":"carefully"},
-  {"id":129,"sentence":"The result was ___ (expect).","answer":"unexpected"},
-  {"id":130,"sentence":"She is a ___ (beauty) girl.","answer":"beautiful"},
-  {"id":131,"sentence":"The cost is ___ (reason).","answer":"reasonable"},
-  {"id":132,"sentence":"He did it ___ (intent).","answer":"intentionally"},
-  {"id":133,"sentence":"The plan is ___ (practic).","answer":"impractical"},
-  {"id":134,"sentence":"The exam was ___ (extreme) hard.","answer":"extremely"},
-  {"id":135,"sentence":"We need ___ (protect) from the rain.","answer":"protection"},
-  {"id":136,"sentence":"He is a ___ (teach).","answer":"teacher"},
-  {"id":137,"sentence":"The book is very ___ (use).","answer":"useful"},
-  {"id":138,"sentence":"The old phone is ___ (use).","answer":"useless"},
-  {"id":139,"sentence":"He is a ___ (terror).","answer":"terrorist"},
-  {"id":140,"sentence":"Don't ___ (under) his power.","answer":"underestimate"},
-  {"id":141,"sentence":"The scenery is ___ (charm).","answer":"charming"},
-  {"id":142,"sentence":"He is ___ (hope) about the result.","answer":"hopeful"},
-  {"id":143,"sentence":"The situation is ___ (hope).","answer":"hopeless"},
-  {"id":144,"sentence":"She sings ___ (sweet).","answer":"sweetly"},
-  {"id":145,"sentence":"___ (Kind) is a noble virtue.","answer":"Kindness"},
-  {"id":146,"sentence":"He is a ___ (bank).","answer":"banker"},
-  {"id":147,"sentence":"We live in a ___ (democra) country.","answer":"democratic"},
-  {"id":148,"sentence":"The medicine was ___ (effect).","answer":"effective"},
-  {"id":149,"sentence":"He is ___ (regular) in class.","answer":"irregular"},
-  {"id":150,"sentence":"I like his ___ (person).","answer":"personality"},
-  {"id":151,"sentence":"The knife is ___ (sharp).","answer":"sharp"},
-  {"id":152,"sentence":"Please ___ (sharp) the pencil.","answer":"sharpen"},
-  {"id":153,"sentence":"The box is ___ (move).","answer":"immovable"},
-  {"id":154,"sentence":"She is ___ (attent) in class.","answer":"attentive"},
-  {"id":155,"sentence":"The student was ___ (attent).","answer":"inattentive"},
-  {"id":156,"sentence":"He is a ___ (cricket).","answer":"cricketer"},
-  {"id":157,"sentence":"The task is ___ (complete).","answer":"incomplete"},
-  {"id":158,"sentence":"Please ___ (large) the photo.","answer":"enlarge"},
-  {"id":159,"sentence":"He behaves ___ (child).","answer":"childishly"},
-  {"id":160,"sentence":"It is a ___ (gold) opportunity.","answer":"golden"},
-  {"id":161,"sentence":"He is ___ (qualify) for the job.","answer":"qualified"},
-  {"id":162,"sentence":"He was ___ (qualify) for cheating.","answer":"disqualified"},
-  {"id":163,"sentence":"The price is ___ (bear).","answer":"unbearable"},
-  {"id":164,"sentence":"He showed ___ (wise).","answer":"wisdom"},
-  {"id":165,"sentence":"The man is ___ (wis).","answer":"wise"},
-  {"id":166,"sentence":"He works ___ (honest).","answer":"honestly"},
-  {"id":167,"sentence":"The manager gave a ___ (state).","answer":"statement"},
-  {"id":168,"sentence":"He is a ___ (paint).","answer":"painter"},
-  {"id":169,"sentence":"The movie was ___ (forget).","answer":"unforgettable"},
-  {"id":170,"sentence":"He is ___ (fortune) to win the lottery.","answer":"fortunate"},
-  {"id":171,"sentence":"___ (Fortune), he failed the exam.","answer":"Unfortunately"},
-  {"id":172,"sentence":"The soil is ___ (fertil).","answer":"fertile"},
-  {"id":173,"sentence":"Farmers use ___ (fertil) for crops.","answer":"fertilizers"},
-  {"id":174,"sentence":"He is a ___ (nation) hero.","answer":"national"},
-  {"id":175,"sentence":"We are proud of our ___ (nation).","answer":"nationality"},
-  {"id":176,"sentence":"The wound is ___ (pain).","answer":"painful"},
-  {"id":177,"sentence":"The injection was ___ (pain).","answer":"painless"},
-  {"id":178,"sentence":"He is a ___ (fear) fighter.","answer":"fearless"},
-  {"id":179,"sentence":"Don't be ___ (fear).","answer":"fearful"},
-  {"id":180,"sentence":"She is ___ (health).","answer":"healthy"},
-  {"id":181,"sentence":"Junk food is ___ (health).","answer":"unhealthy"},
-  {"id":182,"sentence":"He has no ___ (enemy).","answer":"enmity"},
-  {"id":183,"sentence":"The place is ___ (noise).","answer":"noisy"},
-  {"id":184,"sentence":"He solved the sum ___ (quick).","answer":"quickly"},
-  {"id":185,"sentence":"He is a ___ (magic).","answer":"magician"},
-  {"id":186,"sentence":"It was a ___ (magic) show.","answer":"magical"},
-  {"id":187,"sentence":"We need ___ (assist).","answer":"assistance"},
-  {"id":188,"sentence":"He is my ___ (assist).","answer":"assistant"},
-  {"id":189,"sentence":"The sound is ___ (audible).","answer":"audible"},
-  {"id":190,"sentence":"The sound is ___ (audible).","answer":"inaudible"},
-  {"id":191,"sentence":"She is very ___ (create).","answer":"creative"},
-  {"id":192,"sentence":"We admire his ___ (create).","answer":"creativity"},
-  {"id":193,"sentence":"He is ___ (power).","answer":"powerful"},
-  {"id":194,"sentence":"The government is ___ (power).","answer":"powerless"},
-  {"id":195,"sentence":"Don't ___ (understand) me.","answer":"misunderstand"},
-  {"id":196,"sentence":"His ___ (pronounce) is good.","answer":"pronunciation"},
-  {"id":197,"sentence":"We celebrate our ___ (depend).","answer":"independence"},
-  {"id":198,"sentence":"We are an ___ (depend) nation.","answer":"independent"},
-  {"id":199,"sentence":"The bridge is under ___ (construct).","answer":"construction"},
-  {"id":200,"sentence":"The project was ___ (manage) poorly.","answer":"mismanaged"},
-  {"id":201,"sentence":"He tried to ___ (do) the task again.","answer":"redo"},
-  {"id":202,"sentence":"The experiment was ___ (possible) without supervision.","answer":"impossible"},
-  {"id":203,"sentence":"She is very ___ (care) with her belongings.","answer":"careful"},
-  {"id":204,"sentence":"His work was ___ (perfect) and detailed.","answer":"perfectly"},
-  {"id":205,"sentence":"The movie was really ___ (interest) to watch.","answer":"interesting"},
-  {"id":206,"sentence":"The old machine is ___ (use) now.","answer":"useless"},
-  {"id":207,"sentence":"We need to ___ (do) the task correctly.","answer":"redo"},
-  {"id":208,"sentence":"The instructions were ___ (clear) to everyone.","answer":"unclear"},
-  {"id":209,"sentence":"She felt very ___ (comfort) in her new house.","answer":"comfortable"},
-  {"id":210,"sentence":"The food tasted ___ (delight) and fresh.","answer":"delightful"},
-  {"id":211,"sentence":"He is ___ (capable) of solving the problem.","answer":"incapable"},
-  {"id":212,"sentence":"The medicine was ___ (harm) for the patient.","answer":"harmful"},
-  {"id":213,"sentence":"He made a ___ (care) mistake on the report.","answer":"careless"},
-  {"id":214,"sentence":"The teacher gave a very ___ (help) explanation.","answer":"helpful"},
-  {"id":215,"sentence":"The room was ___ (dark) at night.","answer":"dark"},
-  {"id":216,"sentence":"She looked ___ (happy) after hearing the news.","answer":"unhappy"},
-  {"id":217,"sentence":"The task was ___ (easy) for him to complete.","answer":"easy"},
-  {"id":218,"sentence":"The child’s answer was ___ (correct) on the board.","answer":"incorrect"},
-  {"id":219,"sentence":"He wrote the letter ___ (neat) and cleanly.","answer":"neatly"},
-  {"id":220,"sentence":"The house looked ___ (beauty) and new.","answer":"beautiful"},
-  {"id":221,"sentence":"The player was ___ (skill) on the field.","answer":"skillful"},
-  {"id":222,"sentence":"The problem seemed ___ (solve) without help.","answer":"unsolvable"},
-  {"id":223,"sentence":"She is ___ (friendly) towards everyone.","answer":"friendly"},
-  {"id":224,"sentence":"The day was ___ (hope) for the farmers.","answer":"hopeful"},
-  {"id":225,"sentence":"He gave a very ___ (grace) performance.","answer":"graceful"},
-  {"id":226,"sentence":"The old building became ___ (destroy) after the storm.","answer":"destroyed"},
-  {"id":227,"sentence":"Her behavior was ___ (polite) in class.","answer":"impolite"},
-  {"id":228,"sentence":"He acted ___ (child) during the argument.","answer":"childish"},
-  {"id":229,"sentence":"The man was ___ (honest) and respected by all.","answer":"honest"},
-  {"id":230,"sentence":"Her explanation was ___ (convince) and clear.","answer":"convincing"},
-  {"id":231,"sentence":"The work was ___ (success) completed.","answer":"successful"},
-  {"id":232,"sentence":"She painted a ___ (color) picture.","answer":"colorful"},
-  {"id":233,"sentence":"The worker was ___ (tire) after the long shift.","answer":"tired"},
-  {"id":234,"sentence":"The teacher made the instructions ___ (understand).","answer":"understandable"},
-  {"id":235,"sentence":"The news was ___ (shock) to everyone.","answer":"shocking"},
-  {"id":236,"sentence":"He solved the problem ___ (quick) and easily.","answer":"quickly"},
-  {"id":237,"sentence":"The child felt ___ (safe) at home.","answer":"unsafe"},
-  {"id":238,"sentence":"Her explanation was ___ (clear) to the students.","answer":"clear"},
-  {"id":239,"sentence":"The plan was ___ (do) without proper guidance.","answer":"undone"},
-  {"id":240,"sentence":"He was very ___ (care) about his work.","answer":"careful"},
-  {"id":241,"sentence":"The team’s performance was ___ (impress) in the match.","answer":"impressive"},
-  {"id":242,"sentence":"The homework was ___ (possible) to finish in one hour.","answer":"impossible"},
-  {"id":243,"sentence":"The child was very ___ (help) towards his classmates.","answer":"helpful"},
-  {"id":244,"sentence":"She spoke very ___ (quick) in the meeting.","answer":"quickly"},
-  {"id":245,"sentence":"The medicine made him ___ (health).","answer":"unhealthy"},
-  {"id":246,"sentence":"The movie was ___ (bore) and long.","answer":"boring"},
-  {"id":247,"sentence":"The team showed ___ (brave) during the match.","answer":"bravery"},
-  {"id":248,"sentence":"He felt ___ (comfort) in the new house.","answer":"comfortable"},
-  {"id":249,"sentence":"The plan was ___ (fortunate) and worked well.","answer":"fortunate"},
-  {"id":250,"sentence":"The letter was ___ (write) by the teacher.","answer":"written"},
-  {"id":251,"sentence":"The news was ___ (surprise) to everyone.","answer":"surprising"},
-  {"id":252,"sentence":"The sky looked ___ (dark) before the storm.","answer":"dark"},
-  {"id":253,"sentence":"He became ___ (mature) after the incident.","answer":"immature"},
-  {"id":254,"sentence":"We should be ___ (patient) while waiting.","answer":"impatient"},
-  {"id":255,"sentence":"The lesson was ___ (educate) for the students.","answer":"educational"},
-  {"id":256,"sentence":"The experiment was ___ (success) in the end.","answer":"successful"},
-  {"id":257,"sentence":"She is an ___ (able) student who always excels.","answer":"unable"},
-  {"id":258,"sentence":"He found the problem ___ (solve).","answer":"unsolvable"},
-  {"id":259,"sentence":"The teacher explained the problem ___ (clear).","answer":"clearly"},
-  {"id":260,"sentence":"The boy became ___ (mature) after the incident.","answer":"immature"},
-  {"id":261,"sentence":"The project was completed ___ (success).","answer":"successfully"},
-  {"id":262,"sentence":"The child’s ___ (play) was noticed by everyone.","answer":"playful"},
-  {"id":263,"sentence":"She is a very ___ (care) person, always thinking about others.","answer":"careful"},
-  {"id":264,"sentence":"It was an ___ (fortunate) decision to invest in that business.","answer":"unfortunate"},
-  {"id":265,"sentence":"Her honesty is her greatest ___ (virtue).","answer":"virtuous"},
-  {"id":266,"sentence":"The teacher praised the student for his ___ (help).","answer":"helpful"},
-  {"id":267,"sentence":"He helped the poor with great ___ (care).","answer":"careful"},
-  {"id":268,"sentence":"It is ___ (possible) to finish this work in one day.","answer":"impossible"},
-  {"id":269,"sentence":"She was very ___ (happy) about the result.","answer":"unhappy"},
-  {"id":270,"sentence":"He needed to ___ (do) his homework after making mistakes.","answer":"redo"},
-  {"id":271,"sentence":"She felt ___ (comfort) in her new home.","answer":"comfortable"},
-  {"id":272,"sentence":"The dog is very ___ (friend) with children.","answer":"friendly"},
-  {"id":273,"sentence":"The child’s ___ (play) was noticed by everyone.","answer":"playful"},
-  {"id":274,"sentence":"It was a ___ (hope) day for the farmers.","answer":"hopeful"},
-  {"id":275,"sentence":"The answer was ___ (know) to everyone.","answer":"unknown"},
-  {"id":276,"sentence":"He was very ___ (care) about his work.","answer":"careless"},
-  {"id":277,"sentence":"The team’s performance was ___ (impress).","answer":"impressive"},
-  {"id":278,"sentence":"She looked very ___ (care) after finishing her work.","answer":"careless"},
-  {"id":279,"sentence":"The children were very ___ (play) in the garden.","answer":"playful"},
-  {"id":280,"sentence":"His ___ (honest) is admired by all.","answer":"honesty"},
-  {"id":281,"sentence":"The experiment was ___ (success) in the end.","answer":"successful"},
-  {"id":282,"sentence":"He did the work ___ (perfect) without mistakes.","answer":"perfectly"},
-  {"id":283,"sentence":"She looked very ___ (happy) after receiving the gift.","answer":"unhappy"},
-  {"id":284,"sentence":"He is ___ (able) to finish the task alone.","answer":"unable"},
-  {"id":285,"sentence":"The news was ___ (shock) to everyone.","answer":"shocking"},
-  {"id":286,"sentence":"The team showed great ___ (brave) during the match.","answer":"bravery"},
-  {"id":287,"sentence":"The child felt ___ (safe) at home.","answer":"unsafe"},
-  {"id":288,"sentence":"The instructions were ___ (clear) to everyone.","answer":"unclear"},
-  {"id":289,"sentence":"The food tasted ___ (delight) and fresh.","answer":"delightful"},
-  {"id":290,"sentence":"The teacher gave a ___ (clear) explanation.","answer":"clear"},
-  {"id":291,"sentence":"Her explanation was ___ (convince) enough to satisfy everyone.","answer":"convincing"},
-  {"id":292,"sentence":"The player was ___ (skill) on the field.","answer":"skillful"},
-  {"id":293,"sentence":"The child was very ___ (help) towards his classmates.","answer":"helpful"},
-  {"id":294,"sentence":"She spoke very ___ (quick) in the meeting.","answer":"quickly"},
-  {"id":295,"sentence":"The medicine made him ___ (health).","answer":"unhealthy"},
-  {"id":296,"sentence":"The project was completed ___ (success).","answer":"successfully"},
-  {"id":297,"sentence":"The plan was ___ (do) carefully.","answer":"undone"},
-  {"id":298,"sentence":"He acted ___ (child) during the argument.","answer":"childish"},
-  {"id":299,"sentence":"Her behavior was ___ (polite) in class.","answer":"impolite"},
-  {"id":300,"sentence":"The teacher made the instructions ___ (understand).","answer":"understandable"},
-  {"id":301,"sentence":"The experiment was ___ (repeat) because of errors in the first trial.","answer":"repeated"},
-  {"id":302,"sentence":"The report was ___ (accurate) and detailed enough for publication.","answer":"inaccurate"},
-  {"id":303,"sentence":"Her behavior was ___ (predict) and surprised nobody.","answer":"unpredictable"},
-  {"id":304,"sentence":"The instructions were ___ (follow) by all the students.","answer":"unfollowed"},
-  {"id":305,"sentence":"The new rules were ___ (accept) by the team reluctantly.","answer":"unaccepted"},
-  {"id":306,"sentence":"He tried to ___ (lead) the team in the wrong direction.","answer":"mislead"},
-  {"id":307,"sentence":"The plan was ___ (achieve) due to lack of resources.","answer":"unachievable"},
-  {"id":308,"sentence":"The solution was ___ (solve) and required expert input.","answer":"unsolvable"},
-  {"id":309,"sentence":"Her argument was ___ (convince) and did not sway anyone.","answer":"unconvincing"},
-  {"id":310,"sentence":"The building became ___ (stable) after the earthquake.","answer":"unstable"},
-  {"id":311,"sentence":"The medicine had ___ (effect) consequences if misused.","answer":"ineffective"},
-  {"id":312,"sentence":"The system was ___ (operate) during the outage.","answer":"inoperable"},
-  {"id":313,"sentence":"His actions were completely ___ (understand) by the team.","answer":"misunderstood"},
-  {"id":314,"sentence":"The new technology is ___ (apply) in most industries.","answer":"unapplied"},
-  {"id":315,"sentence":"The instructions were ___ (clear) and caused confusion.","answer":"unclear"},
-  {"id":316,"sentence":"The team was ___ (prepare) for the sudden inspection.","answer":"unprepared"},
-  {"id":317,"sentence":"The document was ___ (sign) properly, causing legal issues.","answer":"unsigned"},
-  {"id":318,"sentence":"His comments were ___ (appropriate) for the formal meeting.","answer":"inappropriate"},
-  {"id":319,"sentence":"The house was ___ (occupy) for months before the sale.","answer":"unoccupied"},
-  {"id":320,"sentence":"The proposal was ___ (approve) by the committee.","answer":"unapproved"},
-  {"id":321,"sentence":"The idea was ___ (consider) and rejected immediately.","answer":"inconsidered"},
-  {"id":322,"sentence":"The project was ___ (complete) because of funding issues.","answer":"incomplete"},
-  {"id":323,"sentence":"The feedback was ___ (help) and left everyone confused.","answer":"unhelpful"},
-  {"id":324,"sentence":"The student gave an ___ (explain) answer that puzzled the teacher.","answer":"inexplicable"},
-  {"id":325,"sentence":"His claims were ___ (prove) in the investigation.","answer":"unproven"},
-  {"id":326,"sentence":"The food was ___ (cook) properly and tasted bad.","answer":"undercooked"},
-  {"id":327,"sentence":"The instructions were ___ (follow) carefully by all participants.","answer":"followed"},
-  {"id":328,"sentence":"The results were ___ (rely) due to inconsistencies.","answer":"unreliable"},
-  {"id":329,"sentence":"The machine was ___ (repair) and stopped working again.","answer":"unrepaired"},
-  {"id":330,"sentence":"The rules were ___ (enforce) strictly in the exam hall.","answer":"unenforced"},
-  {"id":331,"sentence":"The evidence was ___ (consider) in the final decision.","answer":"inconsidered"},
-  {"id":332,"sentence":"The child was ___ (behave) properly in class.","answer":"misbehaved"},
-  {"id":333,"sentence":"The team’s performance was ___ (impress) despite setbacks.","answer":"unimpressive"},
-  {"id":334,"sentence":"The teacher’s explanation was ___ (understand) to most students.","answer":"misunderstood"},
-  {"id":335,"sentence":"The product was ___ (manufacture) in multiple factories.","answer":"remanufactured"},
-  {"id":336,"sentence":"The issue was ___ (resolve) quickly by the manager.","answer":"unresolved"},
-  {"id":337,"sentence":"The policy was ___ (apply) equally to everyone.","answer":"misapplied"},
-  {"id":338,"sentence":"The artwork was ___ (appreciate) by critics.","answer":"underappreciated"},
-  {"id":339,"sentence":"The medicine was ___ (prescribe) without proper diagnosis.","answer":"misprescribed"},
-  {"id":340,"sentence":"The test was ___ (score) accurately by the computer.","answer":"unscored"},
-  {"id":341,"sentence":"The law was ___ (enforce) in rural areas.","answer":"unenforced"},
-  {"id":342,"sentence":"The student was ___ (prepare) for the exam and failed.","answer":"underprepared"},
-  {"id":343,"sentence":"His behavior was ___ (acceptable) in society.","answer":"unacceptable"},
-  {"id":344,"sentence":"The explanation was ___ (clear) and caused confusion.","answer":"unclear"},
-  {"id":345,"sentence":"The instructions were ___ (understand) and ignored by the students.","answer":"misunderstood"},
-  {"id":346,"sentence":"The experiment was ___ (conduct) without proper supervision.","answer":"misconducted"},
-  {"id":347,"sentence":"The system was ___ (configure) incorrectly, causing errors.","answer":"misconfigured"},
-  {"id":348,"sentence":"The plan was ___ (organize) without proper resources.","answer":"disorganized"},
-  {"id":349,"sentence":"The team was ___ (cooperate) and failed the task.","answer":"uncooperative"},
-  {"id":350,"sentence":"The project was ___ (fund) due to lack of investors.","answer":"underfunded"},
-  {"id":351,"sentence":"The car is damaged beyond ___ (repair).","answer":"reparation"},
-  {"id":352,"sentence":"The damage is ___ (repair).","answer":"irreparable"},
-  {"id":353,"sentence":"His arguments are ___ (refute).","answer":"irrefutable"},
-  {"id":354,"sentence":"The ___ (maintain) of the building is costly.","answer":"maintenance"},
-  {"id":355,"sentence":"He showed great ___ (persevere) in his work.","answer":"perseverance"},
-  {"id":356,"sentence":"It was an ___ (avoid) mistake.","answer":"unavoidable"},
-  {"id":357,"sentence":"Her handwriting is completely ___ (legible).","answer":"illegible"},
-  {"id":358,"sentence":"The manager expressed his ___ (satisfy).","answer":"dissatisfaction"},
-  {"id":359,"sentence":"He is ___ (differ) to pain and pleasure.","answer":"indifferent"},
-  {"id":360,"sentence":"The logic is ___ (deny).","answer":"undeniable"},
-  {"id":361,"sentence":"Please ___ (knowledge) receipt of the letter.","answer":"acknowledge"},
-  {"id":362,"sentence":"His ___ (centric) behavior surprised us.","answer":"eccentric"},
-  {"id":363,"sentence":"The story lacks ___ (credibility).","answer":"credibility"},
-  {"id":364,"sentence":"It is an ___ (credible) story.","answer":"incredible"},
-  {"id":365,"sentence":"He was accused of ___ (manage) of funds.","answer":"mismanagement"},
-  {"id":366,"sentence":"The ___ (cease) rain caused floods.","answer":"incessant"},
-  {"id":367,"sentence":"We must ___ (danger) no one's life.","answer":"endanger"},
-  {"id":368,"sentence":"He ___ (little) my efforts in public.","answer":"belittled"},
-  {"id":369,"sentence":"His ___ (courtesy) behavior shocked everyone.","answer":"discourteous"},
-  {"id":370,"sentence":"The government is promoting ___ (forest).","answer":"afforestation"},
-  {"id":371,"sentence":"Cutting down trees is called ___ (forest).","answer":"deforestation"},
-  {"id":372,"sentence":"He is suffering from ___ (nutrition).","answer":"malnutrition"},
-  {"id":373,"sentence":"The decision was taken ___ (animus).","answer":"unanimously"},
-  {"id":374,"sentence":"His ___ (pretend) was caught.","answer":"pretension"},
-  {"id":375,"sentence":"The vastness of the universe is ___ (comprehend).","answer":"incomprehensible"},
-  {"id":376,"sentence":"She looked at him with ___ (approve).","answer":"disapproval"},
-  {"id":377,"sentence":"It is ___ (reason) to expect perfection.","answer":"unreasonable"},
-  {"id":378,"sentence":"The roads are ___ (pass) during winter.","answer":"impassable"},
-  {"id":379,"sentence":"He is a man of ___ (integ).","answer":"integrity"},
-  {"id":380,"sentence":"The ___ (receive) gave me a form.","answer":"receptionist"},
-  {"id":381,"sentence":"Don't be ___ (lead) by rumors.","answer":"misled"},
-  {"id":382,"sentence":"He was jailed for ___ (conduct).","answer":"misconduct"},
-  {"id":383,"sentence":"The atmosphere was ___ (suffocate).","answer":"suffocating"},
-  {"id":384,"sentence":"He acted ___ (courage) in the battle.","answer":"courageously"},
-  {"id":385,"sentence":"The villain is ___ (torment) the hero.","answer":"tormenting"},
-  {"id":386,"sentence":"She is ___ (qualification) for the post.","answer":"disqualified"},
-  {"id":387,"sentence":"The number of ___ (habit) is increasing.","answer":"inhabitants"},
-  {"id":388,"sentence":"The ___ (conclude) of the story was sad.","answer":"conclusion"},
-  {"id":389,"sentence":"The discovery was ___ (revelation).","answer":"revolutionary"},
-  {"id":390,"sentence":"He did it ___ (conscious) without knowing.","answer":"unconsciously"},
-  {"id":391,"sentence":"He is ___ (conscious) of his guilt.","answer":"conscious"},
-  {"id":392,"sentence":"The heat is ___ (tolerate).","answer":"intolerable"},
-  {"id":393,"sentence":"His ___ (fail) teaches us a lesson.","answer":"failure"},
-  {"id":394,"sentence":"The ___ (civil) of the society is rapid.","answer":"civilization"},
-  {"id":395,"sentence":"He tried to ___ (friend) the stranger.","answer":"befriend"},
-  {"id":396,"sentence":"The medicine is ___ (potency).","answer":"potent"},
-  {"id":397,"sentence":"The king was forced to ___ (throne).","answer":"dethrone"},
-  {"id":398,"sentence":"He was treated with ___ (ignoble).","answer":"ignominy"},
-  {"id":399,"sentence":"She is ___ (fame) for her bad temper.","answer":"infamous"},
-  {"id":400,"sentence":"The plan is ___ (execute).","answer":"executable"},
-  {"id":401,"sentence":"The crowd became ___ (ruly).","answer":"unruly"},
-  {"id":402,"sentence":"This is a ___ (controversy) issue.","answer":"controversial"},
-  {"id":403,"sentence":"He is known for his ___ (centric).","answer":"eccentricity"},
-  {"id":404,"sentence":"The goods are ___ (transport).","answer":"transportable"},
-  {"id":405,"sentence":"He gave a ___ (contradict) statement.","answer":"contradictory"},
-  {"id":406,"sentence":"The ___ (cur) of the disease is unknown.","answer":"occurrence"},
-  {"id":407,"sentence":"Please ___ (circle) the correct answer.","answer":"encircle"},
-  {"id":408,"sentence":"The baby is ___ (sleep).","answer":"asleep"},
-  {"id":409,"sentence":"His ___ (rigid) is annoying.","answer":"rigidity"},
-  {"id":410,"sentence":"We need to ___ (modern) our industry.","answer":"modernize"},
-  {"id":411,"sentence":"___ (literate) is a curse.","answer":"Illiteracy"},
-  {"id":412,"sentence":"The ___ (survive) of the fittest.","answer":"survival"},
-  {"id":413,"sentence":"He is an ___ (thusiasm) reader.","answer":"enthusiastic"},
-  {"id":414,"sentence":"The beauty of the Taj Mahal is ___ (describable).","answer":"indescribable"},
-  {"id":415,"sentence":"He spoke ___ (rhetoric) to persuade us.","answer":"rhetorically"},
-  {"id":416,"sentence":"The water needs ___ (pure).","answer":"purification"},
-  {"id":417,"sentence":"We must ensure ___ (account).","answer":"accountability"},
-  {"id":418,"sentence":"He is suffering from ___ (somnia).","answer":"insomnia"},
-  {"id":419,"sentence":"The task was ___ (labor).","answer":"laborious"},
-  {"id":420,"sentence":"She is ___ (skill) in painting.","answer":"unskilled"},
-  {"id":421,"sentence":"It is ___ (ethic) to cheat.","answer":"unethical"},
-  {"id":422,"sentence":"He made an ___ (voluntar) reflex.","answer":"involuntary"},
-  {"id":423,"sentence":"The company faces ___ (bank).","answer":"bankruptcy"},
-  {"id":424,"sentence":"He is a ___ (benevolence) leader.","answer":"benevolent"},
-  {"id":425,"sentence":"The text is ___ (context).","answer":"contextual"},
-  {"id":426,"sentence":"Don't be so ___ (sense).","answer":"insensitive"},
-  {"id":427,"sentence":"It was a ___ (monster) mistake.","answer":"monstrous"},
-  {"id":428,"sentence":"He was charged with ___ (forge).","answer":"forgery"},
-  {"id":429,"sentence":"The result is ___ (signify).","answer":"insignificant"},
-  {"id":430,"sentence":"We need to ___ (simple) the process.","answer":"simplify"},
-  {"id":431,"sentence":"The ___ (invade) was sudden.","answer":"invasion"},
-  {"id":432,"sentence":"He acted with ___ (prudent).","answer":"prudence"},
-  {"id":433,"sentence":"He is a ___ (history) figure.","answer":"historical"},
-  {"id":434,"sentence":"It is a ___ (history) monument.","answer":"historic"},
-  {"id":435,"sentence":"The dress is ___ (economy).","answer":"economical"},
-  {"id":436,"sentence":"The country's ___ (economy) condition.","answer":"economic"},
-  {"id":437,"sentence":"He works ___ (fatigue).","answer":"indefatigably"},
-  {"id":438,"sentence":"The sound was ___ (deaf).","answer":"deafening"},
-  {"id":439,"sentence":"The ___ (withdraw) of troops began.","answer":"withdrawal"},
-  {"id":440,"sentence":"He is an ___ (habit) liar.","answer":"habitual"},
-  {"id":441,"sentence":"The ___ (conspire) was revealed.","answer":"conspiracy"},
-  {"id":442,"sentence":"He is ___ (occupy) with his work.","answer":"preoccupied"},
-  {"id":443,"sentence":"The ___ (omit) of his name was an error.","answer":"omission"},
-  {"id":444,"sentence":"She has a ___ (magnet) personality.","answer":"magnetic"},
-  {"id":445,"sentence":"The signature is ___ (valid).","answer":"invalid"},
-  {"id":446,"sentence":"We must ___ (valid) the ticket.","answer":"validate"},
-  {"id":447,"sentence":"The ___ (destroy) was massive.","answer":"destruction"},
-  {"id":448,"sentence":"It is ___ (logic) to argue with him.","answer":"illogical"},
-  {"id":449,"sentence":"He is a ___ (vision) leader.","answer":"visionary"},
-  {"id":450,"sentence":"The ___ (appear) of the ghost scared them.","answer":"appearance"}
+  {
+    "id": 1,
+    "sentence": "Honesty is the best ___ (polic).",
+    "answer": "policy",
+    "rule": "Noun form required (Abstract Noun)"
+  },
+  {
+    "id": 2,
+    "sentence": "He is ___ (honest) to his customers.",
+    "answer": "dishonest",
+    "rule": "Negative prefix 'dis-' (Context implies bad behavior)"
+  },
+  {
+    "id": 3,
+    "sentence": "Smoking is ___ (harm) to health.",
+    "answer": "harmful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 4,
+    "sentence": "The ___ (perform) of the player was good.",
+    "answer": "performance",
+    "rule": "The + Noun + of"
+  },
+  {
+    "id": 5,
+    "sentence": "We should not ___ (like) the poor.",
+    "answer": "dislike",
+    "rule": "Negative prefix 'dis-'"
+  },
+  {
+    "id": 6,
+    "sentence": "He is a ___ (free) fighter.",
+    "answer": "freedom",
+    "rule": "Noun adjunct (Freedom fighter)"
+  },
+  {
+    "id": 7,
+    "sentence": "She is a ___ (beauty) girl.",
+    "answer": "beautiful",
+    "rule": "Adjective describes Noun (girl)"
+  },
+  {
+    "id": 8,
+    "sentence": "Education removes ___ (dark).",
+    "answer": "darkness",
+    "rule": "Verb (removes) + Object (Noun)"
+  },
+  {
+    "id": 9,
+    "sentence": "It is ___ (possible) to do this without help.",
+    "answer": "impossible",
+    "rule": "Negative prefix 'im-'"
+  },
+  {
+    "id": 10,
+    "sentence": "We need to ___ (large) the photo.",
+    "answer": "enlarge",
+    "rule": "Prefix 'en-' creates Verb"
+  },
+  {
+    "id": 11,
+    "sentence": "He is widely ___ (known).",
+    "answer": "unknown",
+    "rule": "Negative prefix 'un-' (context usually implies negative unless 'well-known')"
+  },
+  {
+    "id": 12,
+    "sentence": "Poverty is a ___ (curse).",
+    "answer": "curse",
+    "rule": "No change needed (Sometimes base word is correct, but here implies noun usage)"
+  },
+  {
+    "id": 13,
+    "sentence": "Poverty is a great ___ (fortune).",
+    "answer": "misfortune",
+    "rule": "Negative prefix 'mis-'"
+  },
+  {
+    "id": 14,
+    "sentence": "Drive ___ (care) to avoid accidents.",
+    "answer": "carefully",
+    "rule": "Adverb modifies Verb (Drive)"
+  },
+  {
+    "id": 15,
+    "sentence": "Don't be ___ (care) about your health.",
+    "answer": "careless",
+    "rule": "Suffix '-less' creates Negative Adjective"
+  },
+  {
+    "id": 16,
+    "sentence": "The ___ (develop) of a country depends on education.",
+    "answer": "development",
+    "rule": "Suffix '-ment' creates Noun"
+  },
+  {
+    "id": 17,
+    "sentence": "He is extremely ___ (help).",
+    "answer": "helpful",
+    "rule": "Adjective after linking verb"
+  },
+  {
+    "id": 18,
+    "sentence": "This food is ___ (poison).",
+    "answer": "poisonous",
+    "rule": "Suffix '-ous' creates Adjective"
+  },
+  {
+    "id": 19,
+    "sentence": "I found him in a ___ (help) condition.",
+    "answer": "helpless",
+    "rule": "Adjective (Negative sense)"
+  },
+  {
+    "id": 20,
+    "sentence": "Every ___ (success) man works hard.",
+    "answer": "successful",
+    "rule": "Adjective modifies Noun (man)"
+  },
+  {
+    "id": 21,
+    "sentence": "Failure is the pillar of ___ (success).",
+    "answer": "success",
+    "rule": "Preposition 'of' takes Noun"
+  },
+  {
+    "id": 22,
+    "sentence": "He delivered a ___ (speech) yesterday.",
+    "answer": "speech",
+    "rule": "Noun (from speak -> speech, usually base noun)"
+  },
+  {
+    "id": 23,
+    "sentence": "He made a ___ (state) about the event.",
+    "answer": "statement",
+    "rule": "Suffix '-ment' creates Noun"
+  },
+  {
+    "id": 24,
+    "sentence": "We should be ___ (duty) to our parents.",
+    "answer": "dutiful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 25,
+    "sentence": "Load shedding is ___ (bear) for us.",
+    "answer": "unbearable",
+    "rule": "Negative prefix 'un-' + suffix '-able'"
+  },
+  {
+    "id": 26,
+    "sentence": "We want ___ (friend) with all.",
+    "answer": "friendship",
+    "rule": "Suffix '-ship' creates Abstract Noun"
+  },
+  {
+    "id": 27,
+    "sentence": "He behaved ___ (friend) with me.",
+    "answer": "friendly",
+    "rule": "Suffix '-ly' creates Adjective/Adverb"
+  },
+  {
+    "id": 28,
+    "sentence": "Water has no ___ (color).",
+    "answer": "color",
+    "rule": "Noun form"
+  },
+  {
+    "id": 29,
+    "sentence": "Pure water is ___ (color).",
+    "answer": "colorless",
+    "rule": "Suffix '-less' implies absence"
+  },
+  {
+    "id": 30,
+    "sentence": "The book is very ___ (use).",
+    "answer": "useful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 31,
+    "sentence": "It is ___ (use) to talk to him.",
+    "answer": "useless",
+    "rule": "Suffix '-less' (Negative Adjective)"
+  },
+  {
+    "id": 32,
+    "sentence": "He is an ___ (active) worker.",
+    "answer": "active",
+    "rule": "Adjective modifies Noun"
+  },
+  {
+    "id": 33,
+    "sentence": "Physical exercise keeps us ___ (act).",
+    "answer": "active",
+    "rule": "Adjective after object"
+  },
+  {
+    "id": 34,
+    "sentence": "We should take ___ (act) against corruption.",
+    "answer": "action",
+    "rule": "Suffix '-ion' creates Noun"
+  },
+  {
+    "id": 35,
+    "sentence": "He is ___ (regular) in his studies.",
+    "answer": "irregular",
+    "rule": "Negative prefix 'ir-' before 'r'"
+  },
+  {
+    "id": 36,
+    "sentence": "___ (Punctual) is a great virtue.",
+    "answer": "Punctuality",
+    "rule": "Suffix '-ity' creates Noun (Subject)"
+  },
+  {
+    "id": 37,
+    "sentence": "He is a ___ (fame) writer.",
+    "answer": "famous",
+    "rule": "Suffix '-ous' creates Adjective"
+  },
+  {
+    "id": 38,
+    "sentence": "Everyone likes him for his ___ (kind).",
+    "answer": "kindness",
+    "rule": "Possessive 'his' takes Noun"
+  },
+  {
+    "id": 39,
+    "sentence": "Don't be ___ (kind) to the poor.",
+    "answer": "unkind",
+    "rule": "Negative prefix 'un-'"
+  },
+  {
+    "id": 40,
+    "sentence": "He did the work ___ (nice).",
+    "answer": "nicely",
+    "rule": "Suffix '-ly' creates Adverb"
+  },
+  {
+    "id": 41,
+    "sentence": "This is a ___ (danger) road.",
+    "answer": "dangerous",
+    "rule": "Suffix '-ous' creates Adjective"
+  },
+  {
+    "id": 42,
+    "sentence": "He drives the car ___ (danger).",
+    "answer": "dangerously",
+    "rule": "Adverb modifies Verb"
+  },
+  {
+    "id": 43,
+    "sentence": "___ (Child) is the best time of life.",
+    "answer": "Childhood",
+    "rule": "Suffix '-hood' creates Abstract Noun"
+  },
+  {
+    "id": 44,
+    "sentence": "Don't be ___ (patience).",
+    "answer": "impatient",
+    "rule": "Negative prefix 'im-' + change to Adjective"
+  },
+  {
+    "id": 45,
+    "sentence": "He waited ___ (patience).",
+    "answer": "patiently",
+    "rule": "Adverb of manner"
+  },
+  {
+    "id": 46,
+    "sentence": "The bank provides ___ (finance) support.",
+    "answer": "financial",
+    "rule": "Suffix '-ial' creates Adjective"
+  },
+  {
+    "id": 47,
+    "sentence": "He is ___ (finance) solved.",
+    "answer": "financially",
+    "rule": "Adverb modifies Adjective"
+  },
+  {
+    "id": 48,
+    "sentence": "She is a ___ (talent) girl.",
+    "answer": "talented",
+    "rule": "Past Participle acting as Adjective"
+  },
+  {
+    "id": 49,
+    "sentence": "We should not ___ (use) our time.",
+    "answer": "misuse",
+    "rule": "Negative prefix 'mis-'"
+  },
+  {
+    "id": 50,
+    "sentence": "He is ___ (literate), he cannot read.",
+    "answer": "illiterate",
+    "rule": "Negative prefix 'il-' before 'l'"
+  },
+  {
+    "id": 51,
+    "sentence": "His _______ (honest) made everyone trust him.",
+    "answer": "honesty",
+    "rule": "Suffix -y forms a noun from adjective."
+  },
+  {
+    "id": 52,
+    "sentence": "She was _______ (hope) about the final result.",
+    "answer": "hopeful",
+    "rule": "Suffix -ful means full of."
+  },
+  {
+    "id": 53,
+    "sentence": "Your handwriting is totally _______ (read).",
+    "answer": "unreadable",
+    "rule": "Prefix un- for negative, suffix -able denotes ability."
+  },
+  {
+    "id": 54,
+    "sentence": "He acted very _______ (child) during the meeting.",
+    "answer": "childishly",
+    "rule": "Suffix -ish + -ly to make adverb."
+  },
+  {
+    "id": 55,
+    "sentence": "Water is absolutely _______ (replace) for survival.",
+    "answer": "irreplaceable",
+    "rule": "Prefix ir- for negative, suffix -able for ability."
+  },
+  {
+    "id": 56,
+    "sentence": "The government declared it a _______ (disaster) area.",
+    "answer": "disastrous",
+    "rule": "Suffix -ous forms adjective from noun."
+  },
+  {
+    "id": 57,
+    "sentence": "We must fight against all forms of _______ (legal).",
+    "answer": "illegalities",
+    "rule": "Prefix il- + suffix -ities (plural noun)."
+  },
+  {
+    "id": 58,
+    "sentence": "Her speech was full of _______ (inspire).",
+    "answer": "inspiration",
+    "rule": "Suffix -ation forms abstract noun."
+  },
+  {
+    "id": 59,
+    "sentence": "It is _______ (human) to make mistakes.",
+    "answer": "inhuman",
+    "rule": "Prefix in- makes negative form."
+  },
+  {
+    "id": 60,
+    "sentence": "She showed great _______ (leader) during the crisis.",
+    "answer": "leadership",
+    "rule": "Suffix -ship forms abstract noun."
+  },
+  {
+    "id": 61,
+    "sentence": "That was a completely _______ (sense) decision.",
+    "answer": "senseless",
+    "rule": "Suffix -less means without."
+  },
+  {
+    "id": 62,
+    "sentence": "He accepted the offer with _______ (enthusiasm).",
+    "answer": "enthusiastically",
+    "rule": "Suffix -ically makes adverb."
+  },
+  {
+    "id": 63,
+    "sentence": "The teacher praised her for her _______ (diligent).",
+    "answer": "diligence",
+    "rule": "Suffix -ence forms abstract noun."
+  },
+  {
+    "id": 64,
+    "sentence": "We should remain _______ (care) while driving.",
+    "answer": "careful",
+    "rule": "Suffix -ful means full of."
+  },
+  {
+    "id": 65,
+    "sentence": "Pollution is a _______ (globe) issue.",
+    "answer": "global",
+    "rule": "Suffix -al makes adjective."
+  },
+  {
+    "id": 66,
+    "sentence": "He was completely _______ (aware) of the problem.",
+    "answer": "unaware",
+    "rule": "Prefix un- makes negative."
+  },
+  {
+    "id": 67,
+    "sentence": "His _______ (wise) impressed the interviewers.",
+    "answer": "wisdom",
+    "rule": "Suffix -dom creates noun."
+  },
+  {
+    "id": 68,
+    "sentence": "She handled the pressure _______ (profession).",
+    "answer": "professionally",
+    "rule": "Suffix -ally forms adverb."
+  },
+  {
+    "id": 69,
+    "sentence": "This tool is _______ (use) for the experiment.",
+    "answer": "useful",
+    "rule": "Suffix -ful means full of."
+  },
+  {
+    "id": 70,
+    "sentence": "He faced strong _______ (oppose) to his plan.",
+    "answer": "opposition",
+    "rule": "Suffix -ition forms abstract noun."
+  },
+  {
+    "id": 71,
+    "sentence": "Her _______ (create) is admired by many.",
+    "answer": "creativity",
+    "rule": "Suffix -ivity forms noun of quality."
+  },
+  {
+    "id": 72,
+    "sentence": "The problem seems _______ (solve) now.",
+    "answer": "unsolvable",
+    "rule": "Prefix un- + suffix -able."
+  },
+  {
+    "id": 73,
+    "sentence": "Her _______ (patience) made the child calm down.",
+    "answer": "patience",
+    "rule": "Suffix -ence turns adjective to noun."
+  },
+  {
+    "id": 74,
+    "sentence": "He works with great _______ (sincere).",
+    "answer": "sincerity",
+    "rule": "Suffix -ity forms abstract noun."
+  },
+  {
+    "id": 75,
+    "sentence": "She was _______ (comfort) in the new environment.",
+    "answer": "uncomfortable",
+    "rule": "Prefix un- + suffix -able."
+  },
+  {
+    "id": 76,
+    "sentence": "Social media can spread _______ (inform) quickly.",
+    "answer": "information",
+    "rule": "Suffix -ation forms noun."
+  },
+  {
+    "id": 77,
+    "sentence": "He is a very _______ (ambition) person.",
+    "answer": "ambitious",
+    "rule": "Suffix -ous forms adjective."
+  },
+  {
+    "id": 78,
+    "sentence": "We must protect the _______ (bio) of our planet.",
+    "answer": "biodiversity",
+    "rule": "Prefix bio- + suffix -ity."
+  },
+  {
+    "id": 79,
+    "sentence": "Cheating is absolutely _______ (morality).",
+    "answer": "immoral",
+    "rule": "Prefix im- makes negative adjective."
+  },
+  {
+    "id": 80,
+    "sentence": "His _______ (generous) touched everyone deeply.",
+    "answer": "generosity",
+    "rule": "Suffix -ity makes noun from adjective."
+  },
+  {
+    "id": 81,
+    "sentence": "She joined the group as a _______ (volunteer).",
+    "answer": "voluntary",
+    "rule": "Suffix -ary forms adjective."
+  },
+  {
+    "id": 82,
+    "sentence": "We must act now to stop further _______ (destroy).",
+    "answer": "destruction",
+    "rule": "Suffix -tion changes verb to noun."
+  },
+  {
+    "id": 83,
+    "sentence": "It is _______ (logic) to assume that he is correct.",
+    "answer": "illogical",
+    "rule": "Prefix il- + suffix -ical."
+  },
+  {
+    "id": 84,
+    "sentence": "They spoke _______ (friend) to the stranger.",
+    "answer": "friendly",
+    "rule": "Suffix -ly forms adverb."
+  },
+  {
+    "id": 85,
+    "sentence": "We must question the _______ (valid) of this claim.",
+    "answer": "validity",
+    "rule": "Suffix -ity creates abstract noun."
+  },
+  {
+    "id": 86,
+    "sentence": "He became a victim of _______ (discriminate).",
+    "answer": "discrimination",
+    "rule": "Suffix -ation forms noun."
+  },
+  {
+    "id": 87,
+    "sentence": "Their _______ (responsible) caused the accident.",
+    "answer": "irresponsibility",
+    "rule": "Prefix ir- + suffix -ity."
+  },
+  {
+    "id": 88,
+    "sentence": "The movie was surprisingly _______ (emotion).",
+    "answer": "emotional",
+    "rule": "Suffix -al forms adjective."
+  },
+  {
+    "id": 89,
+    "sentence": "He is known for his _______ (lead) qualities.",
+    "answer": "leadership",
+    "rule": "Suffix -ship denotes position or skill."
+  },
+  {
+    "id": 90,
+    "sentence": "She behaved quite _______ (polite) at the party.",
+    "answer": "politely",
+    "rule": "Suffix -ly converts adjective to adverb."
+  },
+  {
+    "id": 91,
+    "sentence": "We must avoid all types of _______ (justice).",
+    "answer": "injustice",
+    "rule": "Prefix in- makes opposite meaning."
+  },
+  {
+    "id": 92,
+    "sentence": "He always gives _______ (encourage) comments.",
+    "answer": "encouraging",
+    "rule": "Suffix -ing makes adjective (present participle)."
+  },
+  {
+    "id": 93,
+    "sentence": "His _______ (accurate) was highly appreciated.",
+    "answer": "accuracy",
+    "rule": "Suffix -acy forms noun from adjective."
+  },
+  {
+    "id": 94,
+    "sentence": "She prefers _______ (vegetable) food.",
+    "answer": "vegetarian",
+    "rule": "Suffix -arian forms noun/adjective."
+  },
+  {
+    "id": 95,
+    "sentence": "Their plan was totally _______ (practical).",
+    "answer": "impractical",
+    "rule": "Prefix im- + base word."
+  },
+  {
+    "id": 96,
+    "sentence": "Please accept my _______ (apologize).",
+    "answer": "apologies",
+    "rule": "Plural noun form of apologize."
+  },
+  {
+    "id": 97,
+    "sentence": "Global warming is a _______ (science) fact.",
+    "answer": "scientific",
+    "rule": "Suffix -ific/-ic forms adjective."
+  },
+  {
+    "id": 98,
+    "sentence": "His _______ (decide) shocked everyone.",
+    "answer": "decision",
+    "rule": "Suffix -sion forms noun from verb."
+  },
+  {
+    "id": 99,
+    "sentence": "We should treat everyone with _______ (equal).",
+    "answer": "equality",
+    "rule": "Suffix -ity forms noun."
+  },
+  {
+    "id": 100,
+    "sentence": "The manager gave us _______ (permit) to enter.",
+    "answer": "permission",
+    "rule": "Suffix -sion changes verb to noun."
+  },
+  {
+    "id": 101,
+    "sentence": "His ideas were truly _______ (innovate) and impactful.",
+    "answer": "innovative",
+    "rule": "Suffix -ive means having the quality of."
+  },
+  {
+    "id": 102,
+    "sentence": "Rapid industrialization causes immense _______ (pollute).",
+    "answer": "pollution",
+    "rule": "Suffix -ion creates a noun from verb."
+  },
+  {
+    "id": 103,
+    "sentence": "The report lacked _______ (accurate) and clarity.",
+    "answer": "accuracy",
+    "rule": "Suffix -acy forms abstract noun."
+  },
+  {
+    "id": 104,
+    "sentence": "The students watched the experiment with great _______ (curious).",
+    "answer": "curiosity",
+    "rule": "Suffix -ity forms noun of state."
+  },
+  {
+    "id": 105,
+    "sentence": "He is a highly _______ (science) researcher.",
+    "answer": "scientific",
+    "rule": "Suffix -ic forms adjective."
+  },
+  {
+    "id": 106,
+    "sentence": "Her _______ (kind) will never be forgotten.",
+    "answer": "kindness",
+    "rule": "Suffix -ness forms abstract noun."
+  },
+  {
+    "id": 107,
+    "sentence": "We must reduce the _______ (waste) of resources.",
+    "answer": "wastage",
+    "rule": "Suffix -age forms noun."
+  },
+  {
+    "id": 108,
+    "sentence": "Their actions were completely _______ (responsible).",
+    "answer": "irresponsible",
+    "rule": "Prefix ir- makes opposite of responsible."
+  },
+  {
+    "id": 109,
+    "sentence": "The movie was so _______ (entertain) that we watched it twice.",
+    "answer": "entertaining",
+    "rule": "Suffix -ing forms active adjective."
+  },
+  {
+    "id": 110,
+    "sentence": "She always acts with great _______ (mature).",
+    "answer": "maturity",
+    "rule": "Suffix -ity forms noun from adjective."
+  },
+  {
+    "id": 111,
+    "sentence": "The soldiers showed extreme _______ (brave) in the war.",
+    "answer": "bravery",
+    "rule": "Suffix -ery forms abstract noun."
+  },
+  {
+    "id": 112,
+    "sentence": "He is facing financial _______ (difficult).",
+    "answer": "difficulties",
+    "rule": "Suffix -ties plural noun from adjective."
+  },
+  {
+    "id": 113,
+    "sentence": "His work was absolutely _______ (perfect).",
+    "answer": "imperfect",
+    "rule": "Prefix im- makes opposite of perfect."
+  },
+  {
+    "id": 114,
+    "sentence": "We should not _______ (value) our elders.",
+    "answer": "undervalue",
+    "rule": "Prefix under- means less than."
+  },
+  {
+    "id": 115,
+    "sentence": "She always gives _______ (encourage) advice.",
+    "answer": "encouraging",
+    "rule": "Suffix -ing forms adjective."
+  },
+  {
+    "id": 116,
+    "sentence": "That mountain is absolutely _______ (climb).",
+    "answer": "unclimbable",
+    "rule": "Prefix un- + suffix -able for negative ability."
+  },
+  {
+    "id": 117,
+    "sentence": "He practiced regularly and showed great _______ (improve).",
+    "answer": "improvement",
+    "rule": "Suffix -ment forms noun."
+  },
+  {
+    "id": 118,
+    "sentence": "Her expression was _______ (thought) and serious.",
+    "answer": "thoughtful",
+    "rule": "Suffix -ful means full of."
+  },
+  {
+    "id": 119,
+    "sentence": "He couldn’t finish the task because it was _______ (manage).",
+    "answer": "unmanageable",
+    "rule": "Prefix un- + suffix -able for not possible."
+  },
+  {
+    "id": 120,
+    "sentence": "Many people suffer from _______ (employ).",
+    "answer": "unemployment",
+    "rule": "Prefix un- + suffix -ment for state noun."
+  },
+  {
+    "id": 121,
+    "sentence": "We must support _______ (eco) development.",
+    "answer": "eco-friendly",
+    "rule": "Prefix eco- + suffix -friendly."
+  },
+  {
+    "id": 122,
+    "sentence": "Her _______ (confident) is admirable.",
+    "answer": "confidence",
+    "rule": "Suffix -ence forms noun."
+  },
+  {
+    "id": 123,
+    "sentence": "He acted very _______ (self).",
+    "answer": "selflessly",
+    "rule": "Prefix self- + suffix -less + -ly."
+  },
+  {
+    "id": 124,
+    "sentence": "She earned huge _______ (popular) after the speech.",
+    "answer": "popularity",
+    "rule": "Suffix -ity forms noun."
+  },
+  {
+    "id": 125,
+    "sentence": "His statement was completely _______ (logic).",
+    "answer": "illogical",
+    "rule": "Prefix il- + suffix -ical."
+  },
+  {
+    "id": 126,
+    "sentence": "He provided _______ (assist) to the victims.",
+    "answer": "assistance",
+    "rule": "Suffix -ance forms noun."
+  },
+  {
+    "id": 127,
+    "sentence": "The company is facing _______ (bankrupt).",
+    "answer": "bankruptcy",
+    "rule": "Suffix -cy forms state noun."
+  },
+  {
+    "id": 128,
+    "sentence": "He was highly _______ (impress) with the speech.",
+    "answer": "impressed",
+    "rule": "Suffix -ed makes past participle adjective."
+  },
+  {
+    "id": 129,
+    "sentence": "Most people oppose _______ (child) labor.",
+    "answer": "childish",
+    "rule": "Suffix -ish forms descriptive adjective."
+  },
+  {
+    "id": 130,
+    "sentence": "We should avoid _______ (waste) behavior.",
+    "answer": "wasteful",
+    "rule": "Suffix -ful means full of."
+  },
+  {
+    "id": 131,
+    "sentence": "The company made a huge _______ (loss) this year.",
+    "answer": "loss",
+    "rule": "No change required."
+  },
+  {
+    "id": 132,
+    "sentence": "He gives _______ (charity) to many organizations.",
+    "answer": "charitable",
+    "rule": "Suffix -able forms adjective."
+  },
+  {
+    "id": 133,
+    "sentence": "We should try to _______ (strength) our skills.",
+    "answer": "strengthen",
+    "rule": "Suffix -en makes verb."
+  },
+  {
+    "id": 134,
+    "sentence": "His _______ (marry) is next month.",
+    "answer": "marriage",
+    "rule": "Suffix -age forms noun."
+  },
+  {
+    "id": 135,
+    "sentence": "She handled the situation with _______ (patient).",
+    "answer": "patience",
+    "rule": "Suffix -ence creates noun."
+  },
+  {
+    "id": 136,
+    "sentence": "The noise was completely _______ (bear).",
+    "answer": "unbearable",
+    "rule": "Prefix un- + suffix -able."
+  },
+  {
+    "id": 137,
+    "sentence": "They tried to _______ (just) their actions.",
+    "answer": "justify",
+    "rule": "Suffix -fy makes verb."
+  },
+  {
+    "id": 138,
+    "sentence": "He paid the bill without any _______ (hesitate).",
+    "answer": "hesitation",
+    "rule": "Suffix -ation forms noun."
+  },
+  {
+    "id": 139,
+    "sentence": "Reading books _______ (rich) the mind.",
+    "answer": "enriches",
+    "rule": "Prefix en- makes verb."
+  },
+  {
+    "id": 140,
+    "sentence": "He felt great _______ (relieve) after the exam.",
+    "answer": "relief",
+    "rule": "Suffix -f/-ef changes noun form."
+  },
+  {
+    "id": 141,
+    "sentence": "Please give a _______ (brief) summary.",
+    "answer": "brief",
+    "rule": "Base word fits."
+  },
+  {
+    "id": 142,
+    "sentence": "We should speak _______ (frank) when necessary.",
+    "answer": "frankly",
+    "rule": "Suffix -ly forms adverb."
+  },
+  {
+    "id": 143,
+    "sentence": "She is a very calm and _______ (peace) person.",
+    "answer": "peaceful",
+    "rule": "Suffix -ful means full of."
+  },
+  {
+    "id": 144,
+    "sentence": "He explained the reason for his _______ (absent).",
+    "answer": "absence",
+    "rule": "Suffix -ence changes noun."
+  },
+  {
+    "id": 145,
+    "sentence": "The idea was totally _______ (real).",
+    "answer": "unrealistic",
+    "rule": "Prefix un- + suffix -istic."
+  },
+  {
+    "id": 146,
+    "sentence": "His _______ (achieve) surprised everyone.",
+    "answer": "achievement",
+    "rule": "Suffix -ment forms noun."
+  },
+  {
+    "id": 147,
+    "sentence": "They fought with great _______ (courage).",
+    "answer": "courageously",
+    "rule": "Suffix -ously forms adverb."
+  },
+  {
+    "id": 148,
+    "sentence": "He is a _______ (vision) leader.",
+    "answer": "visionary",
+    "rule": "Suffix -ary forms adjective/noun."
+  },
+  {
+    "id": 149,
+    "sentence": "He was _______ (thank) for the support.",
+    "answer": "thankful",
+    "rule": "Suffix -ful forms adjective."
+  },
+  {
+    "id": 150,
+    "sentence": "This method is highly _______ (effect).",
+    "answer": "effective",
+    "rule": "Suffix -ive forms adjective."
+  },
+  {
+    "id": 151,
+    "sentence": "The view from the hill was truly _______ (beauty).",
+    "answer": "beautiful",
+    "rule": "Suffix -ful makes adjective."
+  },
+  {
+    "id": 152,
+    "sentence": "He spoke with _______ (confident) during the interview.",
+    "answer": "confidence",
+    "rule": "Suffix -ence makes abstract noun."
+  },
+  {
+    "id": 153,
+    "sentence": "The plan seemed _______ (practical) at first.",
+    "answer": "impractical",
+    "rule": "Prefix im- for negative adjective."
+  },
+  {
+    "id": 154,
+    "sentence": "We must show _______ (tolerate) in difficult times.",
+    "answer": "tolerance",
+    "rule": "Suffix -ance forms noun."
+  },
+  {
+    "id": 155,
+    "sentence": "He is a _______ (history) expert.",
+    "answer": "historical",
+    "rule": "Suffix -ical forms adjective."
+  },
+  {
+    "id": 156,
+    "sentence": "They treated him _______ (fair).",
+    "answer": "unfairly",
+    "rule": "Prefix un- + suffix -ly."
+  },
+  {
+    "id": 157,
+    "sentence": "We should maintain _______ (secure) in offices.",
+    "answer": "security",
+    "rule": "Suffix -ity forms noun."
+  },
+  {
+    "id": 158,
+    "sentence": "Their behavior was completely _______ (justice).",
+    "answer": "unjust",
+    "rule": "Prefix un- to show opposite."
+  },
+  {
+    "id": 159,
+    "sentence": "This food is not _______ (digest) for infants.",
+    "answer": "digestible",
+    "rule": "Suffix -ible expresses ability."
+  },
+  {
+    "id": 160,
+    "sentence": "He lived a life of complete _______ (peace).",
+    "answer": "peacefulness",
+    "rule": "Suffix -fulness makes abstract noun."
+  },
+  {
+    "id": 161,
+    "sentence": "She gave a very _______ (power) speech.",
+    "answer": "powerful",
+    "rule": "Suffix -ful makes adjective."
+  },
+  {
+    "id": 162,
+    "sentence": "The government introduced new _______ (regulate).",
+    "answer": "regulations",
+    "rule": "Suffix -ions for plural noun."
+  },
+  {
+    "id": 163,
+    "sentence": "He decided to _______ (modern) the system.",
+    "answer": "modernize",
+    "rule": "Suffix -ize makes verb."
+  },
+  {
+    "id": 164,
+    "sentence": "The speech was quite _______ (motivate).",
+    "answer": "motivating",
+    "rule": "Suffix -ing shows active quality."
+  },
+  {
+    "id": 165,
+    "sentence": "She has a very _______ (create) mind.",
+    "answer": "creative",
+    "rule": "Suffix -ive makes adjective."
+  },
+  {
+    "id": 166,
+    "sentence": "We must maintain social _______ (equal).",
+    "answer": "equality",
+    "rule": "Suffix -ity forms noun."
+  },
+  {
+    "id": 167,
+    "sentence": "The jungle is full of _______ (danger).",
+    "answer": "dangerous",
+    "rule": "Suffix -ous forms adjective."
+  },
+  {
+    "id": 168,
+    "sentence": "The surgeons acted _______ (skill) throughout the operation.",
+    "answer": "skillfully",
+    "rule": "Suffix -fully creates adverb."
+  },
+  {
+    "id": 169,
+    "sentence": "The company faced _______ (finance) problems.",
+    "answer": "financial",
+    "rule": "Suffix -ial forms adjective."
+  },
+  {
+    "id": 170,
+    "sentence": "That was a very _______ (strategy) decision.",
+    "answer": "strategic",
+    "rule": "Suffix -ic forms adjective."
+  },
+  {
+    "id": 171,
+    "sentence": "They have _______ (vision) plans for the future.",
+    "answer": "visual",
+    "rule": "Suffix -al forms adjective."
+  },
+  {
+    "id": 172,
+    "sentence": "His speech left a strong _______ (impress) on us.",
+    "answer": "impression",
+    "rule": "Suffix -ion forms noun."
+  },
+  {
+    "id": 173,
+    "sentence": "We must fight against all kinds of _______ (corrupt).",
+    "answer": "corruption",
+    "rule": "Suffix -ion for noun."
+  },
+  {
+    "id": 174,
+    "sentence": "They tried to _______ (strength) their position.",
+    "answer": "strengthen",
+    "rule": "Suffix -en makes verb."
+  },
+  {
+    "id": 175,
+    "sentence": "He always responds with _______ (humble).",
+    "answer": "humility",
+    "rule": "Suffix -ity for abstract noun."
+  },
+  {
+    "id": 176,
+    "sentence": "The criminal was _______ (punish) by law.",
+    "answer": "punishable",
+    "rule": "Suffix -able indicates capability."
+  },
+  {
+    "id": 177,
+    "sentence": "He was _______ (success) in his mission.",
+    "answer": "successful",
+    "rule": "Suffix -ful creates adjective."
+  },
+  {
+    "id": 178,
+    "sentence": "The teacher teaches _______ (method) techniques.",
+    "answer": "methodical",
+    "rule": "Suffix -ical creates adjective."
+  },
+  {
+    "id": 179,
+    "sentence": "He tried to _______ (memory) the poem.",
+    "answer": "memorize",
+    "rule": "Suffix -ize forms verb."
+  },
+  {
+    "id": 180,
+    "sentence": "The situation is completely _______ (hope).",
+    "answer": "hopeless",
+    "rule": "Suffix -less means without."
+  },
+  {
+    "id": 181,
+    "sentence": "We should never _______ (estimate) others.",
+    "answer": "underestimate",
+    "rule": "Prefix under- + suffix -estimate."
+  },
+  {
+    "id": 182,
+    "sentence": "He is known for his _______ (loyal) actions.",
+    "answer": "loyalty",
+    "rule": "Suffix -ty forms noun."
+  },
+  {
+    "id": 183,
+    "sentence": "She lives in complete _______ (isolate).",
+    "answer": "isolation",
+    "rule": "Suffix -tion forms noun."
+  },
+  {
+    "id": 184,
+    "sentence": "The invention brought huge _______ (benefit).",
+    "answer": "beneficial",
+    "rule": "Suffix -cial creates adjective."
+  },
+  {
+    "id": 185,
+    "sentence": "He spoke _______ (logic) during the debate.",
+    "answer": "logically",
+    "rule": "Suffix -ally forms adverb."
+  },
+  {
+    "id": 186,
+    "sentence": "We must behave _______ (responsible).",
+    "answer": "responsibly",
+    "rule": "Suffix -ly creates adverb."
+  },
+  {
+    "id": 187,
+    "sentence": "We should never support _______ (fair).",
+    "answer": "unfairness",
+    "rule": "Prefix un- + suffix -ness."
+  },
+  {
+    "id": 188,
+    "sentence": "His explanations were quite _______ (convince).",
+    "answer": "convincing",
+    "rule": "Suffix -ing forms adjective."
+  },
+  {
+    "id": 189,
+    "sentence": "This road is _______ (pass) during the rainy season.",
+    "answer": "impassable",
+    "rule": "Prefix im- + suffix -able."
+  },
+  {
+    "id": 190,
+    "sentence": "We must take _______ (prevent) measures.",
+    "answer": "preventive",
+    "rule": "Suffix -ive means tending to."
+  },
+  {
+    "id": 191,
+    "sentence": "He never loses his _______ (patient).",
+    "answer": "patience",
+    "rule": "Suffix -ence forms noun."
+  },
+  {
+    "id": 192,
+    "sentence": "His _______ (absent) from the meeting was noticeable.",
+    "answer": "absence",
+    "rule": "Suffix -ence forms noun."
+  },
+  {
+    "id": 193,
+    "sentence": "They decided to _______ (large) their house.",
+    "answer": "enlarge",
+    "rule": "Prefix en- makes verb."
+  },
+  {
+    "id": 194,
+    "sentence": "The decision is totally _______ (approve).",
+    "answer": "unapproved",
+    "rule": "Prefix un- + suffix -ed."
+  },
+  {
+    "id": 195,
+    "sentence": "The water was _______ (purity) before use.",
+    "answer": "purified",
+    "rule": "Suffix -ify makes verb."
+  },
+  {
+    "id": 196,
+    "sentence": "Her _______ (devote) to the work is amazing.",
+    "answer": "devotion",
+    "rule": "Suffix -ion forms noun."
+  },
+  {
+    "id": 197,
+    "sentence": "We must accept the _______ (real) of life.",
+    "answer": "reality",
+    "rule": "Suffix -ity forms noun."
+  },
+  {
+    "id": 198,
+    "sentence": "She sang the song _______ (beauty).",
+    "answer": "beautifully",
+    "rule": "Suffix -fully makes adverb."
+  },
+  {
+    "id": 199,
+    "sentence": "He is completely _______ (aware) of the danger.",
+    "answer": "unaware",
+    "rule": "Prefix un- means not."
+  },
+  {
+    "id": 200,
+    "sentence": "There was a serious _______ (short) of water.",
+    "answer": "shortage",
+    "rule": "Suffix -age forms noun."
+  },
+  {
+    "id": 201,
+    "sentence": "He is in a ___ (hope) situation.",
+    "answer": "hopeless",
+    "rule": "Suffix '-less' implies absence (Negative Adjective)"
+  },
+  {
+    "id": 202,
+    "sentence": "We are ___ (hope) about the result.",
+    "answer": "hopeful",
+    "rule": "Suffix '-ful' implies full of (Positive Adjective)"
+  },
+  {
+    "id": 203,
+    "sentence": "He is a ___ (faith) servant.",
+    "answer": "faithful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 204,
+    "sentence": "Be ___ (care) while driving.",
+    "answer": "careful",
+    "rule": "Suffix '-ful' (Careful = cautious)"
+  },
+  {
+    "id": 205,
+    "sentence": "His ___ (care) caused the accident.",
+    "answer": "carelessness",
+    "rule": "Suffix '-less' + '-ness' creates Abstract Noun"
+  },
+  {
+    "id": 206,
+    "sentence": "Computer is a very ___ (use) device.",
+    "answer": "useful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 207,
+    "sentence": "Don't throw away the ___ (use) papers.",
+    "answer": "useless",
+    "rule": "Suffix '-less' implies no use"
+  },
+  {
+    "id": 208,
+    "sentence": "Smoking is ___ (harm) to health.",
+    "answer": "harmful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 209,
+    "sentence": "The snake is ___ (harm), it won't bite.",
+    "answer": "harmless",
+    "rule": "Suffix '-less' implies safe"
+  },
+  {
+    "id": 210,
+    "sentence": "It is ___ (shame) to tell a lie.",
+    "answer": "shameful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 211,
+    "sentence": "He is a ___ (shame) person, he has no dignity.",
+    "answer": "shameless",
+    "rule": "Suffix '-less' implies lack of shame"
+  },
+  {
+    "id": 212,
+    "sentence": "The injection was very ___ (pain).",
+    "answer": "painful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 213,
+    "sentence": "The operation was ___ (pain).",
+    "answer": "painless",
+    "rule": "Suffix '-less' implies no pain"
+  },
+  {
+    "id": 214,
+    "sentence": "She has a ___ (cheer) personality.",
+    "answer": "cheerful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 215,
+    "sentence": "The tiger is a ___ (fear) animal.",
+    "answer": "fearful",
+    "rule": "Suffix '-ful' (Scary/Frightening)"
+  },
+  {
+    "id": 216,
+    "sentence": "The brave man is ___ (fear).",
+    "answer": "fearless",
+    "rule": "Suffix '-less' (Brave)"
+  },
+  {
+    "id": 217,
+    "sentence": "The outcome is ___ (doubt).",
+    "answer": "doubtful",
+    "rule": "Suffix '-ful' (Uncertain)"
+  },
+  {
+    "id": 218,
+    "sentence": "He is ___ (doubt) the best player.",
+    "answer": "undoubtedly",
+    "rule": "Prefix 'un-' + suffix '-ly' (Adverb)"
+  },
+  {
+    "id": 219,
+    "sentence": "Our efforts were ___ (fruit).",
+    "answer": "fruitful",
+    "rule": "Suffix '-ful' (Successful)"
+  },
+  {
+    "id": 220,
+    "sentence": "Without planning, work is ___ (fruit).",
+    "answer": "fruitless",
+    "rule": "Suffix '-less' (Useless)"
+  },
+  {
+    "id": 221,
+    "sentence": "He is a ___ (power) man.",
+    "answer": "powerful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 222,
+    "sentence": "Without money, he felt ___ (power).",
+    "answer": "powerless",
+    "rule": "Suffix '-less' (Weak)"
+  },
+  {
+    "id": 223,
+    "sentence": "Allah is ___ (mercy).",
+    "answer": "merciful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 224,
+    "sentence": "The killer was ___ (mercy).",
+    "answer": "merciless",
+    "rule": "Suffix '-less' (Cruel)"
+  },
+  {
+    "id": 225,
+    "sentence": "Bangladesh is a ___ (beauty) country.",
+    "answer": "beautiful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 226,
+    "sentence": "He is a ___ (duty) officer.",
+    "answer": "dutiful",
+    "rule": "Suffix '-ful' (Responsible)"
+  },
+  {
+    "id": 227,
+    "sentence": "Food is ___ (plenty) in this season.",
+    "answer": "plentiful",
+    "rule": "Suffix '-ful' (Abundant)"
+  },
+  {
+    "id": 228,
+    "sentence": "The news made us ___ (joy).",
+    "answer": "joyful",
+    "rule": "Suffix '-ful' (Happy)"
+  },
+  {
+    "id": 229,
+    "sentence": "He is a ___ (skill) worker.",
+    "answer": "skillful",
+    "rule": "Suffix '-ful' (Expert)"
+  },
+  {
+    "id": 230,
+    "sentence": "We should be ___ (truth).",
+    "answer": "truthful",
+    "rule": "Suffix '-ful' (Honest)"
+  },
+  {
+    "id": 231,
+    "sentence": "We want a ___ (peace) life.",
+    "answer": "peaceful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 232,
+    "sentence": "He is a ___ (success) businessman.",
+    "answer": "successful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 233,
+    "sentence": "It was a ___ (wonder) journey.",
+    "answer": "wonderful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 234,
+    "sentence": "The garden is ___ (color).",
+    "answer": "colorful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 235,
+    "sentence": "She danced ___ (grace).",
+    "answer": "gracefully",
+    "rule": "Suffix '-fully' creates Adverb"
+  },
+  {
+    "id": 236,
+    "sentence": "I am ___ (grate) to you.",
+    "answer": "grateful",
+    "rule": "Suffix '-ful' (Thankful)"
+  },
+  {
+    "id": 237,
+    "sentence": "War is ___ (hate).",
+    "answer": "hateful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 238,
+    "sentence": "Don't be ___ (waste) with water.",
+    "answer": "wasteful",
+    "rule": "Suffix '-ful' creates Adjective"
+  },
+  {
+    "id": 239,
+    "sentence": "The food was ___ (taste), I couldn't eat it.",
+    "answer": "tasteless",
+    "rule": "Suffix '-less' (Bad taste/No taste)"
+  },
+  {
+    "id": 240,
+    "sentence": "The decoration was very ___ (taste).",
+    "answer": "tasteful",
+    "rule": "Suffix '-ful' (Elegant)"
+  },
+  {
+    "id": 241,
+    "sentence": "The poor man is ___ (help).",
+    "answer": "helpless",
+    "rule": "Suffix '-less' implies inability"
+  },
+  {
+    "id": 242,
+    "sentence": "His advice was very ___ (help).",
+    "answer": "helpful",
+    "rule": "Suffix '-ful' implies useful"
+  },
+  {
+    "id": 243,
+    "sentence": "The road seemed ___ (end).",
+    "answer": "endless",
+    "rule": "Suffix '-less' (Never-ending)"
+  },
+  {
+    "id": 244,
+    "sentence": "He became ___ (home) after the flood.",
+    "answer": "homeless",
+    "rule": "Suffix '-less' implies lack of home"
+  },
+  {
+    "id": 245,
+    "sentence": "He is currently ___ (job).",
+    "answer": "jobless",
+    "rule": "Suffix '-less' (Unemployed)"
+  },
+  {
+    "id": 246,
+    "sentence": "The body lay ___ (life) on the ground.",
+    "answer": "lifeless",
+    "rule": "Suffix '-less' (Dead)"
+  },
+  {
+    "id": 247,
+    "sentence": "The desert is ___ (tree).",
+    "answer": "treeless",
+    "rule": "Suffix '-less' implies absence"
+  },
+  {
+    "id": 248,
+    "sentence": "He felt ___ (friend) in the new city.",
+    "answer": "friendless",
+    "rule": "Suffix '-less' (Lonely)"
+  },
+  {
+    "id": 249,
+    "sentence": "The child is ___ (mother).",
+    "answer": "motherless",
+    "rule": "Suffix '-less' (Orphan)"
+  },
+  {
+    "id": 250,
+    "sentence": "They are a ___ (child) couple.",
+    "answer": "childless",
+    "rule": "Suffix '-less' (No children)"
+  },
+  {
+    "id": 251,
+    "sentence": "I spent a ___ (sleep) night.",
+    "answer": "sleepless",
+    "rule": "Suffix '-less' creates Adjective"
+  },
+  {
+    "id": 252,
+    "sentence": "The patient is ___ (rest).",
+    "answer": "restless",
+    "rule": "Suffix '-less' (Anxious/Moving)"
+  },
+  {
+    "id": 253,
+    "sentence": "He ran ___ (breath).",
+    "answer": "breathless",
+    "rule": "Suffix '-less' (Out of breath)"
+  },
+  {
+    "id": 254,
+    "sentence": "There are ___ (count) stars in the sky.",
+    "answer": "countless",
+    "rule": "Suffix '-less' (Many/Innumerable)"
+  },
+  {
+    "id": 255,
+    "sentence": "The sky is ___ (limit).",
+    "answer": "limitless",
+    "rule": "Suffix '-less' (Infinite)"
+  },
+  {
+    "id": 256,
+    "sentence": "The pit is ___ (bottom).",
+    "answer": "bottomless",
+    "rule": "Suffix '-less' (Deep)"
+  },
+  {
+    "id": 257,
+    "sentence": "Don't lead an ___ (aim) life.",
+    "answer": "aimless",
+    "rule": "Suffix '-less' (Without goal)"
+  },
+  {
+    "id": 258,
+    "sentence": "His speech was ___ (meaning).",
+    "answer": "meaningless",
+    "rule": "Suffix '-less' (Nonsense)"
+  },
+  {
+    "id": 259,
+    "sentence": "The old coin is ___ (value).",
+    "answer": "valueless",
+    "rule": "Suffix '-less' (No value)"
+  },
+  {
+    "id": 260,
+    "sentence": "Your support is ___ (price) to me.",
+    "answer": "priceless",
+    "rule": "Suffix '-less' (Invaluable/Precious)"
+  },
+  {
+    "id": 261,
+    "sentence": "Don't be ___ (sense).",
+    "answer": "senseless",
+    "rule": "Suffix '-less' (Foolish/Unconscious)"
+  },
+  {
+    "id": 262,
+    "sentence": "He is a ___ (heart) man.",
+    "answer": "heartless",
+    "rule": "Suffix '-less' (Cruel)"
+  },
+  {
+    "id": 263,
+    "sentence": "The machine stood ___ (motion).",
+    "answer": "motionless",
+    "rule": "Suffix '-less' (Still)"
+  },
+  {
+    "id": 264,
+    "sentence": "The room was ___ (sound).",
+    "answer": "soundless",
+    "rule": "Suffix '-less' (Quiet)"
+  },
+  {
+    "id": 265,
+    "sentence": "Her character is ___ (spot).",
+    "answer": "spotless",
+    "rule": "Suffix '-less' (Pure/Clean)"
+  },
+  {
+    "id": 266,
+    "sentence": "The sky is ___ (cloud).",
+    "answer": "cloudless",
+    "rule": "Suffix '-less' (Clear)"
+  },
+  {
+    "id": 267,
+    "sentence": "It is a ___ (sun) day.",
+    "answer": "sunny",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 268,
+    "sentence": "I like ___ (rain) season.",
+    "answer": "rainy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 269,
+    "sentence": "It is very ___ (wind) today.",
+    "answer": "windy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 270,
+    "sentence": "The weather is ___ (snow).",
+    "answer": "snowy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 271,
+    "sentence": "It was a ___ (storm) night.",
+    "answer": "stormy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 272,
+    "sentence": "The morning was ___ (fog).",
+    "answer": "foggy",
+    "rule": "Suffix '-gy' (Foggy)"
+  },
+  {
+    "id": 273,
+    "sentence": "Your hands are ___ (dirt).",
+    "answer": "dirty",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 274,
+    "sentence": "The road is ___ (dust).",
+    "answer": "dusty",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 275,
+    "sentence": "I feel ___ (sleep).",
+    "answer": "sleepy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 276,
+    "sentence": "Don't be ___ (greed).",
+    "answer": "greedy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 277,
+    "sentence": "Are you ___ (hunger)?",
+    "answer": "hungry",
+    "rule": "Suffix '-ry' (Hungry)"
+  },
+  {
+    "id": 278,
+    "sentence": "Why are you ___ (anger)?",
+    "answer": "angry",
+    "rule": "Suffix '-ry' (Angry)"
+  },
+  {
+    "id": 279,
+    "sentence": "I am very ___ (thirst).",
+    "answer": "thirsty",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 280,
+    "sentence": "He is a ___ (health) man.",
+    "answer": "healthy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 281,
+    "sentence": "Early rising is beneficial to ___ (health).",
+    "answer": "health",
+    "rule": "Noun form"
+  },
+  {
+    "id": 282,
+    "sentence": "He is ___ (wealth).",
+    "answer": "wealthy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 283,
+    "sentence": "You are very ___ (luck).",
+    "answer": "lucky",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 284,
+    "sentence": "The joke was ___ (fun).",
+    "answer": "funny",
+    "rule": "Suffix '-ny' creates Adjective"
+  },
+  {
+    "id": 285,
+    "sentence": "The class is ___ (noise).",
+    "answer": "noisy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 286,
+    "sentence": "The exam was ___ (ease).",
+    "answer": "easy",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 287,
+    "sentence": "He was found ___ (guilt).",
+    "answer": "guilty",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 288,
+    "sentence": "The shirt is ___ (blood).",
+    "answer": "bloody",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 289,
+    "sentence": "The food is ___ (oil).",
+    "answer": "oily",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 290,
+    "sentence": "The soup is too ___ (water).",
+    "answer": "watery",
+    "rule": "Suffix '-y' creates Adjective"
+  },
+  {
+    "id": 291,
+    "sentence": "He is very ___ (friend).",
+    "answer": "friendly",
+    "rule": "Suffix '-ly' creates Adjective"
+  },
+  {
+    "id": 292,
+    "sentence": "She has a ___ (love) voice.",
+    "answer": "lovely",
+    "rule": "Suffix '-ly' creates Adjective"
+  },
+  {
+    "id": 293,
+    "sentence": "Take a ___ (time) decision.",
+    "answer": "timely",
+    "rule": "Suffix '-ly' creates Adjective"
+  },
+  {
+    "id": 294,
+    "sentence": "It is a ___ (month) magazine.",
+    "answer": "monthly",
+    "rule": "Suffix '-ly' creates Adjective"
+  },
+  {
+    "id": 295,
+    "sentence": "We pay a ___ (year) fee.",
+    "answer": "yearly",
+    "rule": "Suffix '-ly' creates Adjective"
+  },
+  {
+    "id": 296,
+    "sentence": "I read the newspaper ___ (day).",
+    "answer": "daily",
+    "rule": "Suffix '-ly' creates Adverb/Adjective"
+  },
+  {
+    "id": 297,
+    "sentence": "The dress is very ___ (cost).",
+    "answer": "costly",
+    "rule": "Suffix '-ly' creates Adjective"
+  },
+  {
+    "id": 298,
+    "sentence": "Maintain an ___ (order) life.",
+    "answer": "orderly",
+    "rule": "Suffix '-ly' creates Adjective"
+  },
+  {
+    "id": 299,
+    "sentence": "He has a ___ (man) voice.",
+    "answer": "manly",
+    "rule": "Suffix '-ly' creates Adjective"
+  },
+  {
+    "id": 300,
+    "sentence": "She behaves ___ (polite).",
+    "answer": "politely",
+    "rule": "Suffix '-ly' creates Adverb"
+  }
 ]
+
